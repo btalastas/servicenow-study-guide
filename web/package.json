@@ -1,0 +1,52 @@
+{
+  "name": "servicenow-study-guide",
+  "version": "1.0.0",
+  "description": "A web application for studying for the ServiceNow Certified System Administrator (CSA) and Certified Application Developer (CAD) certifications.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "format": "prettier --write src package.json eslint.config.mjs playwright.config.js .prettierrc.json",
+    "format:check": "prettier --check src package.json eslint.config.mjs playwright.config.js .prettierrc.json",
+    "test:e2e": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btalastas/servicenow-study-guide.git"
+  },
+  "keywords": [],
+  "author": "Bjorn Talastas",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/btalastas/servicenow-study-guide/issues"
+  },
+  "homepage": "https://github.com/btalastas/servicenow-study-guide#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.1146.0",
+    "@aws-sdk/lib-dynamodb": "^3.1146.0",
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^9.4.0",
+    "@mui/material": "^9.4.0",
+    "@mui/material-nextjs": "^9.4.0",
+    "next": "^16.3.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "server-only": "^0.0.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.8",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.9.9"
+  },
+  "private": true,
+  "engines": {
+    "node": "^22.22.1"
+  }
+}

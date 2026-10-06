@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+package-lock.json
+data/
+deployment/
+scripts/
+tests/
+questions/
+playwright-report/
+test-results/

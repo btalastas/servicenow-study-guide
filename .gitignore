@@ -1,0 +1,28 @@
+# Editor settings
+/.vscode
+
+# Study content and data
+/questions
+/data/
+
+# Deployment and automation
+/deployment/
+/scripts/
+
+# Tests
+/tests/
+
+# Dependencies and build output
+node_modules/
+.next/
+out/
+
+# Local environment and AWS credentials
+.env*
+!.env.example
+/.aws/
+
+# Tool output
+playwright-report/
+test-results/
+*.log
