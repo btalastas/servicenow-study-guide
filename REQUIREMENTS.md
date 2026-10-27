@@ -64,6 +64,7 @@ Timing references, checked October 27, 2026:
 and [CAD exam blueprint](https://learning.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0011498).
 Keep duration and question count in certificate configuration so future blueprint
 updates do not require changes to session logic.
+
 ### Question Pool
 
 - [x] Users can select individual modules for local quizzes.
@@ -71,6 +72,51 @@ updates do not require changes to session logic.
 - [ ] Users can filter questions by difficulty: easy, medium, or hard.
 - [ ] The web application retrieves question pools from DynamoDB through its backend.
 
+### Hosted Question Bank (Planned)
+
+Development branch: `codex/dynamodb-question-bank`, based on the working local-file
+application on `main`. The requirements below are future work; branch creation
+and planning do not mean database integration is implemented.
+
+- [ ] Add a question-source choice: Local file (default) or Hosted question bank.
+- [ ] Keep local importing and studying usable without AWS credentials or requests.
+- [ ] Use shared certificate, module, difficulty, and question-selection contracts
+  for both sources; reuse the existing study screens and results presentation.
+- [ ] Retrieve hosted questions through Next.js Node.js Route Handlers and
+  server-only DynamoDB modules. Never access DynamoDB directly from the browser.
+- [ ] Query selected modules and difficulties through ByModuleDifficulty, handle
+  pagination, and draw unique random samples from the eligible pool. Avoid
+  full-table scans during study sessions.
+- [ ] Support selectable quiz sizes and 60–80-question exams with the existing
+  90-minute timer, submission behavior, and module-level results.
+- [ ] Validate certificate, module IDs, difficulty, counts, and submitted answers
+  on the server. Reject invalid counts and insufficient question pools clearly.
+- [ ] Define explicit certificate metadata for hosted content before enabling CAD.
+  Treat the existing bank as CSA; do not serve CSA content as a CAD fallback.
+- [ ] Create hosted sessions that bind question IDs, content versions, answer
+  locks, and exam deadlines to a server-issued session identity. Decide session
+  storage and expiry before implementation; an in-memory process is not durable.
+- [ ] Grade hosted answers on the server. Return only prompts, choice IDs/text,
+  and necessary learner metadata before reveal. Strip answer keys, question and
+  choice explanations, and editorial metadata from unrevealed responses.
+- [ ] Instant-feedback quizzes reveal an answer only after submission and lock it
+  for scoring. Exams reveal answers only after final submission or expiry.
+- [ ] Enforce exam expiry and final scores on the server; do not trust the browser
+  clock, score, or client-supplied answer keys. Make final submission idempotent.
+- [ ] Handle loading, empty pools, throttling, and unavailable AWS configuration
+  clearly. Preserve the learner's source choice instead of silently switching it.
+- [ ] Use a dedicated least-privilege backend role for the required table/index
+  reads. Grant write access separately only if a reviewed feature needs it.
+- [ ] Set request-size/count limits, abuse controls, bounded retries, and a caching
+  policy that reduces repeated reads without sharing protected session answers.
+- [ ] Review capacity mode, table/index usage, monitoring, and budget alerts before
+  enabling hosted access; define a feature switch to disable the hosted source.
+- [ ] Test retrieval, pagination, answer concealment, grading, expiry, duplicate
+  submissions, and failure handling with mocked AWS calls before a live smoke test.
+
+Hosted content administration is a later phase: define editors and authorization,
+certificate/version metadata, validation, and a repeatable update process for the
+existing table. Keep create/update/delete operations outside learner-facing routes.
 ### User Accounts
 
 - [ ] Decide whether user accounts are required.
@@ -139,11 +185,12 @@ updates do not require changes to session logic.
 - Runtime: Node.js 22.22.1 or newer within the Node.js 22 release line; npm with a committed lockfile.
 - Database SDK: AWS SDK for JavaScript v3 with DynamoDBDocumentClient.
 - Request validation: Zod; mark database and grading modules with server-only.
-- Development tooling: ESLint, Prettier, and Playwright (Chromium; future tests in web/e2e/).
+- Development tooling: ESLint, Prettier, and Playwright (Chromium; tests in web/e2e/).
 - [x] Install application dependencies and configure a runnable Next.js/MUI starter.
 - [x] Configure linting, formatting, and the browser-test runner.
 - [ ] Implement backend question retrieval, request validation, and grading.
-- [ ] Add browser tests for study flows and answer reveal.
+- [x] Add browser tests for local study flows and answer reveal.
+- [ ] Add hosted-source integration and browser tests without AWS credentials.
 - Database: Amazon DynamoDB, `ServiceNowQuestionBank`, in `us-east-1`.
 - Table key: `questionId` (String partition key), with no sort key.
 - Query index: `ByModuleDifficulty`, using `moduleKey` (String partition key)
@@ -182,10 +229,17 @@ updates do not require changes to session logic.
 | 1 | Generate, import, and verify the 338-question bank in DynamoDB | Completed 2026-10-05 | Complete |
 | 2 | Create a local Next.js web app with CSA/CAD selection, study-mode selection, and basic page routing | Completed 2026-10-27 | Complete |
 | 3 | Implement local-bank practice quizzes and timed exams with feedback and results | Completed 2026-10-27 | Complete |
+| 4 | Add optional hosted-source selection and validated, paginated DynamoDB retrieval | TBD | Planned |
+| 5 | Implement protected hosted sessions, server grading, exam expiry, and integration tests | TBD | Planned |
+| 6 | Define hosted content administration, update workflow, and operational cost controls | TBD | Planned |
 
 ## Open Questions
 
-- [ ] Question or decision still needed:
+- [ ] Where will hosted session state and deadlines be stored, and how will sessions expire?
+- [ ] What anonymous-session identity or account model will hosted study use?
+- [ ] What certificate metadata and content versions will hosted questions use?
+- [ ] What cache lifetime, request limits, capacity mode, and budget thresholds are appropriate?
+- [ ] Who can maintain hosted content, and what review is required before publication?
 
 ## Acceptance Criteria
 
@@ -203,3 +257,16 @@ updates do not require changes to session logic.
 - [x] Timed exams submit on expiry and reveal results only after completion.
 - [x] Quiz/exam results include score percentage, missed-question explanations,
   and module-level study priorities.
+
+### Hosted Source Acceptance Criteria (Future)
+
+- [ ] Local-file sessions make no AWS requests, including when hosted mode is disabled.
+- [ ] Hosted quizzes/exams return the requested number of unique questions from
+  eligible modules/difficulties, and block when the pool is too small.
+- [ ] No unrevealed hosted response contains answer keys or explanations.
+- [ ] Server grading and deadlines remain authoritative when client requests are
+  altered; duplicate final submissions return the same completed result.
+- [ ] Missing CAD content and AWS failures produce actionable messages.
+- [ ] Hosted results match local scoring semantics and module-level reporting.
+- [ ] Required IAM permissions, configuration, live smoke-test steps, and cost
+  controls are documented before the hosted source is enabled for learners.
