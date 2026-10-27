@@ -75,8 +75,8 @@ Application routes live in `web/src/app/`. Backend routes will use Next.js Route
 Handlers with the Node.js runtime. DynamoDB access and grading must stay on the
 server, with only learner-facing fields returned before answer reveal.
 
-The existing `tests/`, `scripts/`, `data/`, and `deployment/` directories remain
-locally ignored. New browser tests belong in `web/e2e/` so they can be versioned.
+Question-bank tests, scripts, data, source questions, and deployment documentation
+are versioned with the application. New browser tests belong in `web/e2e/` so they can be versioned.
 The historical question-bank scripts use Python; the web application uses JavaScript.
 
 ## Contributing

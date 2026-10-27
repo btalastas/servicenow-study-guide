@@ -1,0 +1,13 @@
+{
+  "TableName": "ServiceNowQuestionBank",
+  "IndexName": "ByModuleDifficulty",
+  "KeyConditionExpression": "moduleKey = :module AND begins_with(difficultyKey, :difficulty)",
+  "ExpressionAttributeValues": {
+    ":module": {
+      "S": "MODULE#04"
+    },
+    ":difficulty": {
+      "S": "hard#"
+    }
+  }
+}

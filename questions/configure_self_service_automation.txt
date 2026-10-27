@@ -1,0 +1,205 @@
+Question 1:
+
+Jade needs to order a software installation for her new device and also order a portable keyboard that accompanies it. Where should she navigate to order these services and items?
+
+Question 2:
+
+Ana is managing her Knowledge Base and needs to ensure that certain groups cannot read, create, or modify articles in the Knowledge Base. What should she do to accomplish this task?
+
+Question 3:
+
+John wants to build a catalog item in a visual and guided interface. What tool should he use?
+
+Question 4:
+
+Aaron needs to leave feedback on a ServiceNow Knowledge article that contains an error. What options does he have for providing feedback? Select 3
+
+A. Adding a comment
+
+B. Printing the article
+
+C. Clicking the thumbs-down icon
+
+D. Flagging the article
+
+E. Rating the article with stars
+
+Question 5:
+
+What does each record on the Requested Item [sc_req_item] table represent?
+
+Question 6:
+
+What are the common variable types in the Service Catalog? Select 3
+
+A. Fill-in-the-blank
+
+B. Multiple Choice
+
+C. Reference
+
+D. Password
+
+E. Script
+
+F. Check box
+
+Question 7:
+
+Mariah needs assistance on adding Integration Hub spokes to her flow. What Flow Designer feature can she use to assist her?
+
+Question 8:
+
+Kiana created a new article in her company’s Knowledge Base by navigating to the Knowledge Base homepage, selecting 'Actions', and then 'Create'. She completed the necessary fields and clicked 'Submit'. However, she still cannot see the newly created article and her company does not require any approvals. What could be the cause of this?
+
+Question 9:
+
+Anthony needs to ensure that the Manager variable is displayed first on the record producer. How can he achieve this?
+
+Question 10:
+
+What is a record producer?
+
+Question 11:
+
+What are the three types of triggers for a flow?
+
+A. Field-based
+
+B. Record-based
+
+C. Schedule-based
+
+D. Event-based
+
+E. Application-based
+
+Question 12:
+
+Which of the statements are true about a request in the Service Catalog? Select 3
+
+A. A request can have one or many request items in it
+
+B. A request acts as a container for the order
+
+C. A request can only have one request item in it
+
+D. A request number keeps track of the entire order
+
+E. A request number keeps track of each individual item separately
+
+F. Requests are the individual tasks needed to deliver each request item
+
+Question 13:
+
+What are the building blocks of a ServiceNow catalog?
+
+Question 14:
+
+Janelle is building a flow that needs to get a pet request approved with logic based on whether the request is approved, rejected, or cancelled. What Flow Designer core action should she use?
+
+Question 15:
+
+Gladys wants her new employees to be able to order the employee starter kit items as one request. What feature can she use to give her employees this functionality?
+
+Question 16:
+
+What are user criteria used to secure? Select 2
+
+A. Knowledge bases
+
+B. Service catalog items
+
+C. User records
+
+D. Applications 
+
+Question 17:
+
+Nicole has just started her new job and needs to complete her onboarding tasks. Which baseline portal should she navigate to in order to accomplish this effectively?
+
+Question 18:
+
+What are the benefits of using Flow Designer? Select 3
+
+A. It provides a user-friendly interface for automating processes without coding
+
+B. It requires complex scripting and development of custom applications
+
+C. It integrates with external systems using web services
+
+D. It enables the creation of reusable actions that can be shared across multiple flows
+
+E. It simplifies data migration between instances
+
+Question 19:
+
+What two components make up a flow?
+
+A. Conditions
+
+B. Trigger
+
+C. Scripts
+
+D. Actions
+
+E. Variables
+
+Question 20:
+
+What indicates the progress or state of an item in the delivery process?
+
+Question 21:
+
+When a flow is run, where are the results from the action stored?
+
+Question 22:
+
+Alysse needs to ask users questions about the color and storage size of the device they want to order from the Service Catalog. What should she do?
+
+Question 23:
+
+What are the predefined integration actions that interact with common third-party applications in Integration Hub called?
+
+Question 24:
+
+What is the primary function of the Process Automation Designer in ServiceNow?
+
+Question 25:
+
+What are the benefits of Virtual Agent? Select 3
+
+A. Solves ordinary issues and common requests through intelligent conversations with users
+
+B. Automates complex workflows without human intervention
+
+C. Helps resolve routine issues faster by giving immediate assistance
+
+D. Provides companionship for users who need a conversation
+
+E. Provides personalized recommendations based on user behavior
+
+F. Reduces the workload on IT support staff
+
+Question 26:
+
+Whitley made a mistake while editing a step in a flow while working in Flow Designer. What can she do to remove the last action?
+
+Question 28:
+
+What are the two available knowledge articles types? Select 2
+
+A. JavaScript
+
+B. HTML
+
+C. CSS
+
+D. Wiki
+
+Question 29:
+
+Which module displays a list of tasks assigned to a user’s group but not yet assigned to a user?
+
+

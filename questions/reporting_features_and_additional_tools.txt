@@ -1,0 +1,350 @@
+Question 1:
+
+Jade needs to order a software installation for her new device and also order a portable keyboard that accompanies it. Where should she navigate to order these services and items?
+
+Question 2:
+
+Ana is managing her Knowledge Base and needs to ensure that certain groups cannot read, create, or modify articles in the Knowledge Base. What should she do to accomplish this task?
+
+Question 3:
+
+John wants to build a catalog item in a visual and guided interface. What tool should he use?
+
+Question 4:
+
+Aaron needs to leave feedback on a ServiceNow Knowledge article that contains an error. What options does he have for providing feedback? Select 3
+
+A. Adding a comment
+
+B. Printing the article
+
+C. Clicking the thumbs-down icon
+
+D. Flagging the article
+
+E. Rating the article with stars
+
+Question 5:
+
+What does each record on the Requested Item [sc_req_item] table represent?
+
+Question 6:
+
+What are the common variable types in the Service Catalog? Select 3
+
+A. Fill-in-the-blank
+
+B. Multiple Choice
+
+C. Reference
+
+D. Password
+
+E. Script
+
+F. Check box
+
+Question 7:
+
+Mariah needs assistance on adding Integration Hub spokes to her flow. What Flow Designer feature can she use to assist her?
+
+Question 8:
+
+Kiana created a new article in her company’s Knowledge Base by navigating to the Knowledge Base homepage, selecting 'Actions', and then 'Create'. She completed the necessary fields and clicked 'Submit'. However, she still cannot see the newly created article and her company does not require any approvals. What could be the cause of this?
+
+Question 9:
+
+Anthony needs to ensure that the Manager variable is displayed first on the record producer. How can he achieve this?
+
+Question 10:
+
+What is a record producer?
+
+Question 11:
+
+What are the three types of triggers for a flow?
+
+A. Field-based
+
+B. Record-based
+
+C. Schedule-based
+
+D. Event-based
+
+E. Application-based
+
+Question 12:
+
+Which of the statements are true about a request in the Service Catalog? Select 3
+
+A. A request can have one or many request items in it
+
+B. A request acts as a container for the order
+
+C. A request can only have one request item in it
+
+D. A request number keeps track of the entire order
+
+E. A request number keeps track of each individual item separately
+
+F. Requests are the individual tasks needed to deliver each request item
+
+Question 13:
+
+What are the building blocks of a ServiceNow catalog?
+
+Question 14:
+
+Janelle is building a flow that needs to get a pet request approved with logic based on whether the request is approved, rejected, or cancelled. What Flow Designer core action should she use?
+
+Question 15:
+
+Gladys wants her new employees to be able to order the employee starter kit items as one request. What feature can she use to give her employees this functionality?
+
+Question 16:
+
+What are user criteria used to secure? Select 2
+
+A. Knowledge bases
+
+B. Service catalog items
+
+C. User records
+
+D. Applications 
+
+Question 17:
+
+Nicole has just started her new job and needs to complete her onboarding tasks. Which baseline portal should she navigate to in order to accomplish this effectively?
+
+Question 18:
+
+What are the benefits of using Flow Designer? Select 3
+
+A. It provides a user-friendly interface for automating processes without coding
+
+B. It requires complex scripting and development of custom applications
+
+C. It integrates with external systems using web services
+
+D. It enables the creation of reusable actions that can be shared across multiple flows
+
+E. It simplifies data migration between instances
+
+Question 19:
+
+What two components make up a flow?
+
+A. Conditions
+
+B. Trigger
+
+C. Scripts
+
+D. Actions
+
+E. Variables
+
+Question 20:
+
+What indicates the progress or state of an item in the delivery process?
+
+Question 21:
+
+When a flow is run, where are the results from the action stored?
+
+Question 22:
+
+Alysse needs to ask users questions about the color and storage size of the device they want to order from the Service Catalog. What should she do?
+
+Question 23:
+
+What are the predefined integration actions that interact with common third-party applications in Integration Hub called?
+
+Question 24:
+
+What is the primary function of the Process Automation Designer in ServiceNow?
+
+Question 25:
+
+What are the benefits of Virtual Agent? Select 3
+
+A. Solves ordinary issues and common requests through intelligent conversations with users
+
+B. Automates complex workflows without human intervention
+
+C. Helps resolve routine issues faster by giving immediate assistance
+
+D. Provides companionship for users who need a conversation
+
+E. Provides personalized recommendations based on user behavior
+
+F. Reduces the workload on IT support staff
+
+Question 26:
+
+Whitley made a mistake while editing a step in a flow while working in Flow Designer. What can she do to remove the last action?
+
+Question 28:
+
+What are the two available knowledge articles types? Select 2
+
+A. JavaScript
+
+B. HTML
+
+C. CSS
+
+D. Wiki
+
+Question 29:
+
+Which module displays a list of tasks assigned to a user’s group but not yet assigned to a user?
+
+Question 1:
+
+What are some of the report visualization types? Select 3
+
+A. Scale
+
+B. Bar Chart
+
+C. Thermometer
+
+D. Data Grid
+
+E. Pie Chart
+
+F. Donut
+
+Question 2:
+
+What are tags in ServiceNow?
+
+Question 3:
+
+What is the difference between Performance Analytics and Reporting in ServiceNow?
+
+Question 4:
+
+What is a notification in ServiceNow?
+
+Question 5:
+
+Luther wants to subscribe to all custom email notifications about when a pet is adopted. Where should he navigate to subscribe to these notifications? Select 2
+
+A. All > Email > Subscriptions
+
+B. All > Self-Service > My Notification Preferences
+
+C. All > System Notifications > Preferences
+
+D. User Menu > Preferences > Notifications
+
+Question 6:
+
+Olivia is modifying her report using Report Designer. She wants to change the visualization of her report by editing the report type. What section of Report Designer should she be working in to accomplish this?
+
+Question 7:
+
+Alicia wants to create an email notification to users when a pet that matches their preferences has arrived at the shop. Where should she navigate to create this?
+
+Question 8:
+
+Jazmine is working in the HR Agent Workspace and needs to collaborate with her team to resolve a large task-based record in real-time. What tool should she use?
+
+Question 9:
+
+Leroy is doing a training on the features of reporting within the client’s new instance. What are true statements about reports that he can include in the presentation? Select 3
+
+A. Reports have to be run manually
+
+B. Reports are only created from scratch
+
+C. Reports can be run manually or scheduled to run automatically
+
+D. Reports are a tool that allows users to visually display and analyze data
+
+E. Reports can be created from a list or an existing report
+
+F. Reports cannot be shared with other users
+
+Question 10:
+
+What three components are specified when creating a notification?
+
+A. Who is creating the notification
+
+B. What the notification will contain
+
+C. When to send the notification
+
+D. Where the notification needs to be sent
+
+E. Who will receive the notification
+
+Question 11:
+
+Marcel is creating a new report similar to the previously made report that he is currently on. He wants to save the new report as a new record and continue editing it without leaving the page. What report action should he select?
+
+Question 12:
+
+What is a Dashboard in ServiceNow?
+
+Question 13:
+
+Blake is grouping the data by pet type. What Report Designer section should he use to accomplish this task?
+
+Question 14:
+
+What are ways to create tags in ServiceNow? Select 2.
+
+A. Navigate to the homepage > Click on the Tag icon in the header
+
+B. Navigate to UI Builder > Right-click on the record context menu
+
+C. Navigate to the form view > Click on the More Actions icon
+
+D. Navigate to the Reports module > Select Create New Tag
+
+E. Navigate to the list view > Right-click on the record context menu
+
+Question 15:
+
+A ServiceNow admin working on a pet application creates a report to visualize the number of adoption requests categorized by pet type and their current status. To ensure the adoption team and shelter manager have continuous and easy access to this information at any time, what should the admin do?
+
+Question 16:
+
+Michelle wants to reduce complaint resolution time by automatically categorizing and assigning complaints based on historical data using AI and machine learning. What tool can she use to accomplish this?
+
+Question 17:
+
+Mindy creates a report to visualize the incident types and wants to share that report on Friday morning in a scheduled email. What sharing option should she use to accomplish this?
+
+Question 18:
+
+Adele is a fulfiller who needs to access multiple Sidebar discussions simultaneously. What feature would allow her to do this?
+
+Question 19:
+
+Tamar made an email layout that she wants to use in the current email notification she is creating. In which section of the notification will she apply the template?
+
+Question 20:
+
+Victor is a system administrator who needs to troubleshoot an issue where notifications are not being sent as expected in the ServiceNow instance. He wants to check if specific events have been generated and logged correctly to understand the issue better. Where should Victor look to find this information?
+
+Question 21:
+
+Which of the following are ways to share a report that has been created? Select 4
+
+A. Send via Email
+B. Schedule
+C. Publish
+D. Export to PDF
+E. Add to Dashboard
+F. Post to Social Media
+
+
+
+

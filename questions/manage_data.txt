@@ -1,0 +1,203 @@
+Question 2:
+
+What type of table is the Task table? Select 3
+
+A. Child
+
+B. Base
+
+C. Core
+
+D. Parent
+
+E. Multi
+
+Question 3:
+
+What ServiceNow feature is a security rule that restricts user access to viewing and interacting with data?
+
+Access Controls
+Roles
+Permissions
+User Access
+
+Question 4:
+
+Brandy needs to understand the relationships between the tables in her ServiceNow instance to effectively design a new application. What should she use?
+
+Dependency View
+System Properties
+SChema Map
+CMDB
+
+Question 5:
+
+Crystal is explaining the basic ServiceNow infrastructure to a new client during an introductory training. What statements should she include in her presentation? Select 3
+
+A. Records contain tables
+
+B. A field corresponds to a row
+
+C. A value is the same as a field
+
+D. A field corresponds to an individual column of data
+
+E. Tables contain records
+
+F. Records correspond to rows
+
+Question 6:
+
+Kem needs to edit the record number prefix. Where should he navigate to accomplish this?
+
+Question 7:
+
+A field named flower_color has a lookup magnifying glass next to it that allows you to select from the color table, which will populate the flower_color field. What kind of field type is flower_color?
+
+Question 8:
+
+What are the accurate statements about field attributes? Select 3
+
+A. Field label: User-friendly term to allow people to identify the field in the user interface
+
+B. Field alias: An alternative name for a field that can be used in scripts
+
+C. Field name: System-friendly name unique term that the system uses to identify the field
+
+D.Field size: Defines the maximum amount of data that can be entered into the field.
+
+E. Field data/value: Actual data entered into the field, an individual item of data on a record
+
+Question 10:
+
+Veronica does not have the required role to pass the table-level access control rule, but she does have the required role to pass the field-level access control rule. What will Veronica be able to access?
+
+Question 11:
+
+Benita finished tasks after elevating her role. How does she return back to an admin role and end her elevated privileges?
+
+Question 12:
+
+What is the difference between a base table and a core table in ServiceNow?
+
+Question 14:
+
+What access controls are created by default when a custom table is created? Select 4
+
+A. Remove
+
+B. Create
+
+C. Delete
+
+D. Read
+
+E. Update
+
+F. Write
+
+Question 15:
+
+What allows records to be uniquely identified in ServiceNow?
+
+Question 16:
+
+What kind of permissions can be used when creating an Access Control? Select 3
+
+A. Roles
+
+B. Conditional Expressions
+
+C. Data Policies
+
+D. Business Rules
+
+E. Scripts
+
+
+Question 17:
+
+Roberto is creating access controls for his tables. He creates a pets.-none- access control for Jill and Kim. He also creates a pets.name access control for Jill and creates a pets.* access control for Kim. What fields will Kim have access to?
+
+Question 18:
+
+In what order are Access Controls (ACLs) evaluated in ServiceNow?
+
+Question 19:
+
+The request_task table extends the task table. What is the request_task table called?
+
+Question 20:
+
+Elle has pet data in an Excel sheet that needs to be moved into the company’s ServiceNow pets table. What tool can she use to effectively move the Excel data into the ServiceNow table?
+
+Question 21:
+
+What ServiceNow tool is a set of field maps that determine the relationships between import set fields and fields in a target table?
+
+Question 22:
+
+Why is implementing coalesce fields useful when importing data?
+
+Question 23:
+
+What are the three key CMDB tables?
+
+A. CI Attributes [cmdb_ci_attr]
+
+B. CI Class Model [cmdb_ci_class]
+
+C. Base Configuration [cmdb]
+
+D. Configuration Item [cmdb_ci]
+
+E. CI Lifecycle [cmdb_ci_lifecycle]
+
+F. CI Relationship [cmdb_rel_ci]
+
+
+Question 25:
+
+Rosa needs to identify which configuration item is causing a disruption to the service. What feature can she use as a graphical interface to visualize the relationships between the configuration items?
+
+Question 27:
+
+Chelsea is creating tables for her plant application. The plant_user table extends the user table. The plant_management_task table extends the task table. The plant_management_task_item table extends the plant_management_task table. Which statements are true about the tables in this scenario? Select 5
+
+A. The plant_management_task table is a parent table.
+
+B. The Task table is a base table.
+
+C. The Task table is a child table.
+
+D. The Task table is a parent table.
+
+E. The User table is a parent table.
+
+F. The User table is a child table.
+
+G. The plant_management_task table is a child table.
+
+Question 28:
+
+Ray needs to change the prefix of the records in the pet_owner table from “OWN” to “OWNER”. How can he accomplish this task?
+
+Question 29:
+
+The customer wants to restrict access to the records in the Employee table to only managers. What setting on the access control definition would you use to grant access to managers only?
+
+Question 30:
+
+Which field is used as a unique key during imports?
+
+Question 31:
+
+What are the different Schema relationship types that are supported for tables? Select 4
+
+A. Referenced by
+B. Depended on
+C. Contains
+D. Extended by
+E. Referencing
+F. Extended
+

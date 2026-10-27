@@ -1,0 +1,78 @@
+{
+    "Table": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "difficultyKey",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "moduleKey",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "questionId",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "ServiceNowQuestionBank",
+        "KeySchema": [
+            {
+                "AttributeName": "questionId",
+                "KeyType": "HASH"
+            }
+        ],
+        "TableStatus": "ACTIVE",
+        "CreationDateTime": "2026-10-05T13:52:44.050000-04:00",
+        "ProvisionedThroughput": {
+            "LastIncreaseDateTime": "2026-10-05T13:54:16.406000-04:00",
+            "LastDecreaseDateTime": "2026-10-05T13:54:16.406000-04:00",
+            "NumberOfDecreasesToday": 1,
+            "ReadCapacityUnits": 5,
+            "WriteCapacityUnits": 5
+        },
+        "TableSizeBytes": 0,
+        "ItemCount": 0,
+        "TableArn": "arn:aws:dynamodb:us-east-1:936945932113:table/ServiceNowQuestionBank",
+        "TableId": "5af2333b-73a4-420b-aae4-169706d194d9",
+        "GlobalSecondaryIndexes": [
+            {
+                "IndexName": "ByModuleDifficulty",
+                "KeySchema": [
+                    {
+                        "AttributeName": "moduleKey",
+                        "KeyType": "HASH"
+                    },
+                    {
+                        "AttributeName": "difficultyKey",
+                        "KeyType": "RANGE"
+                    }
+                ],
+                "Projection": {
+                    "ProjectionType": "ALL"
+                },
+                "IndexStatus": "ACTIVE",
+                "ProvisionedThroughput": {
+                    "LastIncreaseDateTime": "2026-10-05T13:54:25.363000-04:00",
+                    "LastDecreaseDateTime": "2026-10-05T13:54:25.363000-04:00",
+                    "NumberOfDecreasesToday": 1,
+                    "ReadCapacityUnits": 5,
+                    "WriteCapacityUnits": 5
+                },
+                "IndexSizeBytes": 0,
+                "ItemCount": 0,
+                "IndexArn": "arn:aws:dynamodb:us-east-1:936945932113:table/ServiceNowQuestionBank/index/ByModuleDifficulty",
+                "WarmThroughput": {
+                    "ReadUnitsPerSecond": 5,
+                    "WriteUnitsPerSecond": 5,
+                    "Status": "ACTIVE"
+                }
+            }
+        ],
+        "DeletionProtectionEnabled": false,
+        "WarmThroughput": {
+            "ReadUnitsPerSecond": 5,
+            "WriteUnitsPerSecond": 5,
+            "Status": "ACTIVE"
+        }
+    }
+}

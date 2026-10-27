@@ -1,0 +1,199 @@
+Question 1:
+
+What tools can be used to configure a form's fields? Select 3
+
+A. Form Builder
+
+B. Form Design
+
+C. List Layout
+
+D. Form Layout
+
+E. Form Manager
+
+Question 2:
+
+Which of the following options are types of UI actions in ServiceNow forms and lists? Select 3
+
+A. Buttons
+
+B. Fields
+
+C. Links
+
+D. Widgets
+
+E. Context menu items
+
+F. Reports
+
+Question 3:
+
+What ServiceNow table contains the definition of all tables in the ServiceNow instance?
+
+Question 4:
+
+What are two ways to create or review tables? Select 2
+
+A. All > System Definition > Tables
+
+B. All > System Definition> New Table
+
+C. All > System Definition > Tables and Columns
+
+D. All > System Properties > Tables
+
+Question 5:
+
+What are three methods to create a new field on a form?
+
+A. Navigate to the form > Right-click on the form header and select Configure > Form Design > Drag the field type onto the form and configure it
+
+B. All > System Definition > Table, open the table, on the columns tab, make new dictionary entry
+
+C. All > System UI > Forms > Add Field
+
+D. Navigate to the form > Right-click the form header, and select Personalize > Add Field
+
+E. Navigate to the list view > Right-click on header> Configure > Form Layout > Create the new field > Add
+
+F. Navigate to the form > Click on the additional actions context menu > Configure > Form Layout > Create the new field > Add
+
+Question 6:
+
+What displays multiple records from a table?
+
+Question 7:
+
+Which of the filter components are a choice field based on the table and user access?
+
+Question 8:
+
+Shaun has navigated to his workspace to find the lists that he created so he can start his work. Where will he find the lists in his workspace?
+
+Question 9:
+
+What is the difference between list layout configuration and personalize list?
+
+Question 10:
+
+Alex is tasked with creating a new application menu for the HR department in ServiceNow. He needs to ensure that it includes a module listing all employees and that it is visible in the application navigation. Which steps should Alex follow to achieve this?
+
+Question 11:
+
+Alicia needs to quickly edit a field value without opening the record. How can she accomplish this functionality?
+Question 12:
+
+Which statements below are accurate descriptions of the relationship between records, tables, and fields? Select 3.
+
+A. Records hold the tables with field data
+
+B. Tables are a database structure that contains records
+
+C. Records are the data contained in a table and contain fields
+
+D. An individual record is the same as a table
+
+E. Tables are a database structure that contains instances
+
+F. Fields are individual pieces of data within a record
+
+Question 13:
+
+Marisol needs to refer to a filter that she created. Where can she see the currently implemented filter?
+
+Question 14:
+
+Carter needs to add a new field to a form. The field will have a drop-down menu with multiple values to choose from. What kind of field is he making?
+
+Question 15:
+
+Alex needs to configure a form to only display certain fields if an administrator group is viewing it versus if a user group is viewing it. What can he create to allow them to see the same form, but with different fields visible?
+
+Question 16:
+
+Malik is creating a filter condition for the rooms table. He only wants to see rooms that can hold more than 10 people. How would he execute this filter from the list view?
+
+Question 17:
+
+Ella is creating a new filter condition. What components does she have to ensure are in the filter definition? Select 3
+
+A. Query Parameter
+
+B. Value
+
+C. Field
+
+D. Conjunction
+
+E. Operator
+
+F. Object 
+
+Question 18:
+
+How many records does a form display?
+
+Question 19:
+
+Neveah wants to quickly filter out all of the cat type records from the pets table. How can she accomplish this?
+
+Question 20:
+
+Which statements are true about a field context menu? Select 2
+
+A. Displays actions such as making a new field or deleting a field
+
+B. Displays actions such as editing the dictionary entry or label for the field
+
+C. Access it by right-clicking on a field
+
+D. Access it by right-clicking on the column header
+
+E. Displays actions like creating a new security rule
+
+Question 21:
+
+What are some of the fields that are created by default when a table is created? Select 3
+
+A. Updated
+
+B. Assigned To
+
+C. Created By
+
+D. Sys ID
+
+E. Name 
+
+Question 21:
+
+What are some of the fields that are created by default when a table is created? Select 3
+
+A. Updated
+
+B. Assigned To
+
+C. Created By
+
+D. Sys ID
+
+E. Name 
+
+Question 22:
+
+What symbol is used as a wildcard in list view filters to search for records that match any number of characters in a field?
+
+Question 23:
+
+Which is created by default when you create a new table? Select 2
+
+A. Application Menu with the same name as the table Label
+B. Portal Page to display the table results
+C. Script Include for table logic
+D. Business Rule for table data validation
+E.  Module with the plural of the table Label
+
+
+

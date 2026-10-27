@@ -1,0 +1,154 @@
+Question 1:
+
+What are some examples of User Interface (UI) Actions? Select 3
+
+A. Form Context Menu Items
+
+B. Records
+
+C. Form Links
+
+D. List Buttons
+
+E. Form Sections
+
+Question 2:
+
+What are the four types of Client Scripts?
+
+A. onSubmit()
+
+B. onDelete()
+
+C. onCellEdit()
+
+D. onUpdate()
+
+E. onChange()
+
+F. onLoad()
+
+Question 3:
+
+What is a User Interface Policy in ServiceNow?
+
+Question 4:
+
+What protects applications by identifying and restricting access to their artifacts and data by providing a namespace?
+
+Question 5:
+
+What language does ServiceNow use to extend functionality in both server-side and client-side scripts?
+
+Question 6:
+
+What constitutes a round trip in ServiceNow?
+
+Question 7:
+
+Allison created two UI Policies and gave the first one an order number of 100. What order number should she give to the second one if she wants it to execute before the first one?
+
+Question 8:
+
+In ServiceNow terminology, what is the web browser interface called?
+
+Question 9:
+
+Where do the application server and database exist in ServiceNow?
+
+Question 10:
+
+Luis is creating a new application for his company. What are the two types of Scopes he can apply to the application?
+
+A. Global Scope
+
+B. Public Scope
+
+C. Functional Scope
+
+D. Private Scope
+
+Question 11:
+
+What is the difference between a Data Policy and a UI Policy in ServiceNow?
+
+Question 12:
+
+Ledisi wants to display a welcome message to users whenever they open a specific form in the HR application. Which Client Script type should she use?
+
+Question 13:
+
+Raven is developing functionality for the company’s room rental application. When a user selects "Yes" in the "Special Requests Needed" field, the "Request Description" field should become mandatory, and the "Request Manager" field should become visible and read-only. What feature should she use to accomplish this functionality?
+
+Question 14:
+
+What gets captured in an Update Set? Select 4
+
+A. Scheduled Jobs
+
+B. Business Rules
+
+C. Forms
+
+D. New Data Records
+
+E. Report Definitions
+
+F. Roles
+
+Question 15:
+
+Norman created a UI Action and saved it. When he navigates to the form, he does not see the UI Action. What must he do to make the UI Action visible to users?
+
+Question 16:
+
+Toni is working in an IT support environment and wants to automatically set the priority of an incident based on the impact and urgency whenever these fields are edited directly in the list view. Which Client Script type should she use?
+
+Question 17:
+
+What do UI Policy Actions do in ServiceNow?
+
+Question 18:
+
+Lana finished working on a story in the development instance for adding fields to tables and she is ready to move it to the test instance. What tool can she use to group the changes and move them as a unit to the target instance?
+
+Question 19:
+
+What are the four types of “when” settings for a Business Rule?
+
+A. Query
+
+B. After
+
+C. Before
+
+D Display
+
+E. Async
+
+F. Insert
+
+Question 20:
+
+Melody is implementing a catalog client script for a service catalog item. She needs to validate that all required fields are filled out before the form is submitted. If any required field is missing, an error message should be displayed, and the form submission should be prevented. Which Client Script type should she use?
+
+Question 21:
+
+What are the steps for applying an Update Set?
+
+Question 22:
+
+Lynn has finished working on an Update Set and is ready to move it. What should she change the state to?
+
+Question 23:
+
+Sebastian is working on a ServiceNow application where he needs to display additional information on a form when it is loaded. This information is derived from related records and needs to be calculated and shown to the user each time the form is viewed. The solution should be implemented server-side. Which method should he use to achieve this?
+
+Question 24:
+
+Patrice needs to ensure that the customizations and configurations in her ServiceNow instance do not break existing functionality after an upgrade. Which ServiceNow feature should she use to automate the testing process?
+
+Question 25:
+
+Kenny needs to grant specific development permissions to a team member without giving them full admin rights. Which ServiceNow feature should he use to allow the team member to develop and manage applications within a controlled scope?
+

@@ -1,0 +1,30 @@
+{
+  "S3BucketSource": {
+    "S3Bucket": "REPLACE_WITH_YOUR_BUCKET",
+    "S3KeyPrefix": "question-bank-import/questions.dynamodb.jsonl"
+  },
+  "InputFormat": "DYNAMODB_JSON",
+  "InputCompressionType": "NONE",
+  "TableCreationParameters": {
+    "TableName": "ServiceNowQuestionBank",
+    "AttributeDefinitions": [
+      {"AttributeName": "questionId", "AttributeType": "S"},
+      {"AttributeName": "moduleKey", "AttributeType": "S"},
+      {"AttributeName": "difficultyKey", "AttributeType": "S"}
+    ],
+    "KeySchema": [
+      {"AttributeName": "questionId", "KeyType": "HASH"}
+    ],
+    "BillingMode": "PAY_PER_REQUEST",
+    "GlobalSecondaryIndexes": [
+      {
+        "IndexName": "ByModuleDifficulty",
+        "KeySchema": [
+          {"AttributeName": "moduleKey", "KeyType": "HASH"},
+          {"AttributeName": "difficultyKey", "KeyType": "RANGE"}
+        ],
+        "Projection": {"ProjectionType": "ALL"}
+      }
+    ]
+  }
+}

@@ -1,0 +1,518 @@
+[
+  {
+    "questionId": "src_38fafa984bf6fad0",
+    "sources": [
+      {
+        "file": "questions/building_core_application_components.txt",
+        "questionNumber": 15,
+        "section": 1,
+        "line": 110
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Clarified presentation versus security; form views alone cannot protect field data."
+    ],
+    "references": [
+      "https://www.servicenow.com/docs/r/platform-security/access-control/exploring-access-control-list.html"
+    ]
+  },
+  {
+    "questionId": "src_353e3db9fc352879",
+    "sources": [
+      {
+        "file": "questions/building_core_application_components.txt",
+        "questionNumber": 22,
+        "section": 1,
+        "line": 184
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Replaced the vague wildcard claim with the specific leading-asterisk list-search behavior."
+    ],
+    "references": []
+  },
+  {
+    "questionId": "src_4a70399894d864cd",
+    "sources": [
+      {
+        "file": "questions/building_core_application_components.txt",
+        "questionNumber": 23,
+        "section": 1,
+        "line": 188
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Clarified the table creation options instead of claiming navigation objects are always created."
+    ],
+    "references": []
+  },
+  {
+    "questionId": "src_fb39a550d170444d",
+    "sources": [
+      {
+        "file": "questions/configure_self_service_automation.txt",
+        "questionNumber": 4,
+        "section": 1,
+        "line": 13
+      },
+      {
+        "file": "questions/reporting_features_and_additional_tools.txt",
+        "questionNumber": 4,
+        "section": 1,
+        "line": 13
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Four supplied choices provide feedback, including marking the article unhelpful; corrected Select 3."
+    ],
+    "references": []
+  },
+  {
+    "questionId": "src_075fd3f2b42dbf88",
+    "sources": [
+      {
+        "file": "questions/configure_self_service_automation.txt",
+        "questionNumber": 6,
+        "section": 1,
+        "line": 31
+      },
+      {
+        "file": "questions/reporting_features_and_additional_tools.txt",
+        "questionNumber": 6,
+        "section": 1,
+        "line": 31
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Clarified exact type names: password-like input uses Masked, avoiding a vague common-types test."
+    ],
+    "references": [
+      "https://servicenow.github.io/sdk/4.10.0/guides/service-catalog-variables-guide"
+    ]
+  },
+  {
+    "questionId": "src_4f614ac42bdf212d",
+    "sources": [
+      {
+        "file": "questions/configure_self_service_automation.txt",
+        "questionNumber": 28,
+        "section": 1,
+        "line": 189
+      },
+      {
+        "file": "questions/reporting_features_and_additional_tools.txt",
+        "questionNumber": 28,
+        "section": 1,
+        "line": 189
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Added the plugin prerequisite for Wiki articles."
+    ],
+    "references": [
+      "https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/additional-plugins-km.html"
+    ]
+  },
+  {
+    "questionId": "src_b91affac24da8176",
+    "sources": [
+      {
+        "file": "questions/foundations_of_the_servicenow_experience.txt",
+        "questionNumber": 9,
+        "section": 1,
+        "line": 43
+      }
+    ],
+    "reviewStatus": "needs_release_review",
+    "editorialNotes": [
+      "Training terminology or exact interface controls vary; review against the release used for study."
+    ],
+    "references": []
+  },
+  {
+    "questionId": "src_3dbb2ea2e3ee6e50",
+    "sources": [
+      {
+        "file": "questions/manage_data.txt",
+        "questionNumber": 8,
+        "section": 1,
+        "line": 57
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Narrowed the prompt to avoid ambiguity with the maximum-length property in choice D."
+    ],
+    "references": []
+  },
+  {
+    "questionId": "src_caef988bfdd9d317",
+    "sources": [
+      {
+        "file": "questions/manage_data.txt",
+        "questionNumber": 14,
+        "section": 1,
+        "line": 83
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Added the table wizard ACL creation prerequisite."
+    ],
+    "references": []
+  },
+  {
+    "questionId": "src_20fea1c52aeb0bd6",
+    "sources": [
+      {
+        "file": "questions/manage_data.txt",
+        "questionNumber": 17,
+        "section": 1,
+        "line": 118
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Stated assumptions needed to distinguish specific-field ACLs from a wildcard."
+    ],
+    "references": [
+      "https://www.servicenow.com/docs/r/platform-security/access-control/exploring-access-control-list.html"
+    ]
+  },
+  {
+    "questionId": "src_5c5ac8fe37da2183",
+    "sources": [
+      {
+        "file": "questions/practice_exam1.txt",
+        "questionNumber": 2,
+        "section": 1,
+        "line": 39
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Scoped the question to classic UI16; Next Experience uses different navigation terminology."
+    ],
+    "references": []
+  },
+  {
+    "questionId": "src_7130b7677ad76377",
+    "sources": [
+      {
+        "file": "questions/practice_exam1.txt",
+        "questionNumber": 6,
+        "section": 1,
+        "line": 175
+      }
+    ],
+    "reviewStatus": "needs_release_review",
+    "editorialNotes": [
+      "Training terminology or exact interface controls vary; review against the release used for study."
+    ],
+    "references": []
+  },
+  {
+    "questionId": "src_3039dfe8c8b66bd8",
+    "sources": [
+      {
+        "file": "questions/practice_exam1.txt",
+        "questionNumber": 8,
+        "section": 1,
+        "line": 233
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Replaced a duplicated incorrect choice with a distinct distractor."
+    ],
+    "references": []
+  },
+  {
+    "questionId": "src_3166ab3cd62ecbb3",
+    "sources": [
+      {
+        "file": "questions/practice_exam1.txt",
+        "questionNumber": 10,
+        "section": 1,
+        "line": 299
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Data Policies enforce mandatory/read-only behavior, not arbitrary email-format validation."
+    ],
+    "references": []
+  },
+  {
+    "questionId": "src_a482076f4a7f2fc1",
+    "sources": [
+      {
+        "file": "questions/practice_exam1.txt",
+        "questionNumber": 12,
+        "section": 1,
+        "line": 346
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Clarified that XML export/import and remote retrieval are alternative transfer paths."
+    ],
+    "references": []
+  },
+  {
+    "questionId": "src_cbf3c1ba2c47c60b",
+    "sources": [
+      {
+        "file": "questions/practice_exam1.txt",
+        "questionNumber": 15,
+        "section": 1,
+        "line": 431
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Corrected the misleading placement of wildcard ACLs in a separate final evaluation stage."
+    ],
+    "references": [
+      "https://www.servicenow.com/docs/r/platform-security/access-control/exploring-access-control-list.html"
+    ]
+  },
+  {
+    "questionId": "src_907888ddfd0efca7",
+    "sources": [
+      {
+        "file": "questions/practice_exam1.txt",
+        "questionNumber": 23,
+        "section": 1,
+        "line": 657
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Only two of the supplied options are marked and explained as correct; corrected the selection count."
+    ],
+    "references": []
+  },
+  {
+    "questionId": "src_d3cf1bc833314791",
+    "sources": [
+      {
+        "file": "questions/practice_exam1.txt",
+        "questionNumber": 42,
+        "section": 1,
+        "line": 1184
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Removed the claim that the Event Log captures all system activity or that the registry alone defines processing."
+    ],
+    "references": []
+  },
+  {
+    "questionId": "src_a135b2b7d02e4f08",
+    "sources": [
+      {
+        "file": "questions/practice_exam1.txt",
+        "questionNumber": 45,
+        "section": 1,
+        "line": 1260
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Supplied a concrete namespace; x_messages omitted the application namespace."
+    ],
+    "references": [
+      "https://developer.servicenow.com/print_page.do?category=now-platform&identifier=pro-dev-intro&module=guide&release=yokohama"
+    ]
+  },
+  {
+    "questionId": "src_ab51fa3514e9da65",
+    "sources": [
+      {
+        "file": "questions/practice_exam1.txt",
+        "questionNumber": 49,
+        "section": 1,
+        "line": 1364
+      }
+    ],
+    "reviewStatus": "needs_release_review",
+    "editorialNotes": [
+      "Training terminology or exact interface controls vary; review against the release used for study."
+    ],
+    "references": []
+  },
+  {
+    "questionId": "src_57cf09b6f86159a4",
+    "sources": [
+      {
+        "file": "questions/practice_exam1.txt",
+        "questionNumber": 60,
+        "section": 1,
+        "line": 1656
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Corrected the supplied answer from Named update set to No update set for business data."
+    ],
+    "references": [
+      "https://www.servicenow.com/docs/r/application-development/system-update-sets/customizations-tracked-update-sets.html"
+    ]
+  },
+  {
+    "questionId": "src_afba372d028c38de",
+    "sources": [
+      {
+        "file": "questions/practice_exam2.txt",
+        "questionNumber": 5,
+        "section": 1,
+        "line": 120
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Corrected audience wording so All does not imply access to every report in the instance."
+    ],
+    "references": []
+  },
+  {
+    "questionId": "src_86857b90920324ee",
+    "sources": [
+      {
+        "file": "questions/practice_exam2.txt",
+        "questionNumber": 6,
+        "section": 1,
+        "line": 160
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Corrected user.department to sys_user.department."
+    ],
+    "references": [
+      "https://www.servicenow.com/docs/r/platform-security/access-control/exploring-access-control-list.html"
+    ]
+  },
+  {
+    "questionId": "src_3024a19efcda2f93",
+    "sources": [
+      {
+        "file": "questions/practice_exam2.txt",
+        "questionNumber": 15,
+        "section": 1,
+        "line": 430
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Removed unsupported claims that all base tables are supplied and all core tables are extensible."
+    ],
+    "references": []
+  },
+  {
+    "questionId": "src_53df9f13d016d440",
+    "sources": [
+      {
+        "file": "questions/practice_exam2.txt",
+        "questionNumber": 27,
+        "section": 1,
+        "line": 763
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Distinguished removing a field from the form from deleting the database field."
+    ],
+    "references": []
+  },
+  {
+    "questionId": "src_5cf28950854cd3a6",
+    "sources": [
+      {
+        "file": "questions/practice_exam2.txt",
+        "questionNumber": 52,
+        "section": 1,
+        "line": 1503
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Made the table wizard access-control option explicit."
+    ],
+    "references": []
+  },
+  {
+    "questionId": "src_831f831cb4819597",
+    "sources": [
+      {
+        "file": "questions/practice_exam2.txt",
+        "questionNumber": 55,
+        "section": 1,
+        "line": 1602
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Made the absence of other granting ACLs explicit for the wildcard/specific-field scenario."
+    ],
+    "references": [
+      "https://www.servicenow.com/docs/r/platform-security/access-control/exploring-access-control-list.html"
+    ]
+  },
+  {
+    "questionId": "src_d8ffaa70b9cab903",
+    "sources": [
+      {
+        "file": "questions/reporting_features_and_additional_tools.txt",
+        "questionNumber": 14,
+        "section": 2,
+        "line": 299
+      }
+    ],
+    "reviewStatus": "needs_release_review",
+    "editorialNotes": [
+      "Training terminology or exact interface controls vary; review against the release used for study."
+    ],
+    "references": []
+  },
+  {
+    "questionId": "src_4ad8caaff9d9ba24",
+    "sources": [
+      {
+        "file": "questions/reporting_features_and_additional_tools.txt",
+        "questionNumber": 18,
+        "section": 2,
+        "line": 325
+      }
+    ],
+    "reviewStatus": "needs_release_review",
+    "editorialNotes": [
+      "Training terminology or exact interface controls vary; review against the release used for study."
+    ],
+    "references": []
+  },
+  {
+    "questionId": "src_353e9d0035206433",
+    "sources": [
+      {
+        "file": "questions/reporting_features_and_additional_tools.txt",
+        "questionNumber": 21,
+        "section": 2,
+        "line": 337
+      }
+    ],
+    "reviewStatus": "not_independently_verified",
+    "editorialNotes": [
+      "Five supplied options are distribution methods; corrected Select 4."
+    ],
+    "references": []
+  }
+]

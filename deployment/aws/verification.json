@@ -1,0 +1,22 @@
+{
+  "verifiedDate": "2026-10-05",
+  "region": "us-east-1",
+  "tableName": "ServiceNowQuestionBank",
+  "tableStatus": "ACTIVE",
+  "indexName": "ByModuleDifficulty",
+  "indexStatus": "ACTIVE",
+  "importStatus": "COMPLETED",
+  "importedItemCount": 338,
+  "importErrorCount": 0,
+  "readbackItemCount": 338,
+  "allAttributesMatchLocalBank": true,
+  "sampleQuery": {
+    "moduleId": 4,
+    "difficulty": "hard",
+    "matchingItems": 9
+  },
+  "sourceSHA256": "2a30186ad5a20ed4c11b9c0af0f9cae5bffdc53bb9e5dfb183b8a4d21fe1f7dc",
+  "s3Bucket": "servicenow-question-bank-936945932113-us-east-1",
+  "s3Key": "question-bank-import/questions.dynamodb.jsonl",
+  "importArn": "arn:aws:dynamodb:us-east-1:936945932113:table/ServiceNowQuestionBank/import/01791222754359-8bf68697"
+}

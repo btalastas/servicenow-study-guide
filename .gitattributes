@@ -1,0 +1,3 @@
+
+# Preserve source bytes used by question-bank provenance hashes.
+/questions/*.txt -text

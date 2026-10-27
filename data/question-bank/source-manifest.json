@@ -1,0 +1,2426 @@
+[
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 1,
+    "section": 1,
+    "line": 1,
+    "questionId": "src_cbf05f278c48e3ac",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 2,
+    "section": 1,
+    "line": 15,
+    "questionId": "src_de2cd987bc89914f",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 3,
+    "section": 1,
+    "line": 31,
+    "questionId": "src_9cf8091b4eb9cbba",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 4,
+    "section": 1,
+    "line": 35,
+    "questionId": "src_63f6496f649f5d01",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 5,
+    "section": 1,
+    "line": 47,
+    "questionId": "src_9bbec955224c4819",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 6,
+    "section": 1,
+    "line": 63,
+    "questionId": "src_ce114532cfd17483",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 7,
+    "section": 1,
+    "line": 67,
+    "questionId": "src_36eb3686aa3958ad",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 8,
+    "section": 1,
+    "line": 71,
+    "questionId": "src_9894d50fdf89cf70",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 9,
+    "section": 1,
+    "line": 75,
+    "questionId": "src_5e048b6d8f04b617",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 10,
+    "section": 1,
+    "line": 79,
+    "questionId": "src_332703fd771e3cfa",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 11,
+    "section": 1,
+    "line": 83,
+    "questionId": "src_6097f2e45333da96",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 12,
+    "section": 1,
+    "line": 86,
+    "questionId": "src_345d8894b9614e7d",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 13,
+    "section": 1,
+    "line": 102,
+    "questionId": "src_838f000263d5cfa7",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 14,
+    "section": 1,
+    "line": 106,
+    "questionId": "src_6dc327a75ab89b4c",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 15,
+    "section": 1,
+    "line": 110,
+    "questionId": "src_38fafa984bf6fad0",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 16,
+    "section": 1,
+    "line": 114,
+    "questionId": "src_74dfa68bb0118a7f",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 17,
+    "section": 1,
+    "line": 118,
+    "questionId": "src_56290bb3ab269252",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 18,
+    "section": 1,
+    "line": 134,
+    "questionId": "src_c699349c4d13c5d0",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 19,
+    "section": 1,
+    "line": 138,
+    "questionId": "src_15e840fa38aba3fb",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 20,
+    "section": 1,
+    "line": 142,
+    "questionId": "src_653ad992f137c87b",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 21,
+    "section": 1,
+    "line": 156,
+    "questionId": "src_a57120dc836f2c43",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 21,
+    "section": 1,
+    "line": 170,
+    "questionId": "src_a57120dc836f2c43",
+    "duplicate": true
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 22,
+    "section": 1,
+    "line": 184,
+    "questionId": "src_353e3db9fc352879",
+    "duplicate": false
+  },
+  {
+    "file": "questions/building_core_application_components.txt",
+    "questionNumber": 23,
+    "section": 1,
+    "line": 188,
+    "questionId": "src_4a70399894d864cd",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 1,
+    "section": 1,
+    "line": 1,
+    "questionId": "src_7b7b9b71a929a418",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 2,
+    "section": 1,
+    "line": 5,
+    "questionId": "src_de56d6b08d73d953",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 3,
+    "section": 1,
+    "line": 9,
+    "questionId": "src_32553f3751d031e6",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 4,
+    "section": 1,
+    "line": 13,
+    "questionId": "src_fb39a550d170444d",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 5,
+    "section": 1,
+    "line": 27,
+    "questionId": "src_b2da3dfc406679d6",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 6,
+    "section": 1,
+    "line": 31,
+    "questionId": "src_075fd3f2b42dbf88",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 7,
+    "section": 1,
+    "line": 47,
+    "questionId": "src_443708234ac244ef",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 8,
+    "section": 1,
+    "line": 51,
+    "questionId": "src_5b118f1e8283d000",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 9,
+    "section": 1,
+    "line": 55,
+    "questionId": "src_db8083705a6e879d",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 10,
+    "section": 1,
+    "line": 59,
+    "questionId": "src_505c9ad8342d8606",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 11,
+    "section": 1,
+    "line": 63,
+    "questionId": "src_78059011c8e13b81",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 12,
+    "section": 1,
+    "line": 77,
+    "questionId": "src_3cb6f1efb746e85a",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 13,
+    "section": 1,
+    "line": 93,
+    "questionId": "src_eded30139a04f6ec",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 14,
+    "section": 1,
+    "line": 97,
+    "questionId": "src_bae9289949d5f8be",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 15,
+    "section": 1,
+    "line": 101,
+    "questionId": "src_2ece6be1c9e78c21",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 16,
+    "section": 1,
+    "line": 105,
+    "questionId": "src_db4dfb3735cae0a3",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 17,
+    "section": 1,
+    "line": 117,
+    "questionId": "src_aa148024266218da",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 18,
+    "section": 1,
+    "line": 121,
+    "questionId": "src_e73113ca02968a71",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 19,
+    "section": 1,
+    "line": 135,
+    "questionId": "src_52d19ff313e1eee0",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 20,
+    "section": 1,
+    "line": 149,
+    "questionId": "src_19df42ad3a85e756",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 21,
+    "section": 1,
+    "line": 153,
+    "questionId": "src_612ea52b683e916e",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 22,
+    "section": 1,
+    "line": 157,
+    "questionId": "src_18ebd274826882c7",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 23,
+    "section": 1,
+    "line": 161,
+    "questionId": "src_3bf5b62b2ec4f032",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 24,
+    "section": 1,
+    "line": 165,
+    "questionId": "src_c0dab7b82c3609f4",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 25,
+    "section": 1,
+    "line": 169,
+    "questionId": "src_157b490d995439ab",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 26,
+    "section": 1,
+    "line": 185,
+    "questionId": "src_d93ef35af0c514f5",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 28,
+    "section": 1,
+    "line": 189,
+    "questionId": "src_4f614ac42bdf212d",
+    "duplicate": false
+  },
+  {
+    "file": "questions/configure_self_service_automation.txt",
+    "questionNumber": 29,
+    "section": 1,
+    "line": 201,
+    "questionId": "src_c56a791442a947c6",
+    "duplicate": false
+  },
+  {
+    "file": "questions/exploring_the_servicenow_environment.txt",
+    "questionNumber": 1,
+    "section": 1,
+    "line": 1,
+    "questionId": "src_9ff375594aab9bfb",
+    "duplicate": false
+  },
+  {
+    "file": "questions/exploring_the_servicenow_environment.txt",
+    "questionNumber": 2,
+    "section": 1,
+    "line": 5,
+    "questionId": "src_30abb47ee8803bdf",
+    "duplicate": false
+  },
+  {
+    "file": "questions/exploring_the_servicenow_environment.txt",
+    "questionNumber": 3,
+    "section": 1,
+    "line": 9,
+    "questionId": "src_7a627e42c502a2b5",
+    "duplicate": false
+  },
+  {
+    "file": "questions/exploring_the_servicenow_environment.txt",
+    "questionNumber": 4,
+    "section": 1,
+    "line": 13,
+    "questionId": "src_3730731608d617cf",
+    "duplicate": false
+  },
+  {
+    "file": "questions/exploring_the_servicenow_environment.txt",
+    "questionNumber": 5,
+    "section": 1,
+    "line": 17,
+    "questionId": "src_989c5ddc7e45017c",
+    "duplicate": false
+  },
+  {
+    "file": "questions/exploring_the_servicenow_environment.txt",
+    "questionNumber": 6,
+    "section": 1,
+    "line": 21,
+    "questionId": "src_c6503bb2efc09c97",
+    "duplicate": false
+  },
+  {
+    "file": "questions/exploring_the_servicenow_environment.txt",
+    "questionNumber": 7,
+    "section": 1,
+    "line": 25,
+    "questionId": "src_0d8623f90e47a130",
+    "duplicate": false
+  },
+  {
+    "file": "questions/exploring_the_servicenow_environment.txt",
+    "questionNumber": 8,
+    "section": 1,
+    "line": 39,
+    "questionId": "src_3c3dde96b7cbdc5c",
+    "duplicate": false
+  },
+  {
+    "file": "questions/exploring_the_servicenow_environment.txt",
+    "questionNumber": 9,
+    "section": 1,
+    "line": 43,
+    "questionId": "src_5304ab3a54323296",
+    "duplicate": false
+  },
+  {
+    "file": "questions/exploring_the_servicenow_environment.txt",
+    "questionNumber": 10,
+    "section": 1,
+    "line": 47,
+    "questionId": "src_8191105ef3596768",
+    "duplicate": false
+  },
+  {
+    "file": "questions/exploring_the_servicenow_environment.txt",
+    "questionNumber": 11,
+    "section": 1,
+    "line": 51,
+    "questionId": "src_f70a15a9cb217f12",
+    "duplicate": false
+  },
+  {
+    "file": "questions/exploring_the_servicenow_environment.txt",
+    "questionNumber": 12,
+    "section": 1,
+    "line": 55,
+    "questionId": "src_5e1eafe9f6789fd0",
+    "duplicate": false
+  },
+  {
+    "file": "questions/foundations_of_the_servicenow_experience.txt",
+    "questionNumber": 1,
+    "section": 1,
+    "line": 1,
+    "questionId": "src_e188624b770a5f5f",
+    "duplicate": false
+  },
+  {
+    "file": "questions/foundations_of_the_servicenow_experience.txt",
+    "questionNumber": 2,
+    "section": 1,
+    "line": 5,
+    "questionId": "src_ab61845f118df927",
+    "duplicate": false
+  },
+  {
+    "file": "questions/foundations_of_the_servicenow_experience.txt",
+    "questionNumber": 3,
+    "section": 1,
+    "line": 9,
+    "questionId": "src_542d60303d76fe64",
+    "duplicate": false
+  },
+  {
+    "file": "questions/foundations_of_the_servicenow_experience.txt",
+    "questionNumber": 4,
+    "section": 1,
+    "line": 13,
+    "questionId": "src_ce25ab2c93ab1a91",
+    "duplicate": false
+  },
+  {
+    "file": "questions/foundations_of_the_servicenow_experience.txt",
+    "questionNumber": 5,
+    "section": 1,
+    "line": 17,
+    "questionId": "src_293ff042e5e596d3",
+    "duplicate": false
+  },
+  {
+    "file": "questions/foundations_of_the_servicenow_experience.txt",
+    "questionNumber": 6,
+    "section": 1,
+    "line": 21,
+    "questionId": "src_bb182f9d8ecada25",
+    "duplicate": false
+  },
+  {
+    "file": "questions/foundations_of_the_servicenow_experience.txt",
+    "questionNumber": 7,
+    "section": 1,
+    "line": 25,
+    "questionId": "src_6ffc614969614d62",
+    "duplicate": false
+  },
+  {
+    "file": "questions/foundations_of_the_servicenow_experience.txt",
+    "questionNumber": 8,
+    "section": 1,
+    "line": 29,
+    "questionId": "src_9eefa172533c55a2",
+    "duplicate": false
+  },
+  {
+    "file": "questions/foundations_of_the_servicenow_experience.txt",
+    "questionNumber": 9,
+    "section": 1,
+    "line": 43,
+    "questionId": "src_b91affac24da8176",
+    "duplicate": false
+  },
+  {
+    "file": "questions/foundations_of_the_servicenow_experience.txt",
+    "questionNumber": 10,
+    "section": 1,
+    "line": 59,
+    "questionId": "src_714f1ca5242423ba",
+    "duplicate": false
+  },
+  {
+    "file": "questions/foundations_of_the_servicenow_experience.txt",
+    "questionNumber": 11,
+    "section": 1,
+    "line": 63,
+    "questionId": "src_51336e4d304fb4e6",
+    "duplicate": false
+  },
+  {
+    "file": "questions/foundations_of_the_servicenow_experience.txt",
+    "questionNumber": 12,
+    "section": 1,
+    "line": 67,
+    "questionId": "src_b611dfc22713b516",
+    "duplicate": false
+  },
+  {
+    "file": "questions/foundations_of_the_servicenow_experience.txt",
+    "questionNumber": 13,
+    "section": 1,
+    "line": 71,
+    "questionId": "src_711a8fe4582612b5",
+    "duplicate": false
+  },
+  {
+    "file": "questions/foundations_of_the_servicenow_experience.txt",
+    "questionNumber": 14,
+    "section": 1,
+    "line": 75,
+    "questionId": "src_5c3862892f2861c8",
+    "duplicate": false
+  },
+  {
+    "file": "questions/foundations_of_the_servicenow_experience.txt",
+    "questionNumber": 15,
+    "section": 1,
+    "line": 89,
+    "questionId": "src_489a04bfacf54e49",
+    "duplicate": false
+  },
+  {
+    "file": "questions/foundations_of_the_servicenow_experience.txt",
+    "questionNumber": 16,
+    "section": 1,
+    "line": 93,
+    "questionId": "src_f55a43131b270033",
+    "duplicate": false
+  },
+  {
+    "file": "questions/foundations_of_the_servicenow_experience.txt",
+    "questionNumber": 17,
+    "section": 1,
+    "line": 105,
+    "questionId": "src_1d080b2a35b398a8",
+    "duplicate": false
+  },
+  {
+    "file": "questions/foundations_of_the_servicenow_experience.txt",
+    "questionNumber": 18,
+    "section": 1,
+    "line": 121,
+    "questionId": "src_f413c15ed7d683ce",
+    "duplicate": false
+  },
+  {
+    "file": "questions/foundations_of_the_servicenow_experience.txt",
+    "questionNumber": 19,
+    "section": 1,
+    "line": 125,
+    "questionId": "src_21aaf6bef272d882",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 2,
+    "section": 1,
+    "line": 1,
+    "questionId": "src_9c5d120143de83cc",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 3,
+    "section": 1,
+    "line": 15,
+    "questionId": "src_d1295a8e8ca7a6ce",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 4,
+    "section": 1,
+    "line": 24,
+    "questionId": "src_93431a5dd59b55df",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 5,
+    "section": 1,
+    "line": 33,
+    "questionId": "src_f20b1db71d107da2",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 6,
+    "section": 1,
+    "line": 49,
+    "questionId": "src_ac4275bb5029398b",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 7,
+    "section": 1,
+    "line": 53,
+    "questionId": "src_0c4bdea8acc8bde2",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 8,
+    "section": 1,
+    "line": 57,
+    "questionId": "src_3dbb2ea2e3ee6e50",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 10,
+    "section": 1,
+    "line": 71,
+    "questionId": "src_aaa4582fb5a4da96",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 11,
+    "section": 1,
+    "line": 75,
+    "questionId": "src_d4d2314b2bb4a83f",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 12,
+    "section": 1,
+    "line": 79,
+    "questionId": "src_4823d68bff91f333",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 14,
+    "section": 1,
+    "line": 83,
+    "questionId": "src_caef988bfdd9d317",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 15,
+    "section": 1,
+    "line": 99,
+    "questionId": "src_9913fe5c1b4e3761",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 16,
+    "section": 1,
+    "line": 103,
+    "questionId": "src_251ecaccc3355f78",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 17,
+    "section": 1,
+    "line": 118,
+    "questionId": "src_20fea1c52aeb0bd6",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 18,
+    "section": 1,
+    "line": 122,
+    "questionId": "src_3d2591972828b4bb",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 19,
+    "section": 1,
+    "line": 126,
+    "questionId": "src_00871264d263d1d4",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 20,
+    "section": 1,
+    "line": 130,
+    "questionId": "src_ffb24d0cd07ae091",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 21,
+    "section": 1,
+    "line": 134,
+    "questionId": "src_87de5330e09a5c5f",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 22,
+    "section": 1,
+    "line": 138,
+    "questionId": "src_dae4bc410425007e",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 23,
+    "section": 1,
+    "line": 142,
+    "questionId": "src_2cdaaf17661552dc",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 25,
+    "section": 1,
+    "line": 159,
+    "questionId": "src_9fb762ef0a751e48",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 27,
+    "section": 1,
+    "line": 163,
+    "questionId": "src_c225f470a9d5bb43",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 28,
+    "section": 1,
+    "line": 181,
+    "questionId": "src_cd341b43315a0052",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 29,
+    "section": 1,
+    "line": 185,
+    "questionId": "src_a3ca7372e784b760",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 30,
+    "section": 1,
+    "line": 189,
+    "questionId": "src_e41a8f57c59ff402",
+    "duplicate": false
+  },
+  {
+    "file": "questions/manage_data.txt",
+    "questionNumber": 31,
+    "section": 1,
+    "line": 193,
+    "questionId": "src_4087c5a142996b5f",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 1,
+    "section": 1,
+    "line": 1,
+    "questionId": "src_e0866c07f96a9786",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 2,
+    "section": 1,
+    "line": 15,
+    "questionId": "src_31e0c63891b00b9d",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 3,
+    "section": 1,
+    "line": 31,
+    "questionId": "src_daa2e3f7c0d4d053",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 4,
+    "section": 1,
+    "line": 35,
+    "questionId": "src_86c1458b4a173a21",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 5,
+    "section": 1,
+    "line": 39,
+    "questionId": "src_937fdec4dd0c245d",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 6,
+    "section": 1,
+    "line": 43,
+    "questionId": "src_6d7baf1ee9213936",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 7,
+    "section": 1,
+    "line": 47,
+    "questionId": "src_6a634d94c2fb1c63",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 8,
+    "section": 1,
+    "line": 51,
+    "questionId": "src_88b34fffeaa4a910",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 9,
+    "section": 1,
+    "line": 55,
+    "questionId": "src_b9c877f677124815",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 10,
+    "section": 1,
+    "line": 59,
+    "questionId": "src_50d301af14e33f1e",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 11,
+    "section": 1,
+    "line": 71,
+    "questionId": "src_bd5766e8144a4400",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 12,
+    "section": 1,
+    "line": 75,
+    "questionId": "src_2add946c7e409aa4",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 13,
+    "section": 1,
+    "line": 79,
+    "questionId": "src_d3b518b7776338ac",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 14,
+    "section": 1,
+    "line": 83,
+    "questionId": "src_d04873a1479efcb5",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 15,
+    "section": 1,
+    "line": 99,
+    "questionId": "src_f2d45e9a3caa3a59",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 16,
+    "section": 1,
+    "line": 103,
+    "questionId": "src_68d15dd3673435d0",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 17,
+    "section": 1,
+    "line": 107,
+    "questionId": "src_1b02dbef317bf110",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 18,
+    "section": 1,
+    "line": 111,
+    "questionId": "src_79ed4629edec1a46",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 19,
+    "section": 1,
+    "line": 115,
+    "questionId": "src_206a5245a8d6682d",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 20,
+    "section": 1,
+    "line": 131,
+    "questionId": "src_0ff4783be3c14fbb",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 21,
+    "section": 1,
+    "line": 135,
+    "questionId": "src_1aa94cd42cfeacda",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 22,
+    "section": 1,
+    "line": 139,
+    "questionId": "src_28e0f15d8b8b6e0a",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 23,
+    "section": 1,
+    "line": 143,
+    "questionId": "src_a9d1f34fbcdd8b63",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 24,
+    "section": 1,
+    "line": 147,
+    "questionId": "src_8b2d8d65090ab43f",
+    "duplicate": false
+  },
+  {
+    "file": "questions/package_enhancements_for_training.txt",
+    "questionNumber": 25,
+    "section": 1,
+    "line": 151,
+    "questionId": "src_7d2c47e8ff3df0c7",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 1,
+    "section": 1,
+    "line": 1,
+    "questionId": "src_199094671f301aba",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 2,
+    "section": 1,
+    "line": 39,
+    "questionId": "src_5c5ac8fe37da2183",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 3,
+    "section": 1,
+    "line": 79,
+    "questionId": "src_6dc3e1eab7428091",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 4,
+    "section": 1,
+    "line": 116,
+    "questionId": "src_deb032b6e4e22be9",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 5,
+    "section": 1,
+    "line": 142,
+    "questionId": "src_0ba5cace1df6e10e",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 6,
+    "section": 1,
+    "line": 175,
+    "questionId": "src_7130b7677ad76377",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 7,
+    "section": 1,
+    "line": 209,
+    "questionId": "src_6a93d24a0a5c86ee",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 8,
+    "section": 1,
+    "line": 233,
+    "questionId": "src_3039dfe8c8b66bd8",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 9,
+    "section": 1,
+    "line": 269,
+    "questionId": "src_d042cc2d6cbe1001",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 10,
+    "section": 1,
+    "line": 299,
+    "questionId": "src_3166ab3cd62ecbb3",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 11,
+    "section": 1,
+    "line": 321,
+    "questionId": "src_a2471dd972ea8ac3",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 12,
+    "section": 1,
+    "line": 346,
+    "questionId": "src_a482076f4a7f2fc1",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 13,
+    "section": 1,
+    "line": 380,
+    "questionId": "src_3a9b99ef4245a753",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 14,
+    "section": 1,
+    "line": 405,
+    "questionId": "src_b55b11bf70386c44",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 15,
+    "section": 1,
+    "line": 431,
+    "questionId": "src_cbf3c1ba2c47c60b",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 16,
+    "section": 1,
+    "line": 457,
+    "questionId": "src_5927d29ecc1953d2",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 17,
+    "section": 1,
+    "line": 488,
+    "questionId": "src_5faf29727544356e",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 18,
+    "section": 1,
+    "line": 520,
+    "questionId": "src_ac51b30fe23e368c",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 19,
+    "section": 1,
+    "line": 545,
+    "questionId": "src_c3ce6fd7b9e35283",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 20,
+    "section": 1,
+    "line": 572,
+    "questionId": "src_4cf69f838d254d9e",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 21,
+    "section": 1,
+    "line": 594,
+    "questionId": "src_a0c62a6d3a57cc5b",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 22,
+    "section": 1,
+    "line": 633,
+    "questionId": "src_25e24ddd9b4f47f9",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 23,
+    "section": 1,
+    "line": 657,
+    "questionId": "src_907888ddfd0efca7",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 24,
+    "section": 1,
+    "line": 691,
+    "questionId": "src_5d53fb2415ae3a8c",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 25,
+    "section": 1,
+    "line": 724,
+    "questionId": "src_5a160ee919c18438",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 26,
+    "section": 1,
+    "line": 749,
+    "questionId": "src_40765e0655fd2bbe",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 27,
+    "section": 1,
+    "line": 774,
+    "questionId": "src_d9759d0ab5f00416",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 28,
+    "section": 1,
+    "line": 801,
+    "questionId": "src_434474229343c6f5",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 29,
+    "section": 1,
+    "line": 833,
+    "questionId": "src_c927dd3a8c4d3176",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 30,
+    "section": 1,
+    "line": 863,
+    "questionId": "src_ddbe800e8348df12",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 31,
+    "section": 1,
+    "line": 900,
+    "questionId": "src_5a884ee458bfbaeb",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 32,
+    "section": 1,
+    "line": 926,
+    "questionId": "src_cdd916ebb6ec1a6f",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 33,
+    "section": 1,
+    "line": 953,
+    "questionId": "src_ea325359059fac5f",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 34,
+    "section": 1,
+    "line": 977,
+    "questionId": "src_4eeeac4ecab0deb6",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 35,
+    "section": 1,
+    "line": 1004,
+    "questionId": "src_8e94647c3a59d292",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 36,
+    "section": 1,
+    "line": 1031,
+    "questionId": "src_607a7b00d1ad63aa",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 37,
+    "section": 1,
+    "line": 1053,
+    "questionId": "src_6e19988ad25f3d79",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 38,
+    "section": 1,
+    "line": 1086,
+    "questionId": "src_79a559587fc80cc6",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 39,
+    "section": 1,
+    "line": 1109,
+    "questionId": "src_4f68f5f7951b94f8",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 40,
+    "section": 1,
+    "line": 1135,
+    "questionId": "src_3374c906aa02f27f",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 41,
+    "section": 1,
+    "line": 1158,
+    "questionId": "src_484862b488ea11a1",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 42,
+    "section": 1,
+    "line": 1184,
+    "questionId": "src_d3cf1bc833314791",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 43,
+    "section": 1,
+    "line": 1210,
+    "questionId": "src_c57e15021828da99",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 44,
+    "section": 1,
+    "line": 1237,
+    "questionId": "src_885d8221e5c13dc5",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 45,
+    "section": 1,
+    "line": 1260,
+    "questionId": "src_a135b2b7d02e4f08",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 46,
+    "section": 1,
+    "line": 1287,
+    "questionId": "src_d55ea80fabc7277b",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 47,
+    "section": 1,
+    "line": 1310,
+    "questionId": "src_d3ef0f5ae2181757",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 48,
+    "section": 1,
+    "line": 1332,
+    "questionId": "src_1d2a90ce9b95d193",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 49,
+    "section": 1,
+    "line": 1364,
+    "questionId": "src_ab51fa3514e9da65",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 50,
+    "section": 1,
+    "line": 1396,
+    "questionId": "src_0f6439e0b67aecf2",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 51,
+    "section": 1,
+    "line": 1419,
+    "questionId": "src_27fafeb80293697d",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 52,
+    "section": 1,
+    "line": 1445,
+    "questionId": "src_aa1b003dc2a88130",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 53,
+    "section": 1,
+    "line": 1479,
+    "questionId": "src_b8379a98b1db7750",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 54,
+    "section": 1,
+    "line": 1502,
+    "questionId": "src_a4578203c3e0ac36",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 55,
+    "section": 1,
+    "line": 1526,
+    "questionId": "src_acaad6166b36cf85",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 56,
+    "section": 1,
+    "line": 1554,
+    "questionId": "src_711e895eee54d89c",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 57,
+    "section": 1,
+    "line": 1577,
+    "questionId": "src_6cdf8ee3d705df69",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 58,
+    "section": 1,
+    "line": 1599,
+    "questionId": "src_10e9b9d6de40cc8a",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 59,
+    "section": 1,
+    "line": 1625,
+    "questionId": "src_2f6955cecffc497c",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam1.txt",
+    "questionNumber": 60,
+    "section": 1,
+    "line": 1656,
+    "questionId": "src_57cf09b6f86159a4",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 1,
+    "section": 1,
+    "line": 1,
+    "questionId": "src_ddbf22a25f554438",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 2,
+    "section": 1,
+    "line": 38,
+    "questionId": "src_0197c99aeabace04",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 3,
+    "section": 1,
+    "line": 63,
+    "questionId": "src_5f4fb6bbcf7b3789",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 4,
+    "section": 1,
+    "line": 96,
+    "questionId": "src_8d7a84d078b8bc9d",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 5,
+    "section": 1,
+    "line": 120,
+    "questionId": "src_afba372d028c38de",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 6,
+    "section": 1,
+    "line": 160,
+    "questionId": "src_86857b90920324ee",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 7,
+    "section": 1,
+    "line": 192,
+    "questionId": "src_6bbdf7943f457dad",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 8,
+    "section": 1,
+    "line": 219,
+    "questionId": "src_35ba321d49902a2f",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 9,
+    "section": 1,
+    "line": 258,
+    "questionId": "src_90108196fb9768ba",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 10,
+    "section": 1,
+    "line": 284,
+    "questionId": "src_4fd6216d82ddfa23",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 11,
+    "section": 1,
+    "line": 317,
+    "questionId": "src_b554250ca2c9f69b",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 12,
+    "section": 1,
+    "line": 344,
+    "questionId": "src_6649175b86caa378",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 13,
+    "section": 1,
+    "line": 377,
+    "questionId": "src_19deb57e513526fd",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 14,
+    "section": 1,
+    "line": 404,
+    "questionId": "src_26b631207c51b096",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 15,
+    "section": 1,
+    "line": 430,
+    "questionId": "src_3024a19efcda2f93",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 16,
+    "section": 1,
+    "line": 462,
+    "questionId": "src_9b35e382ca2a561f",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 17,
+    "section": 1,
+    "line": 488,
+    "questionId": "src_248b8b369b6d7cb4",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 18,
+    "section": 1,
+    "line": 514,
+    "questionId": "src_6f84c2a7bcdaa7bb",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 19,
+    "section": 1,
+    "line": 540,
+    "questionId": "src_87217519fc909912",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 20,
+    "section": 1,
+    "line": 566,
+    "questionId": "src_d65568daa3d99ac6",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 21,
+    "section": 1,
+    "line": 602,
+    "questionId": "src_6b7e9ee9fec92e55",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 22,
+    "section": 1,
+    "line": 634,
+    "questionId": "src_354e7e68e393db27",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 23,
+    "section": 1,
+    "line": 660,
+    "questionId": "src_018f32b9a4951114",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 24,
+    "section": 1,
+    "line": 687,
+    "questionId": "src_69e203f12a4721a7",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 25,
+    "section": 1,
+    "line": 714,
+    "questionId": "src_f4f8c3c03b7bf736",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 26,
+    "section": 1,
+    "line": 740,
+    "questionId": "src_7a9c404fc49177b7",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 27,
+    "section": 1,
+    "line": 763,
+    "questionId": "src_53df9f13d016d440",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 28,
+    "section": 1,
+    "line": 802,
+    "questionId": "src_12c19ae963fb4b57",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 29,
+    "section": 1,
+    "line": 828,
+    "questionId": "src_323d562c7781f023",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 30,
+    "section": 1,
+    "line": 867,
+    "questionId": "src_e4c2866889c1a5c5",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 31,
+    "section": 1,
+    "line": 894,
+    "questionId": "src_8720fc88ef9a2b00",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 32,
+    "section": 1,
+    "line": 919,
+    "questionId": "src_812c2306c4aed1a5",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 33,
+    "section": 1,
+    "line": 953,
+    "questionId": "src_a721b1f6f1fca6f0",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 34,
+    "section": 1,
+    "line": 979,
+    "questionId": "src_a6470949cd566986",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 35,
+    "section": 1,
+    "line": 1008,
+    "questionId": "src_651682bb1a8192f9",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 36,
+    "section": 1,
+    "line": 1034,
+    "questionId": "src_343aa0c8df61ed8c",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 37,
+    "section": 1,
+    "line": 1060,
+    "questionId": "src_0127ec7f08c2d754",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 38,
+    "section": 1,
+    "line": 1100,
+    "questionId": "src_197907da037f1381",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 39,
+    "section": 1,
+    "line": 1133,
+    "questionId": "src_84a9af19a30d63f3",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 40,
+    "section": 1,
+    "line": 1160,
+    "questionId": "src_509a5d9ac3522ff0",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 41,
+    "section": 1,
+    "line": 1186,
+    "questionId": "src_5eddbc3f2234d784",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 42,
+    "section": 1,
+    "line": 1212,
+    "questionId": "src_e43d0c3e755ee783",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 43,
+    "section": 1,
+    "line": 1238,
+    "questionId": "src_121fb1b80e6e4a01",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 44,
+    "section": 1,
+    "line": 1274,
+    "questionId": "src_bfc1650f35385fdb",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 45,
+    "section": 1,
+    "line": 1300,
+    "questionId": "src_652b0a72f1f7a80f",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 46,
+    "section": 1,
+    "line": 1327,
+    "questionId": "src_2f64805872e0cd6f",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 47,
+    "section": 1,
+    "line": 1353,
+    "questionId": "src_755f78453cb95c1b",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 48,
+    "section": 1,
+    "line": 1380,
+    "questionId": "src_6fdd52d54ed0708c",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 49,
+    "section": 1,
+    "line": 1420,
+    "questionId": "src_0074ae3a3caaf0dd",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 50,
+    "section": 1,
+    "line": 1453,
+    "questionId": "src_080c6b2f9ffcf76b",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 51,
+    "section": 1,
+    "line": 1479,
+    "questionId": "src_1c3f1708cef362a8",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 52,
+    "section": 1,
+    "line": 1503,
+    "questionId": "src_5cf28950854cd3a6",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 53,
+    "section": 1,
+    "line": 1543,
+    "questionId": "src_eedc0da4ad424ad9",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 54,
+    "section": 1,
+    "line": 1569,
+    "questionId": "src_625e54797da1796b",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 55,
+    "section": 1,
+    "line": 1602,
+    "questionId": "src_831f831cb4819597",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 56,
+    "section": 1,
+    "line": 1628,
+    "questionId": "src_89de8c9408bed02c",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 57,
+    "section": 1,
+    "line": 1654,
+    "questionId": "src_37417211cc9bd129",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 58,
+    "section": 1,
+    "line": 1678,
+    "questionId": "src_ae0e68916628f3bb",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 59,
+    "section": 1,
+    "line": 1703,
+    "questionId": "src_8148d47058005b05",
+    "duplicate": false
+  },
+  {
+    "file": "questions/practice_exam2.txt",
+    "questionNumber": 60,
+    "section": 1,
+    "line": 1730,
+    "questionId": "src_c7d108e6afa4e794",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 1,
+    "section": 1,
+    "line": 1,
+    "questionId": "src_7b7b9b71a929a418",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 2,
+    "section": 1,
+    "line": 5,
+    "questionId": "src_de56d6b08d73d953",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 3,
+    "section": 1,
+    "line": 9,
+    "questionId": "src_32553f3751d031e6",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 4,
+    "section": 1,
+    "line": 13,
+    "questionId": "src_fb39a550d170444d",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 5,
+    "section": 1,
+    "line": 27,
+    "questionId": "src_b2da3dfc406679d6",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 6,
+    "section": 1,
+    "line": 31,
+    "questionId": "src_075fd3f2b42dbf88",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 7,
+    "section": 1,
+    "line": 47,
+    "questionId": "src_443708234ac244ef",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 8,
+    "section": 1,
+    "line": 51,
+    "questionId": "src_5b118f1e8283d000",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 9,
+    "section": 1,
+    "line": 55,
+    "questionId": "src_db8083705a6e879d",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 10,
+    "section": 1,
+    "line": 59,
+    "questionId": "src_505c9ad8342d8606",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 11,
+    "section": 1,
+    "line": 63,
+    "questionId": "src_78059011c8e13b81",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 12,
+    "section": 1,
+    "line": 77,
+    "questionId": "src_3cb6f1efb746e85a",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 13,
+    "section": 1,
+    "line": 93,
+    "questionId": "src_eded30139a04f6ec",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 14,
+    "section": 1,
+    "line": 97,
+    "questionId": "src_bae9289949d5f8be",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 15,
+    "section": 1,
+    "line": 101,
+    "questionId": "src_2ece6be1c9e78c21",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 16,
+    "section": 1,
+    "line": 105,
+    "questionId": "src_db4dfb3735cae0a3",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 17,
+    "section": 1,
+    "line": 117,
+    "questionId": "src_aa148024266218da",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 18,
+    "section": 1,
+    "line": 121,
+    "questionId": "src_e73113ca02968a71",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 19,
+    "section": 1,
+    "line": 135,
+    "questionId": "src_52d19ff313e1eee0",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 20,
+    "section": 1,
+    "line": 149,
+    "questionId": "src_19df42ad3a85e756",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 21,
+    "section": 1,
+    "line": 153,
+    "questionId": "src_612ea52b683e916e",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 22,
+    "section": 1,
+    "line": 157,
+    "questionId": "src_18ebd274826882c7",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 23,
+    "section": 1,
+    "line": 161,
+    "questionId": "src_3bf5b62b2ec4f032",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 24,
+    "section": 1,
+    "line": 165,
+    "questionId": "src_c0dab7b82c3609f4",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 25,
+    "section": 1,
+    "line": 169,
+    "questionId": "src_157b490d995439ab",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 26,
+    "section": 1,
+    "line": 185,
+    "questionId": "src_d93ef35af0c514f5",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 28,
+    "section": 1,
+    "line": 189,
+    "questionId": "src_4f614ac42bdf212d",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 29,
+    "section": 1,
+    "line": 201,
+    "questionId": "src_c56a791442a947c6",
+    "duplicate": true
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 1,
+    "section": 2,
+    "line": 205,
+    "questionId": "src_2d574aa495ebecc1",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 2,
+    "section": 2,
+    "line": 221,
+    "questionId": "src_4ed7508acd933868",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 3,
+    "section": 2,
+    "line": 225,
+    "questionId": "src_fd48ebd587df7c70",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 4,
+    "section": 2,
+    "line": 229,
+    "questionId": "src_23e243ea68ab671c",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 5,
+    "section": 2,
+    "line": 233,
+    "questionId": "src_b7726fa3b3834682",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 6,
+    "section": 2,
+    "line": 245,
+    "questionId": "src_4872b688d6626cfc",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 7,
+    "section": 2,
+    "line": 249,
+    "questionId": "src_31dbde3f21ce0ddc",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 8,
+    "section": 2,
+    "line": 253,
+    "questionId": "src_0faf9f642d26bc05",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 9,
+    "section": 2,
+    "line": 257,
+    "questionId": "src_7655dc1905a131ee",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 10,
+    "section": 2,
+    "line": 273,
+    "questionId": "src_cad0aa0296470b5e",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 11,
+    "section": 2,
+    "line": 287,
+    "questionId": "src_6cad9e1d91dfbf6a",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 12,
+    "section": 2,
+    "line": 291,
+    "questionId": "src_ad7e03b824f30695",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 13,
+    "section": 2,
+    "line": 295,
+    "questionId": "src_a96e827abce8284b",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 14,
+    "section": 2,
+    "line": 299,
+    "questionId": "src_d8ffaa70b9cab903",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 15,
+    "section": 2,
+    "line": 313,
+    "questionId": "src_7807627b28814830",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 16,
+    "section": 2,
+    "line": 317,
+    "questionId": "src_beedb32b1d8c8416",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 17,
+    "section": 2,
+    "line": 321,
+    "questionId": "src_43b2e8eb68f4b2a6",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 18,
+    "section": 2,
+    "line": 325,
+    "questionId": "src_4ad8caaff9d9ba24",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 19,
+    "section": 2,
+    "line": 329,
+    "questionId": "src_011c40bc266ffe76",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 20,
+    "section": 2,
+    "line": 333,
+    "questionId": "src_830906aecfccb2e1",
+    "duplicate": false
+  },
+  {
+    "file": "questions/reporting_features_and_additional_tools.txt",
+    "questionNumber": 21,
+    "section": 2,
+    "line": 337,
+    "questionId": "src_353e9d0035206433",
+    "duplicate": false
+  }
+]

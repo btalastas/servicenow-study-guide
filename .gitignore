@@ -1,17 +1,6 @@
 # Editor settings
 /.vscode
 
-# Study content and data
-/questions
-/data/
-
-# Deployment and automation
-/deployment/
-/scripts/
-
-# Tests
-/tests/
-
 # Dependencies and build output
 node_modules/
 .next/
@@ -26,3 +15,7 @@ out/
 playwright-report/
 test-results/
 *.log
+
+# Python caches
+__pycache__/
+*.py[cod]

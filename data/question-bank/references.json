@@ -1,0 +1,13 @@
+{
+  "navigation": "https://www.servicenow.com/docs/r/platform-user-interface/using-the-next-experience-global-header.html",
+  "acl": "https://www.servicenow.com/docs/r/platform-security/access-control/exploring-access-control-list.html",
+  "roles": "https://www.servicenow.com/docs/r/platform-administration/user-administration/base-system-roles.html",
+  "imports": "https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/import-sets-landing-page.html",
+  "coalesce": "https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/t_CreatingAFieldMap.html",
+  "ui_policy": "https://www.servicenow.com/docs/r/xanadu/application-development/servicenow-sdk/fluent-ui-policy-api.html",
+  "update_sets": "https://www.servicenow.com/docs/r/application-development/system-update-sets/customizations-tracked-update-sets.html",
+  "help": "https://www.servicenow.com/docs/r/build-workflows/workflow-studio/use-flow-designer-help-panel.html",
+  "wiki": "https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/additional-plugins-km.html",
+  "variables": "https://servicenow.github.io/sdk/4.10.0/guides/service-catalog-variables-guide",
+  "scope": "https://developer.servicenow.com/print_page.do?category=now-platform&identifier=pro-dev-intro&module=guide&release=yokohama"
+}

@@ -1,0 +1,58 @@
+Question 1:
+
+Amber updated the instance, and now all the business users can see the change upon saving it. Which instance is she developing in?
+
+Question 2:
+
+What is the state of a ServiceNow instance called when it includes a set of installed applications before any configuration or customization takes place?
+
+Question 3:
+
+What kind of architecture does ServiceNow have?
+
+Question 4:
+
+George adds a field to a request form. What kind of change would this be considered?
+
+Question 5:
+
+Angie has finished configuring and customizing her development instance and is ready to move her changes to the production instance. How will she accomplish this?
+
+Question 6:
+
+Which feature is used to protect applications by identifying and restricting access to application files and data?
+
+Question 7:
+
+Which of the options below would be categorized as customizations? Select two.
+
+A. A Script Include that cleans up incomplete records from a table
+
+B. Building a dashboard to display Incident data
+
+C. Modifying the order of the fields on a form
+
+D. A Client Side Script that auto-populates a field when another box is marked as true
+
+E. Modify the banner instance to reflect the company’s branding
+
+Question 8:
+
+What do you activate when you want to add applications or functionality within your development instance?
+
+Question 9:
+
+What icon allows a system administrator to identify and modify what scope they are currently in?
+
+Question 10:
+
+In a training session, Lily is asked to define what an "instance" is in ServiceNow. How should she respond?
+
+Question 11:
+
+Blaire needs to access different modules within the ServiceNow platform to manage her daily tasks. Which feature should she use?
+
+Question 12:
+
+Darrell is using the plant_request table and plant_inventory often to build a script includes. What can he create to be able to quickly access these tables?
+

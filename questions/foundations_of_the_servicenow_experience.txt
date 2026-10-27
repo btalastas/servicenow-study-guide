@@ -1,0 +1,128 @@
+Question 1:
+
+As a system administrator, you want to complete additional tasks. Which of the actions below would require an elevated role?
+
+Question 2:
+
+In ServiceNow, what is everything stored as in a table?
+
+Question 3:
+
+One of the roles Jennifer has grants her the ability to access almost all features on the platform, and she only has to elevate her role for security actions. What kind of role does Jennifer have?
+
+Question 4:
+
+As the system administrator, Joseph just granted Max the x_nowdevnotes_user role, which allows the user to view the Now Dev Notes application. However, Max still can’t see or access the application. What can Joseph do to further investigate why Max cannot access the application?
+
+Question 5:
+
+Which ServiceNow table holds the user records?
+
+Question 6:
+
+How is access to a ServiceNow application or module defined?
+
+Question 7:
+
+Mike needs to grant the notes_approver role to Sydney. What is the best way to grant her the role?
+
+Question 8:
+
+Which of the following statements accurately describe characteristics of roles in ServiceNow? Select 3
+
+A. A role can be assigned only to one user.
+
+B. A role can be assigned to a user or a group.
+
+C. A role can contain other roles.
+
+D. A role is a record in the Role [sys_user] table.
+
+E. A role is a record in the Role [sys_user_role] table
+
+Question 9:
+
+Which of the following are common user persona types in ServiceNow? Select 5
+
+A. System Administrator
+
+B. Specialized Administrator
+
+C. Process User
+
+D. IT Manager
+
+E. Approver
+
+F. Requester
+
+Question 10:
+
+Gregory created a new group for pet adoption approvers. What table will store this new record?
+
+Question 11:
+
+Which ServiceNow instance feature allows a user to elevate roles, impersonate a user, view preferences, or logout?
+
+Question 12:
+
+Bernie has finished testing permissions while impersonating the new employee. How can he return to his own account in the instance? 
+
+Question 13:
+
+Where is the User Menu located?
+
+Question 14:
+
+What are some common ways to interact with ServiceNow platform? Select 3
+
+A. Service Catalog
+
+B. System Properties
+
+C. Lists
+
+D. Notifications
+
+E. Forms
+
+Question 15:
+
+How does the request-response cycle work in ServiceNow instances?
+
+Question 16:
+
+How can elements of the instance be configured to meet a company’s brand using the My Company module? Select 2
+
+A. Color Scheme
+
+B. Banner Image
+
+C. Banner Text
+
+D. Home Page Layout
+
+Question 17:
+
+What actions can a user complete using the user menu? Select 4
+
+A. Elevate Role
+
+B. Change the Banner Color
+
+C. Update Notification Preferences
+
+D. Impersonate a User
+
+E. Log Out
+
+F. Add Favorites
+
+Question 18:
+
+What model is used for ServiceNow ?
+
+Question 19:
+
+Mandy is currently on the Service Portal (/sp) and needs to order a catalog item. How can she access the Service Catalog from the Service Portal?
+

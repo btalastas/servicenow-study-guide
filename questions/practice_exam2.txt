@@ -1,0 +1,1753 @@
+Question 1Incorrect
+
+What features related to Configuration Items can be viewed when you right-click on a Configuration item from the dependency view? Select 3
+
+
+Your selection is incorrect
+
+View CI History
+Explanation
+
+Viewing CI History is not available when right-clicking on the Configuration Item from the dependency view
+Correct selection
+
+View Recent Outages
+Explanation
+
+Viewing Recent Outages allows you to see any recent incidents or outages that have affected the selected Configuration Item, providing insight into its stability and performance history.
+Correct selection
+
+View Related Tasks
+Explanation
+
+Viewing Related Tasks enables you to see any tasks or activities that are associated with the selected Configuration Item, helping you understand the dependencies and relationships between different tasks and the CI.
+Your selection is correct
+
+View Affected CIs
+Explanation
+
+Viewing Affected CIs allows you to see other Configuration Items that are impacted or related to the selected CI, helping you identify potential dependencies and understand the broader impact of changes.
+Your selection is incorrect
+
+View CI Attributes
+Explanation
+
+Viewing CI Attributes provides information about the specific attributes and properties of the selected Configuration Item, such as its type, status, owner, and other relevant details, but it is not available by right-clicking on the CI.
+Domain
+Domain 5: Database Management
+Question 2Correct
+
+Diana is creating filter conditions for her pet list to only see dogs who have not been adopted. How will she accomplish this functionality to meet both requirements?
+
+Click the filter icon; define the first condition type is dog; Select OR; define the second condition as adopted is not true; Click Run
+Explanation
+Clicking the filter icon and defining the first condition as type is dog is correct to filter the list to only show dogs. However, selecting OR and defining the second condition as adopted is not true will show all dogs, including those who have been adopted. Clicking Run will not filter the list as intended.
+
+Click on All; define the first condition type is dog; Select NOT; define the second condition as adopted is true; Press Enter
+Explanation
+
+Clicking All would display the application navigator which does not allow for filtering.
+Your answer is correct
+
+Click the filter icon; define the first condition type is dog; Select AND; define the second condition as adopted is not true; Click Run
+Explanation
+
+Clicking the filter icon and defining the first condition as type is dog is correct to filter the list to only show dogs. Selecting AND and defining the second condition as adopted is not true ensures that only dogs who have not been adopted are displayed. Clicking Run applies the filter correctly.
+
+Click on All; define the first condition as type is dog; define the second condition as adopted is not true; Press Enter
+Explanation
+
+Selecting All would display the application navigator and that is an incorrect place to define and run a filter.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 3Correct
+
+What are the benefits of defining relationships between Configuration Items (CIs) in ServiceNow? Select 3
+
+Reduced need for IT staff
+Explanation
+
+IT staff are important in making sure the CI Relationships are actually beneficial because they do the analyzing to identify the impact and needed improvements.
+Your selection is correct
+
+Improved service mapping
+Explanation
+
+Accurate service mapping requires understanding how different CIs interact and contribute to services so understanding the relationships lead to improved service mapping.
+Your selection is correct
+
+Enhanced visibility with automatic Dependency Views
+Explanation
+
+Dependency Views are generated automatically in ServiceNow, providing a visual representation of CI relationships, which produces better understanding and management of the IT environment.
+
+Automatic performance optimization
+Explanation
+
+Defining relationships between CIs does not automatically optimize performance. Performance optimization typically involves separate monitoring and tuning processes.
+Your selection is correct
+
+Improved incident resolution times
+Explanation
+
+Understanding CI relationships helps in quickly identifying root causes, thus speeding up incident resolution.
+Domain
+Domain 5: Database Management
+Question 4Correct
+
+As a Knowledge Manager, what interface would you use if you wanted to browse the current internal documentation for your company?
+
+Configuration Management Database (CMDB)
+Explanation
+
+The Configuration Management Database (CMDB) is used for storing information about configuration items in an organization's IT infrastructure. It is not the interface designed for browsing internal documentation.
+
+Service Catalog
+Explanation
+The Service Catalog in ServiceNow is used for requesting and fulfilling services within an organization, such as ordering hardware or software. It is not the interface specifically designed for browsing internal documentation.
+
+Sharepoint
+Explanation
+Sharepoint is a document management and collaboration tool, but it is not specifically designed for browsing internal documentation in the context of ServiceNow. It is more commonly used for general document storage and sharing within organizations.
+Your answer is correct
+
+Knowledge
+Explanation
+
+The Knowledge interface is specifically designed for browsing and accessing internal documentation within the company. Knowledge articles, FAQs, and other documentation can be easily accessed and searched through this interface.
+Domain
+Domain 4: Self Service & Automation
+Question 5Incorrect
+
+Which statements are true about available audience types for reports within the View/Run module? Select all that apply. Select 4.
+Your selection is correct
+
+The “My Reports” tab shows reports that have been created by me
+Explanation
+
+The "My Reports" tab displays reports that have been created by the user currently logged in. This tab provides users with quick access to reports they have personally created, making it easier to manage and run their own reports.
+Your selection is incorrect
+
+The “Team” tab shows reports shared with specific teams
+Explanation
+
+There is no "Team" tab.
+Your selection is correct
+
+The “Group” tab shows reports shared by a group or user
+Explanation
+
+The "Group" tab presents reports that have been shared by a specific group or individual user within the instance.
+
+The “Favorites” tab shows reports marked as favorites
+Explanation
+
+There is not a  "Favorites" tab in the view/run module.
+Your selection is correct
+
+The “Global” tab shows the reports that are shared as global
+Explanation
+
+The "Global" tab showcases reports that have been shared globally, meaning they are accessible to all users across the instance.
+Correct selection
+
+The “All” tab shows all reports available to all users in the instance
+Explanation
+
+The "All" tab displays all reports that are available to the logged in user.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 6Incorrect
+
+Access Control rules are applied to the User table. What is the object name for a rule that is specific to the User table and the Department field?
+
+user:department
+Explanation
+
+The format "user:department" is not the correct object name for a rule specific to the User table and the Department field. A colon (:) is not used to separate a table and a field.
+
+department.User
+Explanation
+
+The object name "department.User" is not the correct format for a rule specific to the User table and the Department field.
+Correct answer
+
+user.department
+Explanation
+
+The correct object name for a rule that is specific to the User table and the Department field is "user.department". This naming convention follows the format of "table.field" to specify the exact object the rule is applied to.
+
+user||department
+Explanation
+
+The object name "user||department" is not the correct format for a rule specific to the User table and the Department field. Double pipes (||) do not separate the table and field.
+Your answer is incorrect
+
+user.Department
+Explanation
+
+The object name "user.Department" is not the correct format for a rule specific to the User table and the Department field. The field name is typically not capitalized.
+Domain
+Domain 5: Database Management
+Question 7Incorrect
+
+Tyla wants to change the record number prefix on the Rooms table. What module would she use to accomplish this task?
+Correct answer
+
+Number Maintenance
+Explanation
+
+Number Maintenance module is specifically designed to manage number sequences and prefixes for different tables. Tyla can use this module to change the record number prefix on the Rooms table.
+Your answer is incorrect
+
+Table Configuration
+Explanation
+
+Table Configuration is related to the modules used to configure various aspects of a table, such as defining fields, relationships, and permissions. While it is related to table settings, it does not specifically handle changing the record number prefix on a table like the Rooms table.
+
+Number Management
+Explanation
+
+There is no Number Management module in ServiceNow.
+
+Record Settings
+Explanation
+
+There is no Record Settings module.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 8Incorrect
+
+Jacob is trying to select the best field to put on his new form. Which of the options are a type of field that can be placed on a form? Select 3.
+Correct selection
+
+A Reference field allows linking to records in another table
+Explanation
+
+A Reference field is a type of field that allows users to link to records in another table within the ServiceNow platform. This is useful for establishing relationships between different types of data and creating a more interconnected database.
+
+A Script field allows the user to write and execute scripts
+Explanation
+
+Scripts can not be placed into a field or be specified as a field type.
+
+A Portal field displays the related portal for the record
+Explanation
+
+There is no portal field.
+Your selection is incorrect
+
+A Multiple-choice field has a drop-down list with pre-defined options
+Explanation
+
+A Multiple-choice field is not the correct name for the type of field that has a drop-down list of pre-defined options to choose from.
+Your selection is correct
+
+A String field allows the entry of letters, numbers, and special characters
+Explanation
+
+A String field allows users to enter letters, numbers, and special characters as text data. This type of field is commonly used for capturing textual information on forms and is a basic but essential type of field for data entry.
+Your selection is correct
+
+A Choice field has a drop-down list with pre-defined options
+Explanation
+
+A Choice field is the correct name for the field that provides users with a drop-down list of pre-defined options to choose from. This type of field is useful for ensuring data consistency and standardization across forms.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 9Correct
+
+Jayla is on a form and sees a field that has an icon next to it that displays a preview of the associated record. What type of field is she viewing?
+
+Attachment
+Explanation
+
+Attachment fields are used to upload and attach files to a record, such as documents or images. They do not display a preview of the associated record with an icon next to it.
+
+Lookup
+Explanation
+
+There is no specific field type called Lookup.
+
+Dot Walk
+Explanation
+
+Dot Walk is not a field type. Dot-Walking is an action used to access fields from related tables by following the relationships between records, making it easy to pull data from one table into another.
+Your answer is correct
+
+Reference
+Explanation
+
+A Reference field allows users to select a record from another table and displays a preview of the associated record with an "i" icon next to it. This helps users quickly identify the related information without having to navigate to the referenced record.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 10Incorrect
+
+What tables make up the Configuration Management Database (CMDB)? Select 3.
+Correct selection
+
+CI Relationship [cmdb_rel_ci]
+Explanation
+
+This table holds all of the the CI relationships.
+Your selection is correct
+
+Configuration Item [cmdb_ci]
+Explanation
+
+This table holds all of the Configuration Items (CIs).
+Your selection is incorrect
+
+CI Task [cmdb_ci_task]
+Explanation
+
+Not a table in ServiceNow
+Correct selection
+
+Base Configuration Item [cmdb]
+Explanation
+
+This is the base table of the CMDB hierarchy. 
+Your selection is incorrect
+
+User [sys_cmdb_user]
+Explanation
+
+Not a table in ServiceNow
+Question 11Incorrect
+
+Matthew wants to preview the results of the report changes he made without having to save them. What should he select to accomplish this?
+Your answer is incorrect
+
+Preview
+Explanation
+
+There is no Preview option when creating or editing reports.
+
+Test
+Explanation
+
+There is no Test option when creating or editing reports.
+Correct answer
+
+Run
+Explanation
+
+Choosing Run allows Matthew to execute the report with the changes he made without saving them permanently. This option enables him to see the results of the report modifications before committing to them.
+
+Update
+Explanation
+
+Selecting Update would save the changes made to the report and navigate to a previous page.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 12Incorrect
+
+You are currently on a form and need to add two additional fields. How would you accomplish this task? Select 3.
+
+Click on the context menu > Select configure > Select UX dashboard
+Explanation
+
+Clicking on the context menu and selecting configure, will not provide a select UX dashboard choice.
+Your selection is correct
+
+Click on the context menu >Select configure > Select form builder
+Explanation
+
+Clicking on the context menu and selecting configure, then selecting form builder, provides access to the form building tools where you can add additional fields to the form.
+Your selection is correct
+
+Right click on header > Select configure > Select form layout
+Explanation
+
+Right-clicking on the header and selecting configure allows you to access the form layout options, where you can add additional fields to the form.
+
+Right click on header > Select add > Select Add field
+Explanation
+
+Right-clicking on the header and selecting add, then add field, is not the correct sequence of actions to add additional fields to a form.
+Correct selection
+
+Click on the context menu > Select configure > Select form design
+Explanation
+
+Clicking on the context menu and selecting configure allows you to access the form design options, where you can add additional fields to the form.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 13Incorrect
+
+As a new employee, where would you navigate in the ServiceNow instance to order services and products offered by different departments?
+
+Incident Management
+Explanation
+
+Incident Management is focused on handling and resolving incidents and service disruptions. It is not the appropriate place for employees to order services and products from different departments within the organization.
+Your answer is incorrect
+
+Self-Service Portal
+Explanation
+
+The Self-Service Portal is the central hub for users to access various services and products offered by different departments within the organization. You can navigate from the Self-Service Portal to the actual place where services and products can be ordered.
+Correct answer
+
+Service Catalog
+Explanation
+
+The Service Catalog is where employees can navigate to order services and products offered by different departments within the organization. It provides a structured and organized way for users to browse, request, and track the services they need.
+
+Knowledge Base
+Explanation
+
+The Knowledge Base is a repository of articles, FAQs, and other informational resources to help users troubleshoot issues and find answers to common questions. It is not the location where employees would go to order services and products.
+Domain
+Domain 2: Instance Configuration
+Question 14Correct
+
+Nicole needs to make a field mandatory and read-only without having to use any code. What can she use to accomplish this task?
+
+Business Rule
+Explanation
+
+Business Rules are used to automate processes and enforce data integrity. While they can be used to make fields mandatory or read-only, they typically involve writing code to define the conditions and actions.
+Your answer is correct
+
+UI Policy
+Explanation
+
+UI Policies in ServiceNow allow administrators to control the behavior of form fields on a record. The UI Policy Actions within them can be used to make fields mandatory, read-only, or hidden without the need for any code.
+
+Dictionary Override
+Explanation
+
+An Dictionary Override allows a field in a child table to have different behavior than its parent field.
+
+Data Import
+Explanation
+
+A Data Import through import sets are used to import data into the platform from external sources. It does not provide a direct way to make a field mandatory and read-only without using any code.
+Domain
+Domain 6: Data Migration and Integration
+Question 15Incorrect
+
+Which statements are true about tables in a ServiceNow instance? Select 3.
+
+Tables cannot be extended from other tables
+Explanation
+
+This statement is incorrect. Tables can be extended from other tables to inherit fields and functionality, allowing for efficient data modeling and customization.
+Correct selection
+
+Base tables are provided by ServiceNow, cannot be deleted, do not extend any other table, but can be extended
+Explanation
+This statement is correct. Base tables are provided by ServiceNow, cannot be deleted, do not extend any other table, but can be extended by users to add custom fields and functionality.
+Your selection is correct
+
+Custom tables are created by users and can be modified or deleted
+Explanation
+This statement is correct. Custom tables are created by users in a ServiceNow instance and can be modified or deleted as needed to meet specific business requirements.
+Your selection is incorrect
+
+All tables inherit fields from the Task table
+Explanation
+
+Not all tables in a ServiceNow instance inherit fields from the Task table. While the Task table is a common base table in ServiceNow, not all tables inherit from it.
+Your selection is correct
+
+Core tables are provided in a default ServiceNow instance and can be extended
+Explanation
+
+This statement is correct. Core tables are provided in the baseline implementation of a ServiceNow instance and can be extended by users to add custom fields and functionality without modifying the base structure of the table.
+Domain
+Domain 5: Database Management
+Question 16Incorrect
+
+In the Knowledge Management module, what are examples of tables having a one-to-many relationship? Select 2.
+Your selection is incorrect
+
+One Knowledge Article can have many authors
+Explanation
+
+This relationship is incorrect because each knowledge article is authored by one user.
+
+One Knowledge Article can have many Knowledge Bases
+Explanation
+
+This relationship is incorrect because a Knowledge Article can only belong to one Knowledge Base.
+Correct selection
+
+One Knowledge Article can have many Attachments
+Explanation
+
+This relationship signifies that a single Knowledge Article can be linked to multiple Attachments, enabling users to include various supporting files or documents within a single Knowledge Article.
+Your selection is correct
+
+One Knowledge Base can have many Knowledge Articles
+Explanation
+
+This relationship indicates that a single Knowledge Base can contain multiple Knowledge Articles, allowing for a hierarchical structure where one thing (Knowledge Base) is associated with multiple instances of another thing (Knowledge Articles)
+Question 17Correct
+
+What is the relationship between an application menu and a module in ServiceNow?
+
+A module is a type of application menu
+Explanation
+
+A module in ServiceNow is not a type of application menu.
+Your answer is correct
+
+An application menu contains one or more modules
+Explanation
+
+An application menu contains one or more modules. It serves as a navigation tool for users to access different modules within an application. This relationship allows users to easily navigate through the various functionalities and features provided by the modules within an application.
+
+An application menu and a module are independent of each other
+Explanation
+
+An application menu and a module are not independent of each other. Instead, they have a hierarchical relationship.
+
+A module contains one or more application menus
+Explanation
+
+A module does not contain application menus. Instead, modules are individual components that represent specific functionalities or features within an application.
+Domain
+Domain 2: Instance Configuration
+Question 18Correct
+
+Micah needs to move his customizations from the test instance to the production instance. What can he use to move the customizations?
+
+Import Sets
+Explanation
+
+Import Sets are used to import data into tables. While they can be used to move data, they are not the recommended method for moving customizations between instances.
+
+Data Transforms
+Explanation
+
+Transforms are used to transform data during import operations. They are not used to move customizations between instances.
+
+Business Rules
+Explanation
+
+Business Rules are used to automate processes and enforce data integrity. They are not designed for moving customizations between instances.
+Your answer is correct
+
+Update Sets
+Explanation
+
+Update Sets are specifically designed to move customizations, such as configurations, scripts, and other changes, between instances in ServiceNow. They provide a controlled and organized way to transport changes from one instance to another.
+Domain
+Domain 6: Data Migration and Integration
+Question 19Correct
+
+How do you see relationships between Configuration Items (CIs) in the Dependency Views?
+
+Use the Common Service Data Model as a map to navigate through the Dependency Views Relationships
+Explanation
+
+The Common Service Data Model (CSDM) is a framework used to standardize and organize data across the ServiceNow platform, but it is not used as a navigation tool for Dependency Views
+
+By exporting the CMDB data to an external tool for visualization
+Explanation
+
+This is not required since ServiceNow provides built-in Dependency Views for visualizing Configuration Item relationships.
+
+By manually creating relationship maps between each Configuration Item
+Explanation
+
+Dependency Views automatically generate the relationships based on the data in the CMDB.
+Your answer is correct
+
+By hovering over the relationship lines connecting Configuration Items
+Explanation
+
+This is the correct way to see the relationship between Configuration Items
+Domain
+Domain 5: Database Management
+Question 20Incorrect
+
+In the implementation blueprint document, it is stated that the Change Request table is extended from the Task table. The Emergency Change Request table is extended from the Change Request table. In this situation, which table(s) are Parent, Child, and Base tables? Choose 5 answers.
+Your selection is correct
+
+Change Request table is a Parent table
+Explanation
+Change Request table is a Parent table in this scenario, as it is the base table from which the Emergency Change Request table is extended.
+Your selection is correct
+
+Change Request table is a Child table
+Explanation
+
+Change Request table is a Child table in this scenario.
+Your selection is correct
+
+Task table is a Parent table
+Explanation
+Task table is a Parent table in this scenario, as it is the base table from which the Change Request table is extended.
+
+Emergency Change Request table is a Parent table
+Explanation
+
+Emergency Change Request table is not a Parent table in this scenario.
+Correct selection
+
+Emergency Change Request table is a Child table
+Explanation
+Emergency Change Request table is a Child table in this scenario, as it is extended from the Change Request table.
+Correct selection
+
+Task table is a Base table
+Explanation
+Task table is a Base table in this scenario, as it is the original table from which the Change Request table is extended.
+Domain
+Domain 5: Database Management
+Question 21Correct
+
+Fred needs to access a table he previously created to perform work on it. What modules can he use to access the table? Select 2.
+
+Dictionary
+Explanation
+
+The Dictionary module is primarily used for managing data dictionary entries, such as fields, tables, and relationships. While the Dictionary module is important for defining data structures and relationships, it is not the module that Fred would use to directly access the table he created for performing work on it.
+Your selection is correct
+
+Tables & Columns
+Explanation
+
+The Tables & Columns module combines the functionality of both accessing tables and managing their columns. This module allows users like Fred to view and interact with tables, as well as define and modify the columns within those tables. Fred can use the Tables & Columns module to access the specific table he created and make any necessary changes or updates to it.
+
+System Definition
+Explanation
+
+The System Definition module is focused on defining various system elements, such as tables, fields, and relationships. While this module is essential for configuring and managing system components, it is not the module that Fred would use to directly access the specific table he needs to work on.
+
+My Tables
+Explanation
+
+My Tables is not a valid module.
+Your selection is correct
+
+Tables
+Explanation
+
+The Tables module allows users to access and manage tables within the platform. This module provides a comprehensive view of all tables in the instance, including the ability to create, modify, and delete tables as needed. Fred can use the Tables module to access the table he previously created and perform the necessary work on it.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 22Incorrect
+
+To control who can read, write, create, and retire knowledge base articles based on user roles, groups, or other conditions, what feature should be used ?
+Correct answer
+
+User Criteria
+Explanation
+
+User Criteria in ServiceNow allows administrators to define conditions based on user roles, groups, or other attributes to control access to specific features, modules, or data. In the context of managing knowledge base articles, User Criteria can be used to determine who can read, write, create, and retire articles based on predefined conditions, making it the correct choice for this scenario.
+
+User Permissions
+Explanation
+
+User Permissions are known as Roles in ServiceNow and define what actions users can perform on records and data within the platform. While they are crucial for managing user access and actions, they are not specifically tailored to control who can read, write, create, and retire knowledge base articles.
+
+Security Policies
+Explanation
+
+Security Policies in ServiceNow are used to enforce security controls and policies within the platform. While they play a crucial role in maintaining the overall security posture of the system, they are not specifically focused on controlling who can read, write, create, and retire knowledge base.
+Your answer is incorrect
+
+Access Control Rules
+Explanation
+Access Control Rules in ServiceNow are used to control access to records based on conditions such as roles, groups, and other criteria. While they are essential for managing record-level access, they are not specifically designed for controlling who can read, write, create, and retire knowledge base articles based on user roles, groups, or other conditions.
+Domain
+Domain 4: Self Service & Automation
+Question 23Incorrect
+
+Which feature in the Configuration Item related list allows an admin to create relationships and dependencies between configuration items in ServiceNow?
+
+CI Class Manager
+Explanation
+
+CI Class Manager is used to manage and define different classes of configuration items, not their relationships.
+Correct answer
+
+Relationship Editor
+Explanation
+
+Relationship Editor allows an admin to create relationships and dependencies between configuration items. It provides a user-friendly interface to establish connections between different CIs and define their dependencies.
+
+CMDB Builder
+Explanation
+
+There is not CMDB Builder feature.
+Your answer is incorrect
+
+Dependency Views
+Explanation
+
+Dependency Views do not allow an admin to create relationships and dependencies between configuration items. They are used to visualize existing relationships and dependencies, not to create new ones.
+Domain
+Domain 5: Database Management
+Question 24Correct
+
+Which type of query allows you to filter list data using plain language instead of using the condition builder?
+
+Predictive Intelligence Query
+Explanation
+Predictive Intelligence Query is not related to filtering list data using plain language. It is used for predicting user behavior and providing personalized recommendations based on historical data and machine learning algorithms.
+
+Now Assist Query
+Explanation
+
+Now Assist is a feature  that provides real-time assistance and guidance to users while they are working in the platform. It is not specifically designed for filtering list data using plain language.
+
+Virtual Agent Query
+Explanation
+Virtual Agent Query is used for creating conversational interactions with users through chatbots. It is not specifically designed for filtering list data using plain language.
+
+Semantic Query
+Explanation
+Semantic Query is used to search for information based on the meaning of the query rather than just keywords. While it enhances search capabilities, it is not specifically focused on filtering list data using plain language.
+Your answer is correct
+
+Natural Language Query
+Explanation
+Natural Language Query allows users to filter list data using plain language, making it easier and more intuitive to search and retrieve specific information without the need for complex query building. This type of query understands natural language input and translates it into search criteria.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 25Correct
+
+What is a sys_id?
+Your answer is correct
+
+A unique 32 character identifier assigned to every record
+Explanation
+
+This choice is correct because a sys_id is indeed a unique 32-character identifier assigned to every record in the ServiceNow platform. It is crucial for identifying and accessing specific records within the system.
+
+A field used to store user preferences
+Explanation
+
+A sys_id is not a field used to store user preferences.
+
+A script used to automate workflows
+Explanation
+
+A sys_id is not a script used to automate workflows.
+
+An attribute that defines the data type of a field
+Explanation
+
+A sys_id is not an attribute that defines the data type of a field.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 26Incorrect
+
+In IntegrationHub, what are the integrations that allow execution of third-party APIs as part of a flow called?
+
+An integration step
+Explanation
+An integration step refers to a specific action or task within a flow that connects different systems or services. It is not specifically related to executing third-party APIs as part of a flow in IntegrationHub.
+Correct answer
+
+A spoke
+Explanation
+A spoke in IntegrationHub is the integration point for connecting to external systems or services, including executing third-party APIs as part of a flow. Spokes provide pre-built integrations to popular third-party services, making it easier to incorporate external functionality into workflows.
+
+A flow component
+Explanation
+A flow component is a building block within a flow that performs a specific function or task. While flow components are essential for creating complex workflows in IntegrationHub, they do not specifically handle the execution of third-party APIs as part of a flow.
+Your answer is incorrect
+
+A connector
+Explanation
+A connector in IntegrationHub is a reusable component that connects to a specific external system or service. While connectors are essential for integrating with external systems, they are not specifically designed to execute third-party APIs as part of a flow.
+Domain
+Domain 4: Self Service & Automation
+Question 27Incorrect
+
+A system admin is editing a form using Form Builder. What actions can they accomplish in that interface? Select 4.
+Your selection is correct
+
+Rearrange fields by dragging and dropping them into the desired order
+Explanation
+The system admin can rearrange fields in Form Builder by dragging and dropping them into the desired order. This feature allows for easy customization of the form layout to meet specific requirements.
+Your selection is correct
+
+Add a new field by selecting "Add a field" in the table, defining the field values, selecting "Add," and dragging the new field onto the form
+Explanation
+
+In Form Builder, the system admin can add a new field by selecting "Add a field" in the table, defining the field values, selecting "Add," and then dragging the new field onto the form. This process enables the addition of new fields to the form with customized settings.
+Your selection is correct
+
+Delete a field by hovering over the field and clicking the X
+Explanation
+
+In Form Builder, the system admin can delete a field by hovering over the field and clicking the X icon that appears. This action helps in removing unnecessary or outdated fields from the form.
+
+Add a new field by typing “Add a new field” in the search
+Explanation
+
+Typing "Add a new field" in the search bar is not a valid action in Form Builder for adding a new field.
+Your selection is incorrect
+
+Rearrange fields by selecting the field and selecting the up or down arrows to move it
+Explanation
+
+The ability to rearrange fields by selecting a field and using the up or down arrows to move it is not available in Form Builder.
+Correct selection
+
+Remove the last action by clicking the undo button
+Explanation
+
+The system admin can remove the last action performed in Form Builder by clicking the undo button. This allows for easy correction of any mistakes made during the form editing process.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 28Correct
+
+Where are updates of work done on an incident record placed after submission on the Notes tab?
+Your answer is correct
+
+Activity Log
+Explanation
+
+The Activity Log is where updates and actions related to an incident record are logged. It provides a chronological history of all activities and changes made to the incident, making it the correct choice for where work done on an incident record is placed after submission.
+
+Work Notes
+Explanation
+
+Work Notes are typically used for internal communication and collaboration regarding an incident.
+
+Additional Comments
+Explanation
+
+Additional Comments are typically used for adding extra information or context to an incident record for the customer.
+
+Work Timeline
+Explanation
+
+There is no official work timeline in ServiceNow.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 29Correct
+
+Which statements are true about Column Context Menus in ServiceNow? Select 2.
+
+Accessed by right-clicking on a field
+Explanation
+
+Right-clicking on a field displays the field context menu, not the column context menu.
+Your selection is correct
+
+Displays actions for Sorting, Creating Reports, List configuration, Exporting data, and Importing data
+Explanation
+
+Column Context Menus in ServiceNow provide actions related to data manipulation and reporting, such as Sorting, Creating Reports, List configuration, Exporting data, and Importing data. These options allow users to manage and analyze the data in the list effectively.
+
+
+
+Displays actions for Views, Filters, Grouping, Row count per page, Refreshing, and Creating favorites
+Explanation
+
+Column Context Menus do not display action such as Views, Filters, , Row count per page, Refreshing, and Creating favorites. These actions can be found using the List Controls Icon or right-clicking on the list header.
+Your selection is correct
+
+Accessed by right-clicking on the column header
+Explanation
+
+Accessing the Column Context Menus by right-clicking on the column header is the correct method. This action opens a menu with options related to the specific column, such as sorting, hiding, or changing the display format.
+
+Displays actions for Saving, Inserting, Configuring, Exporting, Views, Creating favorites, and Reloading
+Explanation
+
+This statement includes actions like Saving, Inserting, Configuring, Exporting, Views, Creating favorites, and Reloading, which are typically not part of the Column Context Menus in ServiceNow. These actions are more related to record or list management rather than column-specific operations.
+
+Accessed by clicking on the additional actions icon
+Explanation
+
+The Additional Actions icon typically provides general actions for the list or form, while the column header context menu is specific to column-related operations.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 30Incorrect
+
+Which tool in ServiceNow allows an admin to manage the hierarchy and properties of configuration item (CI) classes?
+
+CMDB Health Dashboard
+Explanation
+
+The CMDB Health Dashboard is used to monitor and analyze the health and status of configuration items within the CMDB. It does not have the functionality to manage the hierarchy and properties of CI classes.
+Correct answer
+
+CI Class Manager
+Explanation
+
+CI Class Manager is the tool that specifically allows an admin to manage the hierarchy and properties of configuration item classes. It provides a centralized interface for defining and organizing CI classes within the CMDB.
+Your answer is incorrect
+
+Dependency Views
+Explanation
+
+Dependency Views are used to visualize the relationships and dependencies between configuration items. It does not specifically allow an admin to manage the hierarchy and properties of CI classes.
+
+Relationship Rules
+Explanation
+
+Relationship Rules are not an official ServiceNow term.
+Domain
+Domain 5: Database Management
+Question 31Incorrect
+
+What is the difference between the Automatic Mapping Utility and the Mapping Assist Utility in ServiceNow?
+
+The Automatic Mapping Utility is used for importing data in real-time, whereas the Mapping Assist Utility is used for scheduled imports
+Explanation
+The statement that the Automatic Mapping Utility is used for importing data in real-time, while the Mapping Assist Utility is used for scheduled imports, is not accurate. Both utilities are used for mapping fields during the data import process, but they differ in how the mapping is done (automatic vs. manual).
+Your answer is incorrect
+
+The Automatic Mapping Utility is used for mapping fields in the same table, while the Mapping Assist Utility is used for mapping fields across different tables
+Explanation
+
+The Automatic Mapping Utility in ServiceNow is not specifically designed for mapping fields within the same table. It is used to map fields from the import set to the target table, regardless of whether they are in the same table or different tables.
+Correct answer
+
+The Automatic Mapping Utility automatically matches fields from the import set to the target table, while the Mapping Assist Utility allows manual mapping of fields
+Explanation
+
+The Automatic Mapping Utility in ServiceNow automatically matches fields from the import set to the target table, streamlining the data import process. The Mapping Assist Utility allows users to manually map fields, giving them more control and flexibility over the mapping process.
+
+The Automatic Mapping Utility only works with CSV files, while the Mapping Assist Utility works with all file types
+Explanation
+The Automatic Mapping Utility in ServiceNow is not limited to working only with CSV files. It can handle various file types for data imports. The Mapping Assist Utility, on the other hand, focuses on assisting users in manually mapping fields, regardless of the file type being used.
+Domain
+Domain 5: Database Management
+Question 32Incorrect
+
+Reginald needs to create a new user for a new employee and a new group for new employees. Where would he navigate to accomplish these tasks? Select 3.
+Correct selection
+
+All > System Security > Users and Groups > Users > New
+Explanation
+
+Navigating to "All > System Security > Users and Groups > Users > New" allows Reginald to create a new user for the new employee. System Security also has a module for creating groups.
+
+All > System Preferences > Users > New
+Explanation
+
+System Preferences will not provide the ability to create a new user.
+Your selection is correct
+
+All > System Security > Users and Groups > Groups > New
+Explanation
+
+Navigating to "All > System Security > Users and Groups > Groups > New" allows Reginald to create a new group for new employees. This path specifically leads to the section where groups are managed within the System Security settings.
+Your selection is correct
+
+All > User Administration > Users > New
+Explanation
+
+Navigating to "All > User Administration > Users > New" provides a path for creating a new user. This path is focused on user administration and creating new users and the User Administration Application can also has a Groups module.
+Your selection is incorrect
+
+All > Roles > Users and Groups > Groups > New
+Explanation
+
+The roles module focuses on creating and editing roles, not creating users or groups.
+Domain
+Domain 2: Instance Configuration
+Question 33Incorrect
+
+Duane wants to add a tag to a pet record to indicate that it is a puppy. How can he do this while on the record?
+Your answer is incorrect
+
+Right-click on the record header > Select Create New Tag
+Explanation
+Right-clicking on the record header and selecting 'Create New Tag' is not the correct way to add a tag to a pet record in ServiceNow. This action does not directly relate to adding tags to records within the platform.
+
+Navigate to the System Security Application >  Tags module > Select Create New Tag
+Explanation
+
+The Tags module is available under the System Definition not System Security.
+Correct answer
+
+Select the More Options icon > Select Add Tag
+Explanation
+
+This action allows users to easily add tags to records directly from the form view.
+
+Select the Form Context Menu > Select Add Tag
+Explanation
+
+Selecting the Form Context Menu will not provide a Select Add Tag option to select.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 34Incorrect
+
+A new knowledge base article is being created and should only be accessible to IT support staff. What method would you use to fulfill this requirement?
+Your answer is incorrect
+
+Configure the article to be visible only to users with the IT support role
+Explanation
+Configuring the article to be visible only to users with the IT support role is a step in the right direction, but it does not restrict access solely to IT support staff. Users with the IT support role, as well as other roles, may still be able to access the article.
+
+Restrict the article to the IT support knowledge base
+Explanation
+Restricting the article to the IT support knowledge base may limit visibility to a specific group, but it does not ensure that only IT support staff can access the article. Other users with access to the knowledge base may still be able to view the article.
+
+Type each IT support group member's name in the comments of the article
+Explanation
+
+Comments are used to leave feedback on an article, not define who can access them.
+Correct answer
+
+Create a specific knowledge base for IT support and Add the IT support group to the user criteria of the knowledge base
+Explanation
+
+User Criteria can only be applied at the knowledge base level. Adding the IT support group to the article's  knowledge base ensures that only members of the IT support group can access the article.
+
+Assign the IT_Support role to the article
+Explanation
+Assigning the IT_Support role to the article may grant access to users with that specific role, but it does not guarantee that only IT support staff can access the article. Other users with the same role may also be able to view the article.
+Domain
+Domain 4: Self Service & Automation
+Question 35Correct
+
+Denise needs to create a new catalog item and a new record producer. What catalog tool can she use to accomplish this task?
+Your answer is correct
+
+Catalog Builder
+Explanation
+
+Catalog Builder is the correct tool for Denise to use in order to create a new catalog item and a new record producer in ServiceNow. Catalog Builder allows users to design and configure catalog items, record producers, and order guides within the ServiceNow platform.
+
+Flow Designer
+Explanation
+
+Flow Designer is used for creating automated workflows and not for catalog item or record producer creation.
+
+Record Builder
+Explanation
+
+Record Builder is not a valid ServiceNow feature.
+
+Form Designer
+Explanation
+
+Form Designer is not the appropriate tool for creating a new catalog item and a new record producer in ServiceNow. Form Designer is typically used for designing and customizing forms not for catalog-related tasks.
+Domain
+Domain 4: Self Service & Automation
+Question 36Correct
+
+Lou is working on automation tasks. What module should he use to access many of the automation features?
+
+System Notification > Automation Designer
+Explanation
+
+The System Notification Module focuses on managing the notifications. Automation Designer is not a valid module.
+
+System Automation > Workflow Editor
+Explanation
+
+System Automation is not a valid module. Workflow Editor is part of the legacy systems to edit existing workflows in production, but it is not recommended to build new Workflows.
+Your answer is correct
+
+Process Automation > Workflow Studio
+Explanation
+
+The Workflow Studio allows many automation features to be developed such as flows, subflows, and processes.
+
+Flow Designer > Automation Studio
+Explanation
+
+Flow Designer is a module that is under the Process Automation Application. Automation Studio is not a valid module.
+Domain
+Domain 4: Self Service & Automation
+Question 37Incorrect
+
+What are the options available for the When setting on a business rule? Select 4
+
+Insert
+Explanation
+
+The 'Insert' option is not available as a  When setting on a business rule related to the record and database, but it does relate to when related to the record itself.
+Your selection is incorrect
+
+Scheduled
+Explanation
+
+The 'Scheduled' option is not available for the When setting on a business rule.
+Correct selection
+
+Display
+Explanation
+
+The 'Display' option specifies the business rule should run before the record is displayed.
+Your selection is correct
+
+Before
+Explanation
+
+The 'Before' option specifies that the business rule should run before the record is inserted or updated in the database, allowing for actions to be taken before the changes are committed.
+Your selection is correct
+
+Async
+Explanation
+
+The 'Async' option specifies that the business rule should run asynchronously, allowing it to execute in the background without blocking the user interface.
+Your selection is correct
+
+After
+Explanation
+
+After specifies that the business rule should run after the record has been inserted or updated in the database, allowing for actions to be taken based on the changes made.
+Domain
+Domain 6: Data Migration and Integration
+Question 38Correct
+
+What elements are included in the Application Navigator in ServiceNow? Select 3.
+
+Templates
+Explanation
+
+Templates are not included in the Application Navigator in ServiceNow. Templates are used for creating standardized structures or designs for various elements within the platform, but they are not directly accessed through the Application Navigator for regular user tasks and functions.
+
+Websites
+Explanation
+
+Websites are not included in the Application Navigator. The Application Navigator is focused on providing access to modules, applications, and favorites within the internal platform, rather than external websites.
+Your selection is correct
+
+Favorites
+Explanation
+
+Favorites are included in the Application Navigator in ServiceNow, allowing users to save and access frequently accessed modules or applications for quick and easy access.
+Your selection is correct
+
+Applications
+Explanation
+
+Applications are part of the Application Navigator, providing access to different applications or software solutions within the platform. Users can navigate to specific applications to perform tasks related to those applications.
+Your selection is correct
+
+Modules
+Explanation
+
+Modules are included in the Application Navigator, allowing users to access different functional areas within the platform. These modules represent specific features or capabilities that users can navigate to for various tasks and functions.
+Domain
+Domain 1: Platform Overview and Navigation
+Question 39Incorrect
+
+Jocelyn has been given a story that requires her to remove the created_by field on the pets list table. How can she remove the field?
+
+Right-Click on the Column Header > Select Configure > Form Layout > Delete the created_by field
+Explanation
+
+Right-clicking on the column header and selecting configure will not display form layout. Form layout only displays when configuring a form, not a list.
+Your answer is incorrect
+
+Right-Click on the Column Header > Edit List > Select Delete next to the created_by field
+Explanation
+
+When right-clicking on the column header, edit list is not a valid option
+Correct answer
+
+Right-Click on the Column Header > Select Configure >  Select List Layout > Move the created_by field from selected to available > Click Save
+Explanation
+
+The process involves accessing the list layout configuration and moving the created_by field from selected to available, which effectively removes the field from the list view.
+
+Navigate to the Table Schema > Select the created_by field > Click Delete Field
+Explanation
+
+This action would remove the field entirely from the table, which is not the desired outcome. The task requires removing the field from the list view, not from the entire table.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 40Correct
+
+Mel needs to search for an application and view the data within it. How does this process occur in the ServiceNow platform?
+
+Mel searches for the application in the User Menu, selects it, and the data is displayed in the Content Frame
+Explanation
+
+Searching for the application in the User Menu and selecting it will not directly display the data within the application in the Content Frame. The User Menu is more focused on user-specific actions and settings, not on navigating to and viewing application data.
+
+Mel searches for the application in the Global Search bar, selects it, and the data is displayed in a form layout
+Explanation
+
+Searching for the application in the Global Search bar and selecting it will not directly display the data within the application in a form layout. The Global Search bar is primarily used for searching across the entire ServiceNow platform, not for navigating to specific applications and viewing their data.
+Your answer is correct
+
+Mel searches for the application in the Application Navigator, selects it, and the data is displayed in the Content Frame
+Explanation
+
+When Mel searches for the application in the Application Navigator and selects it, the data within the application is displayed in the Content Frame. The Application Navigator is specifically designed for navigating through different applications and modules within the ServiceNow platform, making it the correct choice for accessing and viewing application data.
+
+Mel searches for the application in the Banner Frame, selects it, and the data is displayed in a new browser tab
+Explanation
+
+Searching for the application in the Banner Frame and selecting it will not lead to the data being displayed in a new browser tab. The Banner Frame typically contains branding and navigation elements, not application-specific data display functionalities.
+Domain
+Domain 2: Instance Configuration
+Question 41Correct
+
+What are key features of a Transform Map in ServiceNow? Select 2.
+Your selection is correct
+
+A Transform Map can be used multiple times on the same import set
+Explanation
+
+One of the key features of a Transform Map is its ability to be used multiple times on the same import set. This flexibility allows for different mappings of the imported data to table destinations within the same import set.
+Your selection is correct
+
+A Transform Map lets admins define table destinations for imported data
+Explanation
+
+With a Transform Map, administrators have the capability to define table destinations for imported data. This feature enables admins to specify where the imported data should be mapped within the existing tables, ensuring proper data integration and organization.
+
+A Transform Map automatically creates new tables with new fields from the imported data
+Explanation
+
+A Transform Map does not automatically create new tables with new fields from the imported data. Instead, it focuses on defining how the imported data should be mapped to fields in existing tables.
+
+A Transform Map can only be used once per import set
+Explanation
+A Transform Map can actually be used multiple times on the same import set in ServiceNow. This allows for flexibility and reusability when mapping imported data to table destinations.
+Domain
+Domain 5: Database Management
+Question 42Correct
+
+What UI action displays when a user creates a new record using a form in ServiceNow?
+
+Insert
+Explanation
+
+The Insert UI action is not a standard action that displays when a user creates a new record using a form in ServiceNow.
+Your answer is correct
+
+Submit
+Explanation
+
+The Submit UI action typically displays when a user creates a new record using a form in ServiceNow. This action allows the user to save the newly created record and submit it for processing within the system.
+
+Update
+Explanation
+
+The Update UI action is not displayed when a user creates a new record using a form in ServiceNow. This action is usually used to update existing records, not for creating new ones.
+
+Fields
+Explanation
+
+Fields are not UI Actions. Fields capture data entries.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 43Incorrect
+
+What are examples of UI actions on a form? Select 3
+Your selection is correct
+
+Form Buttons
+Explanation
+
+Form Buttons are examples of UI actions on a form that allow users to perform specific actions, such as submitting the form or triggering a workflow process. They provide a clear and direct way for users to interact with the form.
+
+Form Fields
+Explanation
+Form Fields are not examples of UI actions on a form. They are used to capture and display data within a form, but they do not trigger actions or provide interactive functionalities for users.
+Your selection is incorrect
+
+List Choices
+Explanation
+List Choices are not examples of UI actions on a form. They are typically used in list views to display selectable options for filtering or sorting data, but they do not directly interact with the form or trigger actions.
+
+Form Sections
+Explanation
+Form Sections are not examples of UI actions on a form. They are used to organize and group related fields within a form, but they do not directly trigger actions or provide interactive functionalities for users.
+Correct selection
+
+Context Menu Items
+Explanation
+
+Context Menu Items are UI actions that appear when a user right-clicks on a form element. They provide additional options and functionalities that are contextually relevant to the selected item, improving user efficiency and productivity.
+Correct selection
+
+Form Links
+Explanation
+
+Form Links are another example of UI actions on a form that allow users to navigate to related records, external websites, or perform other actions within the form. They enhance the user experience by providing quick access to relevant information.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 44Correct
+
+An admin needs to create a UI policy that will apply to all views. Which field should he select to accomplish this task?
+Your answer is correct
+
+Global
+Explanation
+
+The Global field is the correct choice to select in order to apply a UI policy to all views within the ServiceNow platform. Choosing 'Global' ensures that the UI policy will be applied universally across all views.
+
+Applies to
+Explanation
+
+There is no Applies to field.
+
+View
+Explanation
+
+The View field typically refers to a specific view , such as an incident view or a change view. It is not the correct field to select in order to apply a UI policy to all views.
+
+Condition
+Explanation
+
+The Condition field is used to define the conditions under which a UI policy should be applied, rather than specifying that it should apply to all views. It does not address the requirement of creating a UI policy that applies to all views.
+Domain
+Domain 6: Data Migration and Integration
+Question 45Incorrect
+
+Alanna finished working with an elevated security_admin role. What methods can she use to return to her regular system admin role? Select 2.
+Correct selection
+
+Navigate to the User Menu and uncheck the Security Admin role in Elevate Roles
+Explanation
+
+Navigating to the User Menu and unchecking the Security Admin role in Elevate Roles is a correct method to return to the regular system admin role after working with an elevated security_admin role in ServiceNow.
+
+Use the Global Search to find and end the elevated role session
+Explanation
+
+Using the Global Search to find and end the elevated role session is not a method to end an elevated session.
+Your selection is incorrect
+
+Select End Impersonation
+Explanation
+
+Selecting End Impersonation is used to return to the original user after impersonating another user, not to switch back from an elevated role to the regular system admin role.
+Your selection is correct
+
+Log out of the instance and log back in
+Explanation
+Logging out of the instance and then logging back in is a valid method to return to the regular system admin role after working with an elevated security_admin role.
+Domain
+Domain 2: Instance Configuration
+Question 46Correct
+
+What is an import set table?
+
+A table used for exporting data out of ServiceNow
+Explanation
+
+The import set table does not export data.
+Your answer is correct
+
+A table that stores imported record data temporarily during the import process
+Explanation
+
+The import set table is the staging table to temporarily hold the newly imported data until it is moved into the target table.
+
+A table that holds the final destination data after import
+Explanation
+
+The target table is the final destination for data after an import.
+
+A table that contains user information and roles
+Explanation
+
+User information and roles are typically stored in specific tables such as sys_user for user information and sys_user_role for roles, not in import set tables.
+Domain
+Domain 5: Database Management
+Question 47Incorrect
+
+Morris is creating a new report using Report Designer. He wants to give the report a name and specify the source type. Which tab will allow him to accomplish this task?
+
+Configure
+Explanation
+
+The Configure tab in Report Designer typically focuses on configuring specific settings or options related to the report like aggregation or columns.
+
+Type
+Explanation
+
+The Type tab focuses on setting the visualization for the report.
+Your answer is incorrect
+
+Details
+Explanation
+
+There is no Details tab in Report Designer.
+Correct answer
+
+Data
+Explanation
+
+The Data tab in Report Designer is where Morris can define the report name and data source. This tab allows him to define how the data will be retrieved and displayed in the report.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 48Incorrect
+
+What are the types of client scripts? Select 4.
+Your selection is correct
+
+onLoad
+Explanation
+
+The onLoad client script type is used to run when a form is loaded. It is typically used to set field values, hide or show fields, or perform calculations when a form is initially displayed to the user.
+Your selection is correct
+
+onChange
+Explanation
+
+The onChange client script type is used to run when a field value changes. It is often used to dynamically update other fields based on the changed value or to perform validation based on user input.
+Your selection is incorrect
+
+onQuery
+Explanation
+
+The onQuery client script type is not a valid type of client script.
+Correct selection
+
+onSubmit
+Explanation
+
+The onSubmit client script type is used to run when a form is submitted. It is commonly used to validate form data before submission or to perform additional actions before saving the record.
+Your selection is correct
+
+onCellEdit
+Explanation
+
+The onCellEdit client script type is used to run when a cell in a list is edited using the list editor.
+
+onSave
+Explanation
+
+The onSave client script type Is not a valid type of client script.
+Domain
+Domain 6: Data Migration and Integration
+Question 49Incorrect
+
+Miguel uses the roles table frequently. He wants to favorite it to access it quickly and efficiently. How can he add the roles table to his favorites? Select 2.
+
+Navigate to the roles table > Click on the settings icon and select Add to Favorites
+Explanation
+
+This choice is incorrect because clicking on the settings icon and selecting Add to Favorites from the roles table is not the correct way to add the roles table to favorites.
+Your selection is incorrect
+
+Navigate to the favorites table > Add the roles table as a new record
+Explanation
+
+This choice is incorrect because navigating to the favorites table and adding the roles table as a new record is not the correct way to add the roles table to favorites.
+Correct selection
+
+Navigate to the roles table > Select the Context Menu > Select Create Favorite
+Explanation
+
+This choice is correct as Miguel can navigate to the roles table, select the Context Menu, and then choose Create Favorite to add the roles table to his favorites. This method provides a quick and efficient way to access the roles table whenever needed.
+Your selection is correct
+
+Navigate to the roles table > Select the star icon from the contextual app pill
+Explanation
+
+This choice is correct because Miguel can navigate directly to the roles table and select the star icon from the contextual app pill to add it to his favorites. This action allows him to access the roles table quickly and efficiently whenever needed.
+
+Navigate to the roles table > Drag and drop the table into the Favorites section
+Explanation
+
+This choice is incorrect because dragging and dropping the roles table into the Favorites section is not the correct method to add the roles table to favorites.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 50Correct
+
+You are viewing a list of records in the Pets table and need to quickly filter to display only those where the 'Location Found Description' field contains the word "park". How can you achieve this?
+
+Select the globe icon from the banner, type” park is in Location Found Description field” ; click enter
+Explanation
+
+The globe icon is the application scope picker and allows a users to define, clarify, and edit the application scope.
+
+On the filter navigator, type "park" ; click enter
+Explanation
+
+A filter has to include 3 components. 1. a field 2. an operator 3. a value
+Your answer is correct
+
+Click the list magnifier to expand column search ; on 'Location Found Description' ; type *park , click enter
+Explanation
+
+Using the wildcard * before a search term helps to find records containing the specified term anywhere within the field.
+
+On the application navigator, type "Location Found Description=park"; click enter
+Explanation
+
+The application navigator is not used for filtering specific fields within a list. It is used to navigate to applications and modules.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 51Correct
+
+Which feature in ServiceNow allows you to access fields from related tables when creating a flow, filter or report?
+
+Data Lookup
+Explanation
+
+Data Lookup is a feature that allows you to retrieve data from a related table based on a specified condition. While Data Lookup can be helpful for fetching specific data, it is not the primary feature used to access fields from related tables when creating flows, filters, or reports.
+
+Script Include
+Explanation
+
+A Script Include is a server-side script that can be reused in various scripts and business rules. While Script Includes are useful for encapsulating reusable logic, they do not specifically provide the functionality to access fields from related tables when creating flows, filters, or reports.
+Your answer is correct
+
+Dot-Walking
+Explanation
+Dot-Walking is the correct choice because it allows you to access fields from related tables in ServiceNow when creating flows, filters, or reports. Dot-walking enables you to traverse relationships between tables by using dot notation to access fields from related records.
+
+GlideRecord
+Explanation
+GlideRecord is a ServiceNow API used for database operations, such as querying, inserting, updating, and deleting records in tables. While GlideRecord is essential for interacting with ServiceNow tables, it does not specifically allow you to access fields from related tables when creating flows, filters, or reports.
+Domain
+Domain 4: Self Service & Automation
+Question 52Incorrect
+
+When a developer creates a new custom table, what access controls are automatically created by default? Select 4.
+Correct selection
+
+Write
+Explanation
+
+The Write access control is automatically created by default when a developer creates a new custom table. This access control allows users to write data to the custom table.
+Your selection is correct
+
+Create
+Explanation
+
+The Create access control is automatically created by default when a developer creates a new custom table. This access control allows users to create new records in the custom table.
+Your selection is correct
+
+Delete
+Explanation
+
+The Delete access control is automatically created by default when a developer creates a new custom table. This access control allows users to delete records from the custom table.
+Your selection is correct
+
+Read
+Explanation
+
+The Read access control is automatically created by default when a developer creates a new custom table. This access control allows users to read data from the custom table.
+Your selection is incorrect
+
+Update
+Explanation
+
+The Update access control is not automatically created by default when a developer creates a new custom table.
+
+Edit
+Explanation
+
+The Edit access control is not automatically created by default when a developer creates a new custom table. This access control must be manually configured if the developer wants users to have the ability to edit existing records in the custom table.
+Domain
+Domain 5: Database Management
+Question 53Correct
+
+What is considered the best practice method to assign a role to a user in ServiceNow?
+Your answer is correct
+
+Assign the role to a group and add the user to the group
+Explanation
+
+Assigning the role to a group and adding the user to the group is considered the best practice method in ServiceNow. This approach allows for easier management of roles by assigning them to groups, which can then be easily added or removed from users as needed. It also helps in maintaining consistency and scalability in role assignments.
+
+Assign the role directly to the user
+Explanation
+
+While a role can be assigned to a user, assigning the role directly to the user is not considered a best practice in ServiceNow as it can lead to difficulties in managing and maintaining roles for individual users.
+
+Assign the role through a script
+Explanation
+
+Assigning roles through a script is not be the most efficient or recommended method in ServiceNow. While scripts can automate role assignments, they can also introduce complexity and potential errors in managing roles for users.
+
+Assign the role via a workflow
+Explanation
+
+Assigning roles via a workflow is not used as the best practice method in ServiceNow for role assignments. Workflows are more commonly used for automating processes and approvals, rather than managing role assignments.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 54Incorrect
+
+What are ways to generate an Event? Select 3.
+Your selection is correct
+
+Business Rules
+Explanation
+
+Business Rules are used to automate processes and enforce business logic. They can be configured to trigger events based on certain conditions or actions, making them a way to generate events within the platform.
+Your selection is correct
+
+Workflows
+Explanation
+
+Workflows are used to automate multi-step processes and streamline tasks. They can be designed to trigger events at specific points in the workflow, making them another way to generate events within the platform.
+
+UI Pages
+Explanation
+
+UI Pages are used to create custom user interfaces for different applications and modules. They are not typically used as a method to generate events within the platform.
+Correct selection
+
+Flows
+Explanation
+
+Flows are used to automate processes and guide users through tasks. They can be configured to trigger events based on user interactions or system actions, making them a way to generate events within the platform.
+Your selection is incorrect
+
+Catalog Item Generation
+Explanation
+Catalog Item Generation is not a method to generate an event in ServiceNow. It is primarily used for creating and managing catalog items for users to request services or products.
+Domain
+Domain 4: Self Service & Automation
+Question 55Correct
+
+Morgan is given a story that requires her to grant Approvers access to read all fields within the Requests table except the admin_notes field because this is only for admin. What access controls should she define to meet these story requirements?
+
+She first defines a Requests.None access control. She then defines a Requests.* access control.
+Explanation
+
+This would grant access to all fields, including admin_notes, which does not meet the requirement to restrict the admin_notes field. Requests.None grants access to the entire table. Wildcard access controls apply to the fields that do not already have a field level access control on them and no field level access controls have been defined.
+
+She defines a Requests.read access control and a Requests.admin_notes access control.
+Explanation
+
+Because she hasn't defined the initial table access, there wouldn't be access to the table. Further, these access control would protect a field called read and another field called admin_notes. Remember, the structure is Table.field_name
+
+She defines a Requests.Approvers access control only.
+Explanation
+
+Because she hasn't defined the initial table access, there wouldn't be access to the table. Further, this access control would protect a field called Approvers and not grant access to the Approvers Users.
+Your answer is correct
+
+She first defines a Requests.None access control. She then defines a Requests.admin_notes access control with restricted permissions. Finally, she defines a Requests.* access control.
+Explanation
+
+This sequence ensures that access to all fields in the Requests table is granted to Approvers, except for the admin_notes field, which is specifically restricted with the field level access control. Wildcard access controls apply to the fields that do not already have a field level access control on them.
+Domain
+Domain 5: Database Management
+Question 56Correct
+
+John is tasked with setting up new users in ServiceNow, assigning them to appropriate groups, and defining their access permissions to various modules and applications. What process is John engaging in to accomplish these tasks?
+
+Customization
+Explanation
+
+Customization involves making modifications to the existing functionalities or features using capabilities beyond the ServiceNow built-in features. While setting up new users and defining their access permissions can be done with default ServiceNow capabilities.
+Your answer is correct
+
+Configuration
+Explanation
+
+Configurations allows features to be created using functionality available within the ServiceNow instance. It can be remembered as "figuring out the changes without code". Configuration involves setting up users, assigning them to groups, and defining their access permissions to various modules and applications.
+
+Building
+Explanation
+
+Building is not an official ServiceNow term.
+
+Creating
+Explanation
+
+Creating isn't an official ServiceNow term.
+Domain
+Domain 2: Instance Configuration
+Question 57Correct
+
+In Flow Designer, how can a user utilize data from a previous action as a variable in another action within the same flow?
+
+Use the script editor
+Explanation
+
+Scripts are not the primary way to access previous data.
+
+Configure the action settings
+Explanation
+Configuring the action settings allows the user to define the parameters and inputs for the specific action being used in Flow Designer. While this step is important for setting up the action, it does not directly address how to utilize data from a previous action as a variable in another action within the same flow.
+Your answer is correct
+
+Access the data pill
+Explanation
+
+Accessing the data pill is the correct way for a user to utilize data from a previous action as a variable in another action within the same flow in Flow Designer. The data pill allows the user to select and reference the output data from previous actions, enabling seamless data flow and integration between different steps in the flow.
+
+Set the output variable
+Explanation
+Setting the output variable in Flow Designer is important for defining the data that will be passed to subsequent actions in the flow. However, this step focuses on defining the output of the current action rather than directly utilizing data from a previous action as a variable in another action within the same flow.
+Domain
+Domain 4: Self Service & Automation
+Question 58Incorrect
+
+What kind of catalog item allows users to order multiple related items in one request?
+
+Standard Catalog Item
+Explanation
+A Standard Catalog Item typically represents a single, standalone offering that users can request individually. It does not allow users to order multiple related items in one request, as it focuses on individual products or services.
+Correct answer
+
+Order Guide
+Explanation
+
+An Order Guide allows users to order multiple related items in a single request. It streamlines the ordering process by grouping together various items that are commonly requested together, providing a more efficient and user-friendly experience.
+
+Content Item
+Explanation
+
+A Content Item is not a ServiceNow term for describing a catalog item.
+Your answer is incorrect
+
+Record Producer
+Explanation
+A Record Producer is used to create records in a table within ServiceNow, such as incidents or requests. It does not facilitate the ordering of multiple related items in a single request, as its primary function is to generate new records based on user input.
+Domain
+Domain 4: Self Service & Automation
+Question 59Incorrect
+
+Max wants to quickly filter out results to only see pets that live in California to answer a customer’s question. How can he do this while on the pets list?
+Your answer is incorrect
+
+Right-click on the list header > Select View > Type “Location = California”> Select Run
+Explanation
+
+Right-clicking on the list header and selecting View would not allow for the user to search for the location.
+
+Select the breadcrumb > Type “California” > Press Enter
+Explanation
+
+The breadcrumb would not be available until the filter has been defined and run. The breadcrumb is like the summary of the applied filter.
+Correct answer
+
+Right-click on the field with California value > Select Show Matching
+Explanation
+
+Right-clicking on the field with the California value and selecting Show Matching is the correct way to filter out results based on location. This action allows Max to specifically target the location field and display only the pets that live in California.
+
+Right-click on the field with the California value > Select Filter Out
+Explanation
+
+Right-clicking on the field with the California value and selecting Filter Out would remove all the records that have a value of California.
+Domain
+Domain 3: Configuring Applications for Collaboration
+Question 60Correct
+
+In which state must a knowledge article be to be visible to users?
+Your answer is correct
+
+Published
+Explanation
+
+Knowledge articles must be in the Published state to be visible to users. Published articles are approved, up-to-date, and accessible to users who need the information contained within them.
+
+Pending
+Explanation
+
+There is no pending workflow state. The closest option to pending is draft and that represents articles that have been submitted and waiting to move forward in the approval process.
+
+Retired
+Explanation
+Knowledge articles in the Retired state are no longer relevant or accurate and have been removed from the knowledge base. They are not visible to users as they are considered outdated.
+
+Saved
+Explanation
+Knowledge articles in the Saved state are drafts that have been saved but not yet published. They are not visible to users until they are moved to the Published state.
+Domain
+Domain 4: Self Service & Automation
