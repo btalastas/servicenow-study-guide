@@ -19,3 +19,15 @@ test-results/
 # Python caches
 __pycache__/
 *.py[cod]
+
+# Additional test reports and caches
+coverage/
+blob-report/
+playwright/.cache/
+.nyc_output/
+*.tsbuildinfo
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

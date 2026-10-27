@@ -1,0 +1,20 @@
+{
+  "certificate": "csa",
+  "schemaVersion": 1,
+  "questions": [
+    {
+      "questionId": "sample-1",
+      "moduleId": "sample-module",
+      "moduleName": "Example module",
+      "prompt": "Replace this with a practice question.",
+      "choices": [
+        { "id": "A", "text": "Example correct answer" },
+        { "id": "B", "text": "Example incorrect answer" }
+      ],
+      "correctChoiceIds": ["A"],
+      "explanation": "Replace this with the reasoning for the correct answer.",
+      "questionType": "single_choice",
+      "difficulty": "easy"
+    }
+  ]
+}

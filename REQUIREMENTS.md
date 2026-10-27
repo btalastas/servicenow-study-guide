@@ -14,17 +14,60 @@ are completed; unchecked items and blank fields remain to be implemented or deci
 
 ## Functional Requirements
 
+### Certificate Selection and Navigation
+
+- [x] Landing page lets users choose CSA or CAD.
+- [x] Each certificate has a page listing the planned study modes.
+- [x] Each study mode has its own placeholder route and back navigation.
+
 ### Study Modes
 
 - [ ] Flash cards
 - [ ] Jeopardy
 - [ ] Who Wants to Be a Millionaire
-- [ ] Other:
+- [x] Practice quizzes
+- [x] Practice exams
 
+### Practice Quizzes and Exams
+
+- [x] Practice quizzes let users choose one or more modules, including all modules.
+- [x] Users choose a quiz question count from 1 up to the available module pool.
+  Draw that many random questions without repetition from only the chosen modules.
+- [x] Quiz users can choose instant feedback or feedback only after submission.
+- [x] Instant feedback appears after committing an answer, showing whether it is
+  correct and explaining the correct answer when it is incorrect.
+- [x] An answer receiving instant feedback is locked for scoring; users cannot
+  change it after seeing the explanation.
+- [x] Practice exams use a certificate-specific duration matching the published
+  exam blueprint. Current CSA and CAD defaults are 90 minutes and 60 questions.
+- [x] Users can choose 60–80 questions for practice exams. Keep the 90-minute
+  duration for every count; block starting if the imported bank is too small.
+- [x] Exam sessions show a countdown and automatically submit when time expires.
+- [x] Exam answers and explanations remain hidden until submission or timeout.
+- [x] Exam sessions draw from the selected certificate's full imported bank;
+  module selection applies to quizzes. Do not substitute CSA questions for missing CAD content.
+- [x] Prevent starting an exam if there are too few eligible questions for the
+  configured exam length; explain what content is missing.
+- [x] After either session, show correct answers / total questions and percentage
+  score. Unanswered questions count as incorrect; multi-select requires the exact
+  correct set, with no partial credit.
+- [x] Results list each incorrect or unanswered question, the user's answer, the
+  correct answer, its explanation, and its module.
+- [x] Results show correct / total and percentage by module, with weaker modules
+  ranked first as suggested study priorities. Never report untested modules as
+  weaknesses or claim that a practice score predicts certification success.
+- [x] Results remain available for review until the learner starts a new session
+  or leaves the page; persistent history is a separate future requirement.
+
+Timing references, checked October 27, 2026:
+[CSA exam blueprint](https://nowlearning.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0011554)
+and [CAD exam blueprint](https://learning.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0011498).
+Keep duration and question count in certificate configuration so future blueprint
+updates do not require changes to session logic.
 ### Question Pool
 
-- [ ] Users can select individual modules.
-- [ ] Users can include all modules.
+- [x] Users can select individual modules for local quizzes.
+- [x] Users can include all modules for local quizzes.
 - [ ] Users can filter questions by difficulty: easy, medium, or hard.
 - [ ] The web application retrieves question pools from DynamoDB through its backend.
 
@@ -37,8 +80,8 @@ are completed; unchecked items and blank fields remain to be implemented or deci
 ### Progress and Results
 
 - [ ] Decide whether study progress will be saved.
-- [ ] Scoring requirements:
-- [ ] Reporting requirements:
+- [x] Implement quiz/exam percentage scoring as specified above.
+- [x] Implement missed-question review and module-level study recommendations.
 
 ### Content Management
 
@@ -71,7 +114,9 @@ are completed; unchecked items and blank fields remain to be implemented or deci
 
 ### Security and Privacy
 
-- Data to protect: AWS credentials and question answer keys before answer reveal.
+- Data to protect: AWS credentials and hosted question answer keys before answer reveal.
+- Local file mode reads and grades entirely in the browser; answer keys are inspectable.
+  Local files are never uploaded to the backend. Hosted DynamoDB mode remains planned.
 - Authorization requirements: the web application must use a dedicated backend
   IAM role with access limited to the required table and index operations.
 - [x] Block public access to the S3 import bucket and encrypt the uploaded file.
@@ -135,7 +180,8 @@ are completed; unchecked items and blank fields remain to be implemented or deci
 | Milestone | Description | Target date | Status |
 | --- | --- | --- | --- |
 | 1 | Generate, import, and verify the 338-question bank in DynamoDB | Completed 2026-10-05 | Complete |
-| 2 | Connect the web application backend to the question table and index | TBD | Not started |
+| 2 | Create a local Next.js web app with CSA/CAD selection, study-mode selection, and basic page routing | Completed 2026-10-27 | Complete |
+| 3 | Implement local-bank practice quizzes and timed exams with feedback and results | Completed 2026-10-27 | Complete |
 
 ## Open Questions
 
@@ -152,3 +198,8 @@ are completed; unchecked items and blank fields remain to be implemented or deci
 - [x] Save deployment commands and [verification evidence](deployment/aws/verification.json).
 - [ ] The web application can retrieve questions by selected module and difficulty
   without exposing answers before the intended reveal.
+
+- [x] Quiz setup supports module selection and optional instant feedback.
+- [x] Timed exams submit on expiry and reveal results only after completion.
+- [x] Quiz/exam results include score percentage, missed-question explanations,
+  and module-level study priorities.

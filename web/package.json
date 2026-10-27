@@ -7,9 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "format": "prettier --write src package.json eslint.config.mjs playwright.config.js .prettierrc.json",
-    "format:check": "prettier --check src package.json eslint.config.mjs playwright.config.js .prettierrc.json",
-    "test:e2e": "playwright test"
+    "format": "prettier --write src e2e public package.json eslint.config.mjs playwright.config.js .prettierrc.json",
+    "format:check": "prettier --check src e2e public package.json eslint.config.mjs playwright.config.js .prettierrc.json",
+    "test:e2e": "npm run build && playwright test"
   },
   "repository": {
     "type": "git",
@@ -32,16 +32,16 @@
     "@mui/icons-material": "^9.4.0",
     "@mui/material": "^9.4.0",
     "@mui/material-nextjs": "^9.4.0",
-    "next": "^16.3.8",
+    "next": "^16.4.3",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "server-only": "^0.0.1",
-    "zod": "^4.6.5"
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@playwright/test": "^1.63.0",
     "eslint": "^9.39.5",
-    "eslint-config-next": "^16.3.8",
+    "eslint-config-next": "^16.4.3",
     "eslint-config-prettier": "^10.1.8",
     "prettier": "^3.9.9"
   },
