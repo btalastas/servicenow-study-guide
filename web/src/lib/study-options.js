@@ -25,10 +25,12 @@ export const studyModes = {
   },
   jeopardy: {
     title: 'Jeopardy',
-    description: 'Choose categories and practice with a game board.',
+    description:
+      'Play a five-module board with increasing difficulty and track your winnings.',
   },
   millionaire: {
     title: 'Who Wants to Be a Millionaire',
-    description: 'Work your way through a series of questions.',
+    description:
+      'Climb from $10 to $1,000,000 as questions progress from easy to hard.',
   },
 };

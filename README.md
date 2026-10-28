@@ -10,8 +10,9 @@ and CAD exams. Users can choose how they want to study and which modules to
 include in their question pool.
 
 The local Next.js app includes a CSA/CAD landing page, certificate-specific study-mode
-selection, working practice quizzes and timed exams, and placeholder pages for the
-other modes. Live DynamoDB question retrieval remains planned.
+selection, practice quizzes, timed exams, Jeopardy, and Who Wants to Be a Millionaire.
+Flash cards and live DynamoDB retrieval remain planned. Current development focuses
+on importing local files; no AWS setup is required for the implemented modes.
 
 ## Local practice quizzes and exams
 
@@ -47,14 +48,52 @@ Timing references: [CSA blueprint](https://nowlearning.servicenow.com/kb?id=kb_a
 and [CAD blueprint](https://learning.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0011498),
 checked October 27, 2026. Defaults live in web/src/lib/study-options.js.
 
+## Local Jeopardy and Millionaire
+
+Choose either game after selecting CSA or CAD, then import the same local JSON
+bank. Games pool across all modules; no module/difficulty selector is shown.
+Difficulty controls only these games. Quizzes and exams include all difficulties.
+All parsing, selection, scoring, and review happen in the browser without AWS calls.
+Progress is lost on reload or navigation; replays draw fresh random questions.
+
+### Jeopardy
+
+The board has five random module columns and five rows: $100/$200 easy,
+$300/$400 medium, and $500 hard. A module qualifies only if it has at least two
+easy, two medium, and one hard question. At least five modules must qualify.
+The game draws 25 unique clues and never substitutes a different difficulty.
+Every eligible module in the bank can be selected. On mobile, scroll the board
+sideways to reach all five columns.
+
+Correct answers add the clue value; wrong answers and skipped clues subtract it.
+Negative totals are allowed. Submitted clues cannot be played again. Each answer
+reveals an explanation. Play all 25 clues or confirm an early finish; results show
+earnings, accuracy, missed questions, and module study priorities. Unplayed clues
+are not scored. All supported question types, including ordering, can appear.
+
+### Who Wants to Be a Millionaire
+
+Fifteen unique choice-based questions progress through five easy, five medium,
+and five hard questions. The bank must contain at least five eligible questions
+per difficulty. All modules are pooled. Single-answer, multi-select, true/false,
+and choice-based scenarios are eligible; ordering questions are excluded.
+Multi-select requires the exact set, without partial credit.
+
+The prize ladder is $10, $50, $100, $200, $500, $1,000, $2,000, $5,000, $10,000,
+$25,000, $50,000, $100,000, $250,000, $500,000, and $1,000,000. Completing easy
+questions secures $500 and begins medium questions; completing medium secures
+$25,000 and begins hard questions. A wrong answer ends the game with the last
+guaranteed prize ($0 before the first checkpoint). Walk away before submitting an
+answer to keep current winnings. Correct answers to all 15 questions win $1,000,000.
+Results include earnings, accuracy, explanations for missed questions, and module
+study priorities. The ladder, rows, and checkpoints are defined in
+web/src/lib/game-rules.js.
+
 ## Planned Features
 
-- Study independently.
-- Choose from multiple study methods:
-  - Flash cards
-  - Jeopardy
-  - Who Wants to Be a Millionaire
-- Build a question pool from selected modules or include all modules.
+- Flash cards.
+- Optional hosted question bank with server grading and database administration.
+- Saved progress and account requirements remain to be decided.
 
 ## Requirements
 
@@ -102,7 +141,8 @@ Run these commands from `web/`.
 - `npm run lint`: check JavaScript and React code.
 - `npm run format`: format application and configuration files.
 - `npm run format:check`: check formatting.
-- `npm run test:e2e`: build the app and run practice-session browser tests from
+- `npm run test:unit`: run game-rule tests with the built-in Node test runner.
+- `npm run test:e2e`: build the app and run practice and game browser tests from
   web/e2e/. Install Chromium first with npx playwright install chromium. Tests use
   a separate production server on port 3001. Set PLAYWRIGHT_CHANNEL=msedge to use
   an installed Microsoft Edge browser instead.

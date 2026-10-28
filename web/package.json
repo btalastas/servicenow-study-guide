@@ -7,9 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "format": "prettier --write src e2e public package.json eslint.config.mjs playwright.config.js .prettierrc.json",
-    "format:check": "prettier --check src e2e public package.json eslint.config.mjs playwright.config.js .prettierrc.json",
-    "test:e2e": "npm run build && playwright test"
+    "format": "prettier --write src e2e tests public package.json eslint.config.mjs playwright.config.js .prettierrc.json",
+    "format:check": "prettier --check src e2e tests public package.json eslint.config.mjs playwright.config.js .prettierrc.json",
+    "test:e2e": "npm run build && playwright test",
+    "test:unit": "node --test tests/*.test.js"
   },
   "repository": {
     "type": "git",

@@ -12,7 +12,6 @@ export default defineConfig([
     'data/**',
     'deployment/**',
     'scripts/**',
-    'tests/**',
     'playwright-report/**',
     'test-results/**',
   ]),

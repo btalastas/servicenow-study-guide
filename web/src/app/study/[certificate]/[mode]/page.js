@@ -1,3 +1,4 @@
+import LocalGameSession from '../../../../components/local-game-session';
 import PracticeSession from '../../../../components/practice-session';
 import { notFound } from 'next/navigation';
 import Button from '../../../../components/navigation-button';
@@ -28,6 +29,12 @@ export default async function StudyModePage({ params }) {
       </Typography>
       {mode === 'practice-quiz' || mode === 'practice-exam' ? (
         <PracticeSession
+          key={certificate + mode}
+          certificate={certificate}
+          mode={mode}
+        />
+      ) : mode === 'jeopardy' || mode === 'millionaire' ? (
+        <LocalGameSession
           key={certificate + mode}
           certificate={certificate}
           mode={mode}
