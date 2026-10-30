@@ -11,6 +11,7 @@ import string
 from question_bank_content import (
     ADDITIONAL, DEFAULT_MODULE, MODULE_OVERRIDES, MODULES, PRACTICE_MODULES, WORKSHEETS,
 )
+from question_bank_flashcards import attach_flashcards, validate_flashcards
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'data' / 'question-bank'
@@ -330,11 +331,13 @@ def build():
                         answerOrigin='authored_answer_key', choicesGenerated=True,
                         reviewStatus='not_independently_verified', editorialNotes=[], references=[], sources=[])
         questions.append(finish(question, True))
+    attach_flashcards(questions)
     validate(questions, manifest)
     return questions, manifest
 
 
 def validate(questions, manifest):
+    validate_flashcards(questions)
     ids = [q['questionId'] for q in questions]
     assert len(ids) == len(set(ids)), 'Duplicate primary keys'
     assert len(manifest) == sum(1 for _ in source_blocks()), 'Missing source coverage'
@@ -394,7 +397,12 @@ def render(questions, manifest):
         'byDifficulty': dict(sorted(Counter(q['difficulty'] for q in questions).items())),
         'byQuestionType': dict(sorted(Counter(q['questionType'] for q in questions).items())),
         'byReviewStatus': dict(sorted(Counter(q['reviewStatus'] for q in questions).items())),
-        'sourceFiles': {str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((ROOT / 'questions').glob('*.txt'))},
+        'flashcards': {
+            'total': sum(len(q['flashcards']) for q in questions),
+            'byModule': {str(m): {'name': name, 'count': sum(len(q['flashcards']) for q in questions if q['moduleId'] == m)} for m, name in MODULES.items()},
+            'byKind': dict(sorted(Counter(c['kind'] for q in questions for c in q['flashcards']).items())),
+        },
+        'sourceFiles': {p.relative_to(ROOT).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((ROOT / 'questions').glob('*.txt'))},
     }
     corrections = [{k: q[k] for k in ('questionId', 'sources', 'reviewStatus', 'editorialNotes', 'references')}
                    for q in questions if q['editorialNotes']]
@@ -417,7 +425,7 @@ def main():
     for filename, content in files.items():
         path = OUT / filename
         if args.check:
-            if not path.exists() or path.read_text() != content:
+            if not path.exists() or path.read_text(encoding='utf-8') != content:
                 raise SystemExit(f'Out of date: {path}; run python3 scripts/build_question_bank.py')
         else:
             path.write_text(content, encoding='utf-8')

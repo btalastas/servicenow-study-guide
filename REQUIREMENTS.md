@@ -18,15 +18,26 @@ are completed; unchecked items and blank fields remain to be implemented or deci
 
 - [x] Landing page lets users choose CSA or CAD.
 - [x] Each certificate has a page listing the planned study modes.
-- [x] Each study mode has its own placeholder route and back navigation.
+- [x] Each study mode has its own route and back navigation.
 
 ### Study Modes
 
-- [ ] Flash cards
+- [x] Flash cards
 - [x] Jeopardy
 - [x] Who Wants to Be a Millionaire
 - [x] Practice quizzes
 - [x] Practice exams
+
+### Flash Cards
+
+- [x] Import embedded flash cards from a certificate-appropriate local question bank.
+- [x] Select one or more modules, with card counts and select-all / clear controls.
+- [x] Optionally shuffle the selected deck without adding cards from other modules.
+- [x] Reveal or hide each answer and explanation; hide answers when navigating cards.
+- [x] Show the current card position and module, with previous / next navigation.
+- [x] Restart a completed deck or return to module selection.
+- [x] Block empty decks and explain banks without embedded cards.
+- [x] Keep file processing local; session progress is not persisted.
 
 ### Practice Quizzes and Exams
 

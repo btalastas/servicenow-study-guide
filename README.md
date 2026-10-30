@@ -11,7 +11,8 @@ include in their question pool.
 
 The local Next.js app includes a CSA/CAD landing page, certificate-specific study-mode
 selection, practice quizzes, timed exams, Jeopardy, and Who Wants to Be a Millionaire.
-Flash cards and live DynamoDB retrieval remain planned. Current development focuses
+Flash cards use the embedded cards in imported question banks; live DynamoDB
+retrieval remains planned. Current development focuses
 on importing local files; no AWS setup is required for the implemented modes.
 
 ## Local practice quizzes and exams
@@ -89,9 +90,22 @@ Results include earnings, accuracy, explanations for missed questions, and modul
 study priorities. The ladder, rows, and checkpoints are defined in
 web/src/lib/game-rules.js.
 
+## Local flash cards
+
+Choose CSA or CAD, then Flash cards. Import a question bank with a `flashcards`
+array on each question (the existing CSA `data/question-bank/questions.json`
+contains 454 cards). Select one or more modules to study; each module shows its
+card count. Select all or clear your selection, and optionally shuffle the deck.
+
+Start the deck, reveal or hide each answer and its explanation, and use Previous
+card / Next card to navigate. Answers are hidden whenever you change cards.
+The deck shows your current position and module. At the last card, study again
+or change modules. There is no timer or grading. Banks without embedded cards
+show a message and cannot start a deck; a CAD bank must be labelled `cad`.
+Files stay in the browser, and session progress is lost on reload or navigation.
+
 ## Planned Features
 
-- Flash cards.
 - Optional hosted question bank with server grading and database administration.
 - Saved progress and account requirements remain to be decided.
 
@@ -168,7 +182,8 @@ details.
 
 The [question bank](data/question-bank/README.md) contains 338 practice questions
 across eight modules, with answer choices, explanations, question types, and
-`easy`/`medium`/`hard` difficulty levels. Use
+`easy`/`medium`/`hard` difficulty levels. Each question also includes a `flashcards`
+array, totaling 454 recall and focused concept cards across the same modules. Use
 [questions.dynamodb.jsonl](data/question-bank/questions.dynamodb.jsonl) for a
 DynamoDB import from S3. Import instructions, the table/index definition, and
 query guidance are included in the question bank documentation.

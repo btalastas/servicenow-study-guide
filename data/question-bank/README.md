@@ -5,6 +5,11 @@ The import contains **338 practice questions** across the eight requested module
 (eight per module). All 303 source occurrences are accounted for; 29 exact
 duplicates were merged. Choices were added to 109 unique source questions.
 
+The same bank also includes **454 flash cards**, categorized by the parent
+question's module: one primary card for each question plus 116 focused concept
+cards. They are embedded in each question's `flashcards` array in both JSON
+artifacts; the top-level readable JSON remains the existing array of questions.
+
 ## Files
 
 | File | Purpose |
@@ -103,12 +108,43 @@ describes the import request. The readable JSON array is not the S3 import file.
 | `sources` | Original file, question number, section, and line for each occurrence. |
 | `reviewStatus`, `editorialNotes`, `references` | Review limitations and selected supporting documentation. |
 | `schemaVersion`, `contentKind` | `1` and `practice`. |
+| `flashcards` | Non-empty array of recall cards derived from this question; see below. |
 
 Single-answer scenarios use the same scoring as single-choice questions.
 Multiple-answer questions require the exact correct set, with no partial credit.
 Ordering questions require the exact ID sequence. Do not sort their answer keys.
 Display ordering choices in their supplied shuffled order, then let users arrange
 them. Choice IDs remain the scoring identifiers if the UI reshuffles choices.
+
+### Embedded flash cards
+
+Each card contains `flashcardId`, `sourceQuestionId`, `moduleId`, `moduleName`,
+`difficulty`, `kind`, `front`, `back`, `explanation`, and `reviewStatus`.
+`kind` is `recall`, `concept`, `true_false`, or `sequence`. The module, difficulty,
+review status, and explanation are inherited from the source question; difficulty
+is not a separately calibrated card rating. References and editorial notes remain
+on the parent question.
+
+Primary cards use the correct answer text rather than choice letters. Multiple
+answers are bullet lists; sequence answers are numbered in their correct order.
+True/false cards label the statement explicitly. Choice-dependent prompts are
+rewritten for standalone recall. Focused cards separate useful concepts such as
+individual Client Script types, field properties, and import-set steps. Similar
+source questions can yield overlapping cards; these counts do not represent
+454 unique concepts or independently verified facts.
+
+For example, a form-configuration question includes a card asking which tools
+configure form fields, with Form Builder, Form Design, and Form Layout on the
+back. A Client Script question also includes individual cards for onLoad,
+onChange, onSubmit, and onCellEdit.
+
+To obtain cards for a module, filter questions by `moduleId` and flatten their
+`flashcards` arrays. Card IDs combine the stable source question ID with a
+concept key. Cards are nested attributes in DynamoDB, not separate table items.
+The practice/game importer accepts the enriched bank and ignores these extra
+fields. Flash-card mode reads them, lets learners select modules, and displays
+fronts with answers and explanations revealed on request. Banks without cards
+still work in practice/game modes but cannot start a flash-card deck.
 
 Difficulty is an editorial estimate, not an official exam rating: easy questions
 emphasize recall, medium questions apply concepts, and hard questions emphasize
@@ -147,16 +183,17 @@ separately using the question ID.
 
 ## Coverage and editorial handling
 
-| Module | Questions |
-| --- | ---: |
-| 1. Modernized work experience | 23 |
-| 2. Instance configuration | 23 |
-| 3. Application configuration | 66 |
-| 4. Data management | 59 |
-| 5. Self-service | 41 |
-| 6. Productivity | 52 |
-| 7. Utilities | 27 |
-| 8. Instance security | 47 |
+| Module | Questions | Flash cards |
+| --- | ---: | ---: |
+| 1. Modernized work experience | 23 | 30 |
+| 2. Instance configuration | 23 | 31 |
+| 3. Application configuration | 66 | 92 |
+| 4. Data management | 59 | 87 |
+| 5. Self-service | 41 | 53 |
+| 6. Productivity | 52 | 66 |
+| 7. Utilities | 27 | 33 |
+| 8. Instance security | 47 | 62 |
+| **Total** | **338** | **454** |
 
 There are 137 easy, 159 medium, and 42 hard questions. The five formats include
 158 single-choice, 100 multiple-choice, 68 scenarios, 8 true/false, and 4 ordering
@@ -196,6 +233,10 @@ python3 -m unittest discover -s tests -v
 
 The builder reads all nine `questions/*.txt` files, applies the editorial material
 in `scripts/question_bank_content.py`, and writes deterministic artifacts.
+Flash-card prompt adaptations and focused concepts are maintained in
+`scripts/flashcard_content.py`; `scripts/question_bank_flashcards.py` attaches
+cards before validation and serialization. Add or revise cards there rather
+than editing the generated JSON directly.
 Validation checks source coverage, unique IDs, valid answers, selection counts,
 module/difficulty coverage, DynamoDB serialization round trips, known source
 corrections, and ordering semantics. It also checks a conservative serialized

@@ -136,9 +136,8 @@ export default function MillionaireGame({ questions, onRestart }) {
           <Stack
             direction="row"
             spacing={1}
-            flexWrap="wrap"
             useFlexGap
-            sx={{ mt: 3 }}
+            sx={{ mt: 3, flexWrap: 'wrap' }}
           >
             {!submitted ? (
               <>

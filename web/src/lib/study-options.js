@@ -21,7 +21,8 @@ export const studyModes = {
   },
   'flash-cards': {
     title: 'Flash cards',
-    description: 'Review questions and reveal answers at your own pace.',
+    description:
+      'Choose modules and study flash cards with answers you reveal at your own pace.',
   },
   jeopardy: {
     title: 'Jeopardy',

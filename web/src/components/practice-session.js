@@ -593,7 +593,7 @@ export default function PracticeSession({ certificate, mode }) {
           </Alert>
         )}
       </Paper>
-      <Stack direction="row" spacing={2} flexWrap="wrap" useFlexGap>
+      <Stack direction="row" spacing={2} sx={{ flexWrap: 'wrap' }} useFlexGap>
         <Button disabled={index === 0} onClick={() => moveQuestion(index - 1)}>
           Previous question
         </Button>

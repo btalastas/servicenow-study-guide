@@ -55,6 +55,49 @@
     "needs_release_review": 5,
     "not_independently_verified": 333
   },
+  "flashcards": {
+    "total": 454,
+    "byModule": {
+      "1": {
+        "name": "Modernized work experience",
+        "count": 30
+      },
+      "2": {
+        "name": "Instance configuration",
+        "count": 31
+      },
+      "3": {
+        "name": "Application configuration",
+        "count": 92
+      },
+      "4": {
+        "name": "Data management",
+        "count": 87
+      },
+      "5": {
+        "name": "Self-service",
+        "count": 53
+      },
+      "6": {
+        "name": "Productivity",
+        "count": 66
+      },
+      "7": {
+        "name": "Utilities",
+        "count": 33
+      },
+      "8": {
+        "name": "Instance security",
+        "count": 62
+      }
+    },
+    "byKind": {
+      "concept": 116,
+      "recall": 326,
+      "sequence": 4,
+      "true_false": 8
+    }
+  },
   "sourceFiles": {
     "questions/building_core_application_components.txt": "33b1dfcbc6adbb8826e1398b2d340e453badbb13dfb53505c34f4ff0aaa6ff95",
     "questions/configure_self_service_automation.txt": "2ed60deb2f553639be7259439c91a8713cd481621aa05ec2f8800fbb6788828a",

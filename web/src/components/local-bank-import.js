@@ -4,7 +4,11 @@ import { useState } from 'react';
 import { Alert, Button, Paper, Stack, Typography } from '@mui/material';
 import { parseQuestionBank } from '../lib/practice';
 
-export default function LocalBankImport({ certificate, onBankChange }) {
+export default function LocalBankImport({
+  certificate,
+  onBankChange,
+  parseBank = parseQuestionBank,
+}) {
   const [name, setName] = useState('');
   const [error, setError] = useState('');
   const [reading, setReading] = useState(false);
@@ -20,10 +24,7 @@ export default function LocalBankImport({ certificate, onBankChange }) {
     try {
       if (file.size > 10 * 1024 * 1024)
         throw Error('Choose a JSON file smaller than 10 MB.');
-      const questions = parseQuestionBank(
-        JSON.parse(await file.text()),
-        certificate,
-      );
+      const questions = parseBank(JSON.parse(await file.text()), certificate);
       onBankChange(questions);
       setName(`${file.name}: ${questions.length} questions`);
     } catch (err) {
@@ -45,7 +46,7 @@ export default function LocalBankImport({ certificate, onBankChange }) {
         <Typography component="h2" variant="h5">
           Local question bank
         </Typography>
-        <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap>
+        <Stack direction="row" spacing={1} sx={{ flexWrap: 'wrap' }} useFlexGap>
           <Button component="label" variant="outlined" disabled={reading}>
             {reading
               ? 'Reading file…'
@@ -69,8 +70,8 @@ export default function LocalBankImport({ certificate, onBankChange }) {
             ? 'Use the existing data/question-bank/questions.json file or a CSA-labelled JSON bank.'
             : 'Import a JSON bank labelled certificate: cad. The existing project bank contains CSA material.'}{' '}
           Your file stays in this browser. No database requests are made. Local
-          answer keys are inspectable, and game progress is lost if you leave or
-          reload.
+          answer keys are inspectable, and study progress is lost if you leave
+          or reload.
         </Typography>
       </Stack>
     </Paper>

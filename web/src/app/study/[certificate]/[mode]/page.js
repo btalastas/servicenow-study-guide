@@ -1,9 +1,9 @@
 import LocalGameSession from '../../../../components/local-game-session';
 import PracticeSession from '../../../../components/practice-session';
+import FlashcardSession from '../../../../components/flashcard-session';
 import { notFound } from 'next/navigation';
 import Button from '../../../../components/navigation-button';
 import Container from '@mui/material/Container';
-import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import { certificates, studyModes } from '../../../../lib/study-options';
 
@@ -40,15 +40,7 @@ export default async function StudyModePage({ params }) {
           mode={mode}
         />
       ) : (
-        <Paper variant="outlined" sx={{ p: 3, mt: 3 }}>
-          <Typography component="h2" variant="h5" gutterBottom>
-            Coming soon
-          </Typography>
-          <Typography>
-            This study mode is being built. Choose another mode or return later
-            to start practicing.
-          </Typography>
-        </Paper>
+        <FlashcardSession key={certificate + mode} certificate={certificate} />
       )}
     </Container>
   );
