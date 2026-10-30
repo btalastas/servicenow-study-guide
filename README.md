@@ -3,6 +3,20 @@
 A web application for studying for the ServiceNow Certified System Administrator
 (CSA) and Certified Application Developer (CAD) certifications.
 
+## Hosted app and question bank
+
+Open the app at [studyrightnow.netlify.app](https://studyrightnow.netlify.app/).
+
+The CSA question bank is [data/question-bank/questions.json](data/question-bank/questions.json)
+in this repository. If you have cloned the repository, use that local file.
+Otherwise, open the [question bank on GitHub](https://github.com/btalastas/servicenow-study-guide/blob/main/data/question-bank/questions.json)
+and choose **Download raw file** to save `questions.json` to your device.
+
+In the app, choose **CSA**, then import the downloaded `questions.json` file
+before selecting a study mode. The file includes practice questions and flash cards;
+it is CSA content, so CAD requires a separate CAD-labelled question bank.
+Question banks are imported locally in your browser and are not loaded automatically.
+
 ## Overview
 
 The ServiceNow Study Guide is a tool for reviewing material covered on the CSA
@@ -19,7 +33,7 @@ on importing local files; no AWS setup is required for the implemented modes.
 
 Choose CSA or CAD and import a local JSON question bank, then choose a study
 mode such as Practice quizzes or Practice exams; parsing and grading happen in your browser without database calls.
-For CSA, choose the existing data/question-bank/questions.json file. CAD requires
+For CSA, choose the existing [data/question-bank/questions.json](data/question-bank/questions.json) file. CAD requires
 a CAD-labelled bank; the existing bank is CSA content. Imported files stay on your
 device, and the bank stays available when switching study modes. Reloading or changing
 certificates clears the bank; leaving a mode resets its study progress.
