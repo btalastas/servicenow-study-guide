@@ -27,7 +27,6 @@ import {
   formatTime,
   isCorrect,
   secondsRemaining,
-  parseQuestionBank,
   shuffle,
   summarize,
 } from '../lib/practice';
@@ -39,17 +38,15 @@ function answerText(question, ids) {
     .join(question.questionType === 'ordering' ? ' → ' : '; ');
 }
 
-export default function PracticeSession({ certificate, mode }) {
+export default function PracticeSession({ bank, certificate, mode }) {
   const isExam = mode === 'practice-exam';
   const settings = examSettings[certificate];
-  const [bank, setBank] = useState([]);
-  const [fileName, setFileName] = useState('');
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
-  const [selectedModules, setSelectedModules] = useState([]);
+  const [selectedModules, setSelectedModules] = useState(() => [
+    ...new Set(bank.map((q) => String(q.moduleId))),
+  ]);
   const [feedback, setFeedback] = useState('instant');
   const [questionCount, setQuestionCount] = useState(
-    String(isExam ? settings.questionCount : 10),
+    String(isExam ? settings.questionCount : Math.min(10, bank.length)),
   );
   const [session, setSession] = useState(null);
   const [responses, setResponses] = useState({});
@@ -120,39 +117,6 @@ export default function PracticeSession({ certificate, mode }) {
     heading.current?.focus();
   }, [index, finished, session]);
 
-  async function importBank(event) {
-    const file = event.target.files?.[0];
-    if (!file) return;
-    setBank([]);
-    setFileName('');
-    setError('');
-    setLoading(true);
-    try {
-      if (file.size > 10 * 1024 * 1024)
-        throw Error('Choose a JSON file smaller than 10 MB.');
-      const questions = parseQuestionBank(
-        JSON.parse(await file.text()),
-        certificate,
-      );
-      setBank(questions);
-      if (!isExam) setQuestionCount(String(Math.min(10, questions.length)));
-      setFileName(file.name);
-      setSelectedModules([
-        ...new Set(questions.map((q) => String(q.moduleId))),
-      ]);
-    } catch (err) {
-      const issue = err.issues?.[0];
-      setError(
-        issue
-          ? `Invalid question bank (${issue.path.join('.') || 'questions'}): ${issue.message}`
-          : err.message,
-      );
-    } finally {
-      setLoading(false);
-      event.target.value = '';
-    }
-  }
-
   function start() {
     const pool = isExam
       ? bank
@@ -188,54 +152,9 @@ export default function PracticeSession({ certificate, mode }) {
           {isExam
             ? `${settings.minQuestions}–${settings.maxQuestions} questions · ${settings.minutes} minutes. Answers are revealed after submission.`
             : 'Choose modules, the number of random questions, and when you want feedback.'}{' '}
-          Import a local question bank to begin. Your file stays in this
-          browser; no database requests are made.
+          Your imported question bank stays in this browser; no database
+          requests are made.
         </Alert>
-        <Paper variant="outlined" sx={{ p: 3 }}>
-          <Typography component="h2" variant="h5" gutterBottom>
-            Question bank
-          </Typography>
-          <Button component="label" variant="outlined" disabled={loading}>
-            {loading
-              ? 'Reading file…'
-              : `Import ${certificate.toUpperCase()} question bank`}
-            <input
-              aria-label="Question bank JSON file"
-              hidden
-              type="file"
-              accept=".json,application/json"
-              onChange={importBank}
-            />
-          </Button>
-          <Button href="/question-bank-template.json" download sx={{ ml: 1 }}>
-            Download JSON template
-          </Button>
-          {fileName && (
-            <Typography sx={{ mt: 2 }}>
-              {fileName}: {bank.length} questions across {modules.length}{' '}
-              modules.
-            </Typography>
-          )}
-          {error && (
-            <Alert severity="error" sx={{ mt: 2 }}>
-              {error}
-            </Alert>
-          )}
-          <Typography variant="body2" color="text.secondary" sx={{ mt: 2 }}>
-            Use JSON with a certificate field ({certificate}) and a questions
-            array. Questions need IDs, module IDs and names, prompts, choices,
-            correctChoiceIds, explanations, questionType, and difficulty.
-            {certificate === 'csa' &&
-              ' The existing data/question-bank/questions.json array is also supported.'}
-            {certificate === 'cad' &&
-              ' A CAD-labelled bank is required; the existing project bank covers CSA.'}
-          </Typography>
-          <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
-            Local files include answer keys, which can be inspected. Progress
-            lasts for this session and is lost if you leave or reload. Practice
-            material is not an official exam.
-          </Typography>
-        </Paper>
         {bank.length > 0 && !isExam && (
           <Paper variant="outlined" sx={{ p: 3 }}>
             <FormControl component="fieldset" fullWidth>
@@ -330,7 +249,7 @@ export default function PracticeSession({ certificate, mode }) {
         <Box>
           <Button
             variant="contained"
-            disabled={loading || !bank.length || !validCount}
+            disabled={!bank.length || !validCount}
             onClick={start}
           >
             Start {isExam ? 'exam' : 'quiz'}

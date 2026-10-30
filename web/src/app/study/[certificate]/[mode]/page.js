@@ -1,6 +1,4 @@
-import LocalGameSession from '../../../../components/local-game-session';
-import PracticeSession from '../../../../components/practice-session';
-import FlashcardSession from '../../../../components/flashcard-session';
+import StudyModeSession from '../../../../components/study-mode-session';
 import { notFound } from 'next/navigation';
 import Button from '../../../../components/navigation-button';
 import Container from '@mui/material/Container';
@@ -27,21 +25,11 @@ export default async function StudyModePage({ params }) {
       <Typography component="h1" variant="h3" gutterBottom>
         {studyModes[mode].title}
       </Typography>
-      {mode === 'practice-quiz' || mode === 'practice-exam' ? (
-        <PracticeSession
-          key={certificate + mode}
-          certificate={certificate}
-          mode={mode}
-        />
-      ) : mode === 'jeopardy' || mode === 'millionaire' ? (
-        <LocalGameSession
-          key={certificate + mode}
-          certificate={certificate}
-          mode={mode}
-        />
-      ) : (
-        <FlashcardSession key={certificate + mode} certificate={certificate} />
-      )}
+      <StudyModeSession
+        key={certificate + mode}
+        certificate={certificate}
+        mode={mode}
+      />
     </Container>
   );
 }

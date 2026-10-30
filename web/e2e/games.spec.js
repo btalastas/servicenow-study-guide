@@ -1,3 +1,4 @@
+import { openStudyMode, prepareImport, finishImport } from './study-setup';
 import { test, expect } from '@playwright/test';
 
 function bank(modules = 6) {
@@ -22,11 +23,13 @@ function bank(modules = 6) {
 }
 
 async function upload(page, questions = bank(), certificate = 'csa') {
+  await prepareImport(page);
   await page.getByLabel('Question bank JSON file').setInputFiles({
     name: 'games.json',
     mimeType: 'application/json',
     buffer: Buffer.from(JSON.stringify({ certificate, questions })),
   });
+  await finishImport(page);
 }
 
 async function answerMillionaire(page, right = true) {
@@ -44,7 +47,7 @@ async function finishJeopardy(page) {
 test('Jeopardy has five random module columns, two easy/two medium/one hard rows, and single-use scoring', async ({
   page,
 }) => {
-  await page.goto('/study/csa/jeopardy');
+  await openStudyMode(page, '/study/csa/jeopardy');
   await upload(page);
   await page.getByRole('button', { name: 'Start Jeopardy' }).click();
   const board = page.getByRole('table', { name: 'Jeopardy clues' });
@@ -119,7 +122,7 @@ test('Jeopardy has five random module columns, two easy/two medium/one hard rows
 test('Jeopardy completes all 25 clues without repeats and supports skip penalties', async ({
   page,
 }) => {
-  await page.goto('/study/csa/jeopardy');
+  await openStudyMode(page, '/study/csa/jeopardy');
   await upload(page);
   await page.getByRole('button', { name: 'Start Jeopardy' }).click();
   const seen = new Set();
@@ -159,18 +162,18 @@ test('Jeopardy completes all 25 clues without repeats and supports skip penaltie
 test('games block incomplete banks and wrong-certificate imports', async ({
   page,
 }) => {
-  await page.goto('/study/csa/jeopardy');
+  await openStudyMode(page, '/study/csa/jeopardy');
   await upload(page, bank(4));
   await expect(
     page.getByRole('button', { name: 'Start Jeopardy' }),
   ).toBeDisabled();
   await expect(page.getByText(/4 modules qualify/)).toBeVisible();
-  await page.goto('/study/cad/millionaire');
+  await openStudyMode(page, '/study/cad/millionaire');
   await upload(page);
   await expect(page.getByText(/This is a CSA bank/)).toBeVisible();
   await expect(
     page.getByRole('button', { name: 'Start Millionaire' }),
-  ).toBeDisabled();
+  ).toHaveCount(0);
   await upload(
     page,
     bank().filter((q) => q.difficulty !== 'hard'),
@@ -185,7 +188,7 @@ test('games block incomplete banks and wrong-certificate imports', async ({
 test('Millionaire progresses through three tiers to one million without repeating questions', async ({
   page,
 }) => {
-  await page.goto('/study/csa/millionaire');
+  await openStudyMode(page, '/study/csa/millionaire');
   await upload(page);
   await page.getByRole('button', { name: 'Start Millionaire' }).click();
   const seen = new Set();
@@ -233,7 +236,7 @@ test('Millionaire progresses through three tiers to one million without repeatin
 test('Millionaire ends on a wrong answer at the last safe prize', async ({
   page,
 }) => {
-  await page.goto('/study/csa/millionaire');
+  await openStudyMode(page, '/study/csa/millionaire');
   await upload(page);
   await page.getByRole('button', { name: 'Start Millionaire' }).click();
   for (let i = 0; i < 5; i++) {
@@ -264,7 +267,7 @@ test('Millionaire ends on a wrong answer at the last safe prize', async ({
 test('Millionaire walk-away keeps current winnings without scoring the unanswered question', async ({
   page,
 }) => {
-  await page.goto('/study/csa/millionaire');
+  await openStudyMode(page, '/study/csa/millionaire');
   await upload(page);
   await page.getByRole('button', { name: 'Start Millionaire' }).click();
   await answerMillionaire(page);
@@ -282,7 +285,7 @@ test('Millionaire walk-away keeps current winnings without scoring the unanswere
 test('Jeopardy ordering clues require exact order and remain locked after submission', async ({
   page,
 }) => {
-  await page.goto('/study/csa/jeopardy');
+  await openStudyMode(page, '/study/csa/jeopardy');
   const questions = bank(5).map((q) =>
     q.difficulty === 'hard'
       ? { ...q, questionType: 'ordering', correctChoiceIds: ['B', 'A'] }
@@ -314,7 +317,7 @@ test('Jeopardy ordering clues require exact order and remain locked after submis
 test('Millionaire multi-select answers use exact-set scoring with no partial credit', async ({
   page,
 }) => {
-  await page.goto('/study/csa/millionaire');
+  await openStudyMode(page, '/study/csa/millionaire');
   await upload(
     page,
     bank().map((q) => ({

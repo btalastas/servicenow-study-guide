@@ -15,16 +15,10 @@ import {
   Stack,
   Typography,
 } from '@mui/material';
-import LocalBankImport from './local-bank-import';
-import {
-  flashcardModules,
-  parseFlashcardBank,
-  selectFlashcards,
-} from '../lib/flashcards';
+import { flashcardModules, selectFlashcards } from '../lib/flashcards';
 import { shuffle } from '../lib/practice';
 
-export default function FlashcardSession({ certificate }) {
-  const [bank, setBank] = useState([]);
+export default function FlashcardSession({ bank }) {
   const [selectedModules, setSelectedModules] = useState([]);
   const [randomOrder, setRandomOrder] = useState(false);
   const [deck, setDeck] = useState(null);
@@ -165,18 +159,10 @@ export default function FlashcardSession({ certificate }) {
         Import a question bank with flash cards, choose one or more modules, and
         reveal answers at your own pace.
       </Typography>
-      <LocalBankImport
-        certificate={certificate}
-        parseBank={parseFlashcardBank}
-        onBankChange={(questions) => {
-          setBank(questions);
-          setSelectedModules([]);
-        }}
-      />
       {bank.length > 0 && !modules.length && (
         <Alert severity="warning">
-          This bank has no flash cards. Import a bank containing flashcards
-          arrays, such as the updated CSA questions.json.
+          This bank has no flash cards. Return to study modes and import a bank
+          containing flashcards arrays, such as the updated CSA questions.json.
         </Alert>
       )}
       <Paper variant="outlined" sx={{ p: 3 }}>

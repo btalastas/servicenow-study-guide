@@ -8,12 +8,10 @@ import {
   jeopardyModules,
   millionairePools,
 } from '../lib/game-rules';
-import LocalBankImport from './local-bank-import';
 import JeopardyGame from './jeopardy-game';
 import MillionaireGame from './millionaire-game';
 
-export default function LocalGameSession({ certificate, mode }) {
-  const [bank, setBank] = useState([]);
+export default function LocalGameSession({ bank, mode }) {
   const [round, setRound] = useState(null);
   const [error, setError] = useState('');
   const isJeopardy = mode === 'jeopardy';
@@ -63,13 +61,6 @@ export default function LocalGameSession({ certificate, mode }) {
         Difficulty progresses automatically in this game; quizzes and exams have
         no difficulty filter.
       </Alert>
-      <LocalBankImport
-        certificate={certificate}
-        onBankChange={(questions) => {
-          setBank(questions);
-          setError('');
-        }}
-      />
       <Paper variant="outlined" sx={{ p: 3 }}>
         <Typography component="h2" variant="h5" gutterBottom>
           How to play

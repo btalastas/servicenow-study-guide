@@ -17,11 +17,12 @@ on importing local files; no AWS setup is required for the implemented modes.
 
 ## Local practice quizzes and exams
 
-Choose CSA or CAD, then Practice quizzes or Practice exams. Import a local JSON
-question bank; parsing and grading happen in your browser without database calls.
+Choose CSA or CAD and import a local JSON question bank, then choose a study
+mode such as Practice quizzes or Practice exams; parsing and grading happen in your browser without database calls.
 For CSA, choose the existing data/question-bank/questions.json file. CAD requires
 a CAD-labelled bank; the existing bank is CSA content. Imported files stay on your
-device, and session state is lost on reload or navigation.
+device, and the bank stays available when switching study modes. Reloading or changing
+certificates clears the bank; leaving a mode resets its study progress.
 
 - Quizzes: select one or more modules and choose how many random questions to
   draw from that pool. Questions do not repeat within a session. Choose instant
@@ -32,7 +33,7 @@ device, and session state is lost on reload or navigation.
   accuracy by module with weaker areas listed first. Unanswered questions count
   as incorrect. Multi-select and ordering require exact answers.
 
-Download the JSON template from either practice setup page. Use an object with
+Download the JSON template from the certificate import page. Use an object with
 certificate set to csa or cad and a questions array (schema version 1). Each
 question needs questionId, moduleId, moduleName, prompt, choices (id/text),
 correctChoiceIds, explanation, questionType, and difficulty. Supported types are
@@ -51,8 +52,7 @@ checked October 27, 2026. Defaults live in web/src/lib/study-options.js.
 
 ## Local Jeopardy and Millionaire
 
-Choose either game after selecting CSA or CAD, then import the same local JSON
-bank. Games pool across all modules; no module/difficulty selector is shown.
+Select CSA or CAD, import a local JSON bank, then choose either game. Games pool across all modules; no module/difficulty selector is shown.
 Difficulty controls only these games. Quizzes and exams include all difficulties.
 All parsing, selection, scoring, and review happen in the browser without AWS calls.
 Progress is lost on reload or navigation; replays draw fresh random questions.
@@ -92,7 +92,7 @@ web/src/lib/game-rules.js.
 
 ## Local flash cards
 
-Choose CSA or CAD, then Flash cards. Import a question bank with a `flashcards`
+Choose CSA or CAD, import a question bank, then select Flash cards. Use a `flashcards`
 array on each question (the existing CSA `data/question-bank/questions.json`
 contains 454 cards). Select one or more modules to study; each module shows its
 card count. Select all or clear your selection, and optionally shuffle the deck.

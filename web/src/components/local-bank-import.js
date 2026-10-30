@@ -70,8 +70,9 @@ export default function LocalBankImport({
             ? 'Use the existing data/question-bank/questions.json file or a CSA-labelled JSON bank.'
             : 'Import a JSON bank labelled certificate: cad. The existing project bank contains CSA material.'}{' '}
           Your file stays in this browser. No database requests are made. Local
-          answer keys are inspectable, and study progress is lost if you leave
-          or reload.
+          answer keys are inspectable, and the bank is available across study
+          modes until you leave this certificate or reload. Study progress
+          resets when you leave a mode.
         </Typography>
       </Stack>
     </Paper>

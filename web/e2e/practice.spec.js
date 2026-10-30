@@ -1,3 +1,4 @@
+import { openStudyMode, prepareImport, finishImport } from './study-setup';
 import { test, expect } from '@playwright/test';
 
 const question = (id, moduleId = 1) => ({
@@ -16,11 +17,13 @@ const question = (id, moduleId = 1) => ({
 });
 
 async function upload(page, questions, certificate = 'csa') {
+  await prepareImport(page);
   await page.getByLabel('Question bank JSON file').setInputFiles({
     name: 'bank.json',
     mimeType: 'application/json',
     buffer: Buffer.from(JSON.stringify({ certificate, questions })),
   });
+  await finishImport(page);
 }
 
 async function submit(page, type = 'quiz') {
@@ -33,7 +36,7 @@ async function submit(page, type = 'quiz') {
 test('quiz filters modules and locks answers after instant feedback', async ({
   page,
 }) => {
-  await page.goto('/study/csa/practice-quiz');
+  await openStudyMode(page, '/study/csa/practice-quiz');
   await upload(page, [question(1), question(2, 2)]);
   await page.getByLabel('Module 2', { exact: true }).uncheck();
   await page.getByRole('button', { name: 'Start quiz' }).click();
@@ -60,7 +63,7 @@ test('quiz filters modules and locks answers after instant feedback', async ({
 test('deferred feedback stays hidden until submission; skipped questions count as wrong', async ({
   page,
 }) => {
-  await page.goto('/study/csa/practice-quiz');
+  await openStudyMode(page, '/study/csa/practice-quiz');
   await upload(page, [question(1)]);
   await page.getByLabel('Feedback at the end', { exact: true }).check();
   await page.getByRole('button', { name: 'Start quiz' }).click();
@@ -74,7 +77,7 @@ test('deferred feedback stays hidden until submission; skipped questions count a
 });
 
 test('multi-select and ordering use exact scoring', async ({ page }) => {
-  await page.goto('/study/csa/practice-quiz');
+  await openStudyMode(page, '/study/csa/practice-quiz');
   const multi = {
     ...question(1),
     questionType: 'multiple_choice',
@@ -107,7 +110,7 @@ test('multi-select and ordering use exact scoring', async ({ page }) => {
 test('exam requires 60 questions, permits review, and defers feedback', async ({
   page,
 }) => {
-  await page.goto('/study/cad/practice-exam');
+  await openStudyMode(page, '/study/cad/practice-exam');
   await upload(page, [question(1)], 'cad');
   await expect(page.getByRole('button', { name: 'Start exam' })).toBeDisabled();
   await upload(
@@ -131,7 +134,7 @@ test('exam submits automatically on expiry and includes unanswered questions', a
   page,
 }) => {
   await page.clock.install();
-  await page.goto('/study/csa/practice-exam');
+  await openStudyMode(page, '/study/csa/practice-exam');
   await upload(
     page,
     Array.from({ length: 60 }, (_, i) => question(i)),
@@ -151,12 +154,12 @@ test('exam submits automatically on expiry and includes unanswered questions', a
 test('rejects wrong-certificate and invalid banks; empty module selection cannot start', async ({
   page,
 }) => {
-  await page.goto('/study/cad/practice-quiz');
+  await openStudyMode(page, '/study/cad/practice-quiz');
   await upload(page, [question(1)], 'csa');
   await expect(
     page.getByRole('alert').filter({ hasText: 'This is a CSA bank' }),
   ).toBeVisible();
-  await expect(page.getByRole('button', { name: 'Start quiz' })).toBeDisabled();
+  await expect(page.getByRole('button', { name: 'Start quiz' })).toHaveCount(0);
   await upload(
     page,
     [{ ...question(1), correctChoiceIds: ['missing'] }],
@@ -175,7 +178,7 @@ test('rejects wrong-certificate and invalid banks; empty module selection cannot
 test('quiz draws the requested number of unique questions only from selected modules', async ({
   page,
 }) => {
-  await page.goto('/study/csa/practice-quiz');
+  await openStudyMode(page, '/study/csa/practice-quiz');
   await upload(
     page,
     Array.from({ length: 9 }, (_, i) => question(i, Math.floor(i / 3) + 1)),
@@ -208,7 +211,7 @@ test('quiz draws the requested number of unique questions only from selected mod
 test('exam accepts 60–80 questions and validates count against its bank', async ({
   page,
 }) => {
-  await page.goto('/study/csa/practice-exam');
+  await openStudyMode(page, '/study/csa/practice-exam');
   await upload(
     page,
     Array.from({ length: 80 }, (_, i) => question(i)),
@@ -235,6 +238,7 @@ test('exam accepts 60–80 questions and validates count against its bank', asyn
     page,
     Array.from({ length: 60 }, (_, i) => question(i)),
   );
+  await amount.fill('61');
   await expect(page.getByRole('button', { name: 'Start exam' })).toBeDisabled();
   await amount.fill('60');
   await expect(page.getByRole('button', { name: 'Start exam' })).toBeEnabled();

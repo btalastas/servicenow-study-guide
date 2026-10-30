@@ -1,3 +1,4 @@
+import { openStudyMode, prepareImport, finishImport } from './study-setup';
 import { test, expect } from '@playwright/test';
 import fs from 'node:fs';
 
@@ -25,19 +26,21 @@ function questions() {
 }
 
 async function upload(page, value = questions()) {
+  await prepareImport(page);
   await page.getByLabel('Question bank JSON file').setInputFiles({
     name: 'cards.json',
     mimeType: 'application/json',
     buffer: Buffer.from(JSON.stringify(value)),
   });
+  await finishImport(page);
 }
 
 test('select a module, reveal answers, navigate without answer leakage, and change modules', async ({
   page,
 }) => {
-  await page.goto('/study/csa/flash-cards');
+  await openStudyMode(page, '/study/csa/flash-cards');
   const start = page.getByRole('button', { name: 'Start flash cards' });
-  await expect(start).toBeDisabled();
+  await expect(start).toHaveCount(0);
   await upload(page);
   await expect(start).toBeDisabled();
   await page.getByLabel('Module 2 (2 cards)', { exact: true }).check();
@@ -87,7 +90,7 @@ test('actual CSA bank exposes eight modules and 454 cards on mobile', async ({
   page,
 }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto('/study/csa/flash-cards');
+  await openStudyMode(page, '/study/csa/flash-cards');
   await upload(
     page,
     JSON.parse(
@@ -123,7 +126,7 @@ test('actual CSA bank exposes eight modules and 454 cards on mobile', async ({
 test('empty, invalid, and wrong-certificate banks cannot start a stale deck', async ({
   page,
 }) => {
-  await page.goto('/study/csa/flash-cards');
+  await openStudyMode(page, '/study/csa/flash-cards');
   await upload(page);
   await page.getByRole('button', { name: 'Select all modules' }).click();
   const malformed = questions();
@@ -134,7 +137,7 @@ test('empty, invalid, and wrong-certificate banks cannot start a stale deck', as
   );
   await expect(
     page.getByRole('button', { name: 'Start flash cards' }),
-  ).toBeDisabled();
+  ).toHaveCount(0);
   await upload(
     page,
     questions().map((question) => {
@@ -146,7 +149,7 @@ test('empty, invalid, and wrong-certificate banks cannot start a stale deck', as
   await expect(page.getByRole('main').getByRole('alert')).toContainText(
     'This bank has no flash cards',
   );
-  await page.goto('/study/cad/flash-cards');
+  await openStudyMode(page, '/study/cad/flash-cards');
   await upload(page);
   await expect(page.getByRole('main').getByRole('alert')).toContainText(
     'CAD banks must include',
